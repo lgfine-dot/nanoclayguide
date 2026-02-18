@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="page-wrap">
+    {{ partial "nav.html" . }}
+
+    <main id="main-content">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+  </div>
+
+  <script>
+    // Mobile nav toggle
+    (function() {
+      var btn = document.getElementById('navMenuToggle');
+      var links = document.getElementById('navLinks');
+      if (!btn || !links) return;
+      btn.addEventListener('click', function() {
+        var expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', !expanded);
+        links.classList.toggle('open');
+      });
+
+      // Mobile: toggle dropdown submenus on tap
+      var dropdowns = links.querySelectorAll('.nav-has-dropdown > a');
+      dropdowns.forEach(function(trigger) {
+        trigger.addEventListener('click', function(e) {
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            trigger.parentElement.classList.toggle('dropdown-open');
+          }
+        });
+      });
+    })();
+  </script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function(user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function() {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>

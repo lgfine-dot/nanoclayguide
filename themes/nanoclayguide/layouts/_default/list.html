@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+{{/* ── Hero Header ──────────────────────────────────────────── */}}
+<div class="blog-hero blog-hero--plain">
+  <div class="blog-hero-content">
+    <div class="content-wrap">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p style="color: rgba(255,255,255,0.65); font-size: 1.05rem; margin: 0.5rem 0 0; max-width: 560px; line-height: 1.6;">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding-top: 2.5rem;">
+
+  {{ if .Pages }}
+  <div class="post-grid">
+    {{ range .Pages }}
+    <article class="post-card">
+      <div class="post-card-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        {{ with .Params.categories }}
+        {{ range first 1 . }}
+        <span class="post-card-tag">{{ . }}</span>
+        {{ end }}
+        {{ end }}
+      </div>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p class="post-card-summary">{{ .Summary | plainify | truncate 160 }}</p>
+      <a href="{{ .RelPermalink }}" class="post-card-read">
+        Read more
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+
+  {{/* Pagination */}}
+  {{ $paginator := .Paginate .Pages }}
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination" aria-label="Page navigation">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">&larr; Prev</a>
+    {{ end }}
+    {{ range $paginator.Pagers }}
+    {{ if eq . $paginator }}
+    <span class="active">{{ .PageNumber }}</span>
+    {{ else }}
+    <a href="{{ .URL }}">{{ .PageNumber }}</a>
+    {{ end }}
+    {{ end }}
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">Next &rarr;</a>
+    {{ end }}
+  </nav>
+  {{ end }}
+
+  {{ else }}
+  <p style="padding: 2rem 0; color: var(--color-text-secondary);">No posts yet. Check back soon.</p>
+  {{ end }}
+</div>
+{{ end }}

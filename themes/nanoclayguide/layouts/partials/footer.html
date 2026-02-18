@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    {{/* Column 1: Brand */}}
+    <div>
+      <div class="footer-brand">Nanoclay Guide</div>
+      <p class="footer-tagline">{{ .Site.Params.tagline | default "The definitive technical resource for nanoclay science, applications, and industry" }}</p>
+    </div>
+
+    {{/* Column 2: Quick Links */}}
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        {{ if .Site.Menus.footer }}
+          {{ range .Site.Menus.footer }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        {{ else }}
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/resources/">Resources</a></li>
+          <li><a href="/categories/">Categories</a></li>
+        {{ end }}
+      </ul>
+    </div>
+
+    {{/* Column 3: Sister Sites */}}
+    <div>
+      <div class="footer-col-title">Sister Sites</div>
+      <ul class="footer-links">
+        <li><a href="https://grapheneguide.com" target="_blank" rel="noopener noreferrer">Graphene Guide</a></li>
+        <li><a href="https://agcp.pt" target="_blank" rel="noopener noreferrer">AGCP Farmaceuticos</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>&copy; {{ now.Year }} Nanoclay Guide. All rights reserved.</span>
+    <span class="footer-powered">
+      Powered by <a href="https://agcp.pt">AGCP Farmac&ecirc;uticos, LDA</a>
+    </span>
+  </div>
+</footer>

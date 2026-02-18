@@ -1,0 +1,154 @@
+{{ define "main" }}
+
+{{/* ── Hero Header ──────────────────────────────────────────── */}}
+{{ with .Params.featured_image }}
+<div class="blog-hero">
+  <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="blog-hero-img" loading="eager" decoding="async">
+  <div class="blog-hero-overlay"></div>
+  <div class="blog-hero-content">
+    <div class="content-wrap">
+      {{ with index $.Params.categories 0 }}
+      <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="blog-hero-cat">{{ . }}</a>
+      {{ end }}
+      <h1>{{ $.Title }}</h1>
+    </div>
+  </div>
+</div>
+{{ else }}
+{{/* No featured image — plain header */}}
+<div class="blog-hero blog-hero--plain">
+  <div class="blog-hero-content">
+    <div class="content-wrap">
+      {{ with index .Params.categories 0 }}
+      <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="blog-hero-cat">{{ . }}</a>
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{/* ── Metadata Bar ─────────────────────────────────────────── */}}
+<div class="blog-meta-bar">
+  <div class="content-wrap">
+    <div class="blog-meta-inner">
+      <div class="blog-meta-author">
+        <div class="blog-meta-avatar">
+          {{ with .Params.author_photo }}
+          <img src="{{ . | relURL }}" alt="{{ $.Params.author }}" loading="lazy" decoding="async">
+          {{ else }}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          {{ end }}
+        </div>
+        <div>
+          <span class="blog-meta-name">{{ .Params.author | default .Site.Params.author }}</span>
+          <span class="blog-meta-dates">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ if and .Lastmod (not (eq (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02"))) }}
+            <span class="blog-meta-sep">&middot;</span>
+            Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time>
+            {{ end }}
+          </span>
+        </div>
+      </div>
+      <div class="blog-meta-right">
+        <span class="blog-meta-reading">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          {{ .ReadingTime }} min read
+        </span>
+        {{ with index .Params.categories 0 }}
+        <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="blog-meta-badge">{{ . }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{/* ── Article Body + Sidebar TOC ───────────────────────────── */}}
+<article class="blog-article">
+  {{ if and (.Params.toc | default true) .TableOfContents }}
+  {{/* Layout with TOC sidebar */}}
+  <div class="blog-layout">
+
+    {{/* Sticky TOC sidebar (desktop) / Collapsible (mobile) */}}
+    <aside class="blog-toc" aria-label="Table of contents">
+      <details class="blog-toc-mobile" open>
+        <summary class="blog-toc-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg>
+          On This Page
+          <svg class="blog-toc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <nav class="blog-toc-nav">
+          {{ .TableOfContents }}
+        </nav>
+      </details>
+    </aside>
+
+    {{/* Article content */}}
+    <div class="blog-body">
+      {{ .Content }}
+
+      {{/* ── Tags ───────────────────────────────────────────── */}}
+      {{ with .Params.tags }}
+      <div class="blog-tags">
+        {{ range . }}
+        <a href="{{ "tags/" | absURL }}{{ . | urlize }}/" class="blog-tag">#{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+  </div>{{/* end .blog-layout */}}
+
+  {{ else }}
+  {{/* Fallback: single-column layout when no TOC headings */}}
+  <div class="content-wrap">
+    <div class="blog-body">
+      {{ .Content }}
+
+      {{ with .Params.tags }}
+      <div class="blog-tags">
+        {{ range . }}
+        <a href="{{ "tags/" | absURL }}{{ . | urlize }}/" class="blog-tag">#{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ end }}
+</article>
+
+{{/* ── Prev / Next Navigation ────────────────────────────────── */}}
+{{ if or .PrevInSection .NextInSection }}
+<nav class="blog-prevnext" aria-label="Previous and next posts">
+  <div class="content-wrap">
+    <div class="blog-prevnext-grid">
+      {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}" class="blog-prevnext-link blog-prevnext-prev">
+        <span class="blog-prevnext-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          Previous Article
+        </span>
+        <span class="blog-prevnext-title">{{ .Title }}</span>
+      </a>
+      {{ else }}
+      <div></div>
+      {{ end }}
+      {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}" class="blog-prevnext-link blog-prevnext-next">
+        <span class="blog-prevnext-label">
+          Next Article
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+        <span class="blog-prevnext-title">{{ .Title }}</span>
+      </a>
+      {{ else }}
+      <div></div>
+      {{ end }}
+    </div>
+  </div>
+</nav>
+{{ end }}
+
+{{ end }}
