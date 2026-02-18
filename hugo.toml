@@ -28,3 +28,71 @@ buildFuture = false
 [permalinks]
   [permalinks.page]
     blog = '/blog/:slug/'
+
+# ── Table of Contents: H2 + H3 only ─────────────────────────────
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+# ── Output Formats: enable RSS on home + sections ───────────────
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+
+# ── Main Navigation ─────────────────────────────────────────────
+
+[[menus.main]]
+  name = 'Blog'
+  url = '/blog/'
+  weight = 1
+
+[[menus.main]]
+  name = 'Nanoclay 101'
+  url = '/pillars/nanoclay-101/'
+  weight = 2
+
+[[menus.main]]
+  name = 'Types & Comparison'
+  url = '/pillars/types-comparison/'
+  weight = 3
+
+[[menus.main]]
+  name = 'Applications'
+  url = '/pillars/applications/'
+  weight = 4
+
+[[menus.main]]
+  name = 'Processing'
+  url = '/pillars/processing/'
+  weight = 5
+
+[[menus.main]]
+  name = 'Safety & Regulation'
+  url = '/pillars/safety-regulation/'
+  weight = 6
+
+# ── Footer Navigation ──────────────────────────────────────────
+
+[[menus.footer]]
+  name = 'Blog'
+  url = '/blog/'
+  weight = 1
+
+[[menus.footer]]
+  name = 'Nanoclay 101'
+  url = '/pillars/nanoclay-101/'
+  weight = 2
+
+[[menus.footer]]
+  name = 'Applications'
+  url = '/pillars/applications/'
+  weight = 3
+
+[[menus.footer]]
+  name = 'Resources'
+  url = '/resources/'
+  weight = 4

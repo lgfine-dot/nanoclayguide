@@ -10,15 +10,18 @@
 <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-{{/* --- Resolve description and image once --- */}}
-{{ $desc := .Site.Params.description }}
-{{ with .Description }}{{ $desc = . }}{{ else }}{{ with .Summary }}{{ $desc = . | plainify | truncate 160 }}{{ end }}{{ end }}
+{{/* --- Resolve SEO-overridable fields once --- */}}
+{{ $seoTitle := .Params.seo_title | default .Title }}
+{{ $desc := .Params.seo_description | default .Description | default .Site.Params.description }}
+{{ if and (not .Params.seo_description) (not .Description) }}
+  {{ with .Summary }}{{ $desc = . | plainify | truncate 160 }}{{ end }}
+{{ end }}
 
 {{ $img := "" }}
 {{ with .Params.featured_image }}{{ $img = . | absURL }}{{ else }}{{ with .Params.image }}{{ $img = . | absURL }}{{ end }}{{ end }}
 
-{{/* --- Title --- */}}
-<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+{{/* --- Title tag --- */}}
+<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ $seoTitle }} | {{ .Site.Title }}{{ end }}</title>
 
 {{/* --- SEO Meta --- */}}
 <meta name="description" content="{{ $desc }}">
@@ -26,8 +29,13 @@
 {{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
 
+{{/* --- RSS Autodiscovery --- */}}
+{{ with .OutputFormats.Get "RSS" }}
+<link rel="alternate" type="{{ .MediaType }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
+{{ end }}
+
 {{/* --- Open Graph --- */}}
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $seoTitle }}{{ end }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
@@ -42,7 +50,7 @@
 
 {{/* --- Twitter Cards --- */}}
 <meta name="twitter:card" content="{{ if $img }}summary_large_image{{ else }}summary{{ end }}">
-<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $seoTitle }}{{ end }}">
 <meta name="twitter:description" content="{{ $desc }}">
 {{ if $img }}<meta name="twitter:image" content="{{ $img }}">{{ end }}
 {{ with .Site.Params.twitter }}<meta name="twitter:site" content="@{{ . }}">{{ end }}
@@ -79,7 +87,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ .Title | jsonify }},
+  "headline": {{ $seoTitle | jsonify }},
   "url": {{ .Permalink | jsonify }},
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
   "dateModified": "{{ (.Lastmod | default .Date).Format "2006-01-02T15:04:05Z07:00" }}",
@@ -104,13 +112,13 @@
 }
 </script>
 
-{{ else if .IsPage }}
-{{/* Other pages: generic WebPage schema */}}
+{{ else if and .IsSection (eq .Section "pillars") }}
+{{/* Pillar section pages: CollectionPage schema */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": {{ .Title | jsonify }},
+  "@type": "CollectionPage",
+  "name": {{ $seoTitle | jsonify }},
   "url": {{ .Permalink | jsonify }},
   "description": {{ $desc | jsonify }},
   "isPartOf": {
@@ -118,6 +126,59 @@
     "name": {{ .Site.Title | jsonify }},
     "url": {{ .Site.BaseURL | jsonify }}
   }
+}
+</script>
+
+{{ else if .IsPage }}
+{{/* Other pages: generic WebPage schema */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ $seoTitle | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ .Site.Title | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
+  }
+}
+</script>
+{{ end }}
+
+{{/* --- BreadcrumbList for non-home pages --- */}}
+{{ if not .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ .Site.BaseURL | jsonify }}
+    }{{ if .Parent }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ .Parent.Title | jsonify }},
+      "item": {{ .Parent.Permalink | jsonify }}
+    }{{ end }}{{ if and .Parent .IsPage }},
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }{{ else if not .Parent }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }{{ end }}
+  ]
 }
 </script>
 {{ end }}

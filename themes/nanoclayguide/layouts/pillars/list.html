@@ -1,0 +1,88 @@
+{{ define "main" }}
+
+{{/* ── Pillar Header ──────────────────────────────────────────── */}}
+<div class="cat-hero">
+  <div class="container" style="position: relative; z-index: 1;">
+    <span class="cat-hero-label">Pillar</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="cat-hero-desc">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+{{/* ── Pillar introduction (from _index.md body) ──────────────── */}}
+{{ if .Content }}
+<div class="container" style="padding-top: 2.5rem;">
+  <div class="content-wrap">
+    <div class="blog-body">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{/* ── Gather posts matching this pillar's category ───────────── */}}
+{{ $catName := .Params.category | default .Title }}
+{{ $posts := slice }}
+{{ range where site.RegularPages "Section" "blog" }}
+  {{ if in .Params.categories $catName }}
+    {{ $posts = $posts | append . }}
+  {{ end }}
+{{ end }}
+
+<div class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
+  {{ if $posts }}
+
+  {{ $paged := .Paginate $posts }}
+
+  <div class="cat-grid">
+    {{ range $paged.Pages }}
+    <article class="cat-card">
+      {{ with .Params.featured_image }}
+      <div class="cat-card-img">
+        <a href="{{ $.RelPermalink }}">
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
+        </a>
+      </div>
+      {{ end }}
+      <div class="cat-card-body">
+        <div class="cat-card-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          <span class="cat-card-sep">&middot;</span>
+          <span>{{ .ReadingTime }} min read</span>
+        </div>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="cat-card-excerpt">{{ .Summary | plainify | truncate 180 }}</p>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+  {{/* Pagination */}}
+  {{ if gt $paged.TotalPages 1 }}
+  <nav class="pagination" aria-label="Page navigation">
+    {{ if $paged.HasPrev }}
+    <a href="{{ $paged.Prev.URL }}">&larr; Prev</a>
+    {{ end }}
+    {{ range $paged.Pagers }}
+    {{ if eq . $paged }}
+    <span class="active">{{ .PageNumber }}</span>
+    {{ else }}
+    <a href="{{ .URL }}">{{ .PageNumber }}</a>
+    {{ end }}
+    {{ end }}
+    {{ if $paged.HasNext }}
+    <a href="{{ $paged.Next.URL }}">Next &rarr;</a>
+    {{ end }}
+  </nav>
+  {{ end }}
+
+  {{ else }}
+  <div class="cat-empty">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+    <h2>No articles yet</h2>
+    <p>We're working on content for this topic. Check back soon or <a href="/blog/">browse all articles</a>.</p>
+  </div>
+  {{ end }}
+</div>
+
+{{ end }}
