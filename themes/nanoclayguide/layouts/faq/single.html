@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+{{/* ── Hero ──────────────────────────────────────────────────── */}}
+<div class="blog-hero blog-hero--plain">
+  <div class="blog-hero-content">
+    <div class="content-wrap">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p style="color: rgba(255,255,255,0.65); font-size: 1.05rem; margin: 0.5rem 0 0; max-width: 560px; line-height: 1.6;">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</div>
+
+{{/* ── FAQ List ──────────────────────────────────────────────── */}}
+<div class="container" style="padding: 2.5rem 0 4rem;">
+  <div class="content-wrap">
+    {{ .Content }}
+  </div>
+</div>
+
+{{/* ── FAQPage JSON-LD ───────────────────────────────────────── */}}
+{{ $faqItems := slice }}
+{{ range .Params.faq }}
+  {{ $item := dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer) }}
+  {{ $faqItems = $faqItems | append $item }}
+{{ end }}
+{{ if $faqItems }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": {{ $faqItems | jsonify }}
+}
+</script>
+{{ end }}
+
+{{ end }}

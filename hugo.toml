@@ -32,6 +32,9 @@ buildFuture = false
 # ── Table of Contents: H2 + H3 only ─────────────────────────────
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 3
@@ -51,29 +54,19 @@ buildFuture = false
   weight = 1
 
 [[menus.main]]
-  name = 'Nanoclay 101'
-  url = '/pillars/nanoclay-101/'
+  name = 'About'
+  url = '/about/'
   weight = 2
 
 [[menus.main]]
-  name = 'Types & Comparison'
-  url = '/pillars/types-comparison/'
+  name = 'FAQ'
+  url = '/faq/'
   weight = 3
 
 [[menus.main]]
-  name = 'Applications'
-  url = '/pillars/applications/'
+  name = 'Resources'
+  url = '/resources/'
   weight = 4
-
-[[menus.main]]
-  name = 'Processing'
-  url = '/pillars/processing/'
-  weight = 5
-
-[[menus.main]]
-  name = 'Safety & Regulation'
-  url = '/pillars/safety-regulation/'
-  weight = 6
 
 # ── Footer Navigation ──────────────────────────────────────────
 
@@ -83,13 +76,13 @@ buildFuture = false
   weight = 1
 
 [[menus.footer]]
-  name = 'Nanoclay 101'
-  url = '/pillars/nanoclay-101/'
+  name = 'About'
+  url = '/about/'
   weight = 2
 
 [[menus.footer]]
-  name = 'Applications'
-  url = '/pillars/applications/'
+  name = 'FAQ'
+  url = '/faq/'
   weight = 3
 
 [[menus.footer]]
