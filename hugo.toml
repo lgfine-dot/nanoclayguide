@@ -1,0 +1,30 @@
+baseURL = 'https://nanoclayguide.com/'
+languageCode = 'en-us'
+title = 'Nanoclay Guide'
+theme = 'nanoclayguide'
+enableRobotsTXT = true
+buildFuture = false
+
+[params]
+  description = 'The definitive technical resource for nanoclay science, applications, and industry'
+  tagline = 'The definitive technical resource for nanoclay science, applications, and industry'
+  author = 'AGCP Farmaceuticos'
+
+  analyticsProvider = 'plausible'
+  plausibleDomain = 'nanoclayguide.com'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
+
+[pagination]
+  pagerSize = 12
+
+[permalinks]
+  [permalinks.page]
+    blog = '/blog/:slug/'
