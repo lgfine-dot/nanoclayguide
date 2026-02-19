@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+{{/* ── Reading Progress Bar ────────────────────────────────── */}}
+<div class="reading-progress" id="readingProgress"></div>
+
 {{/* ── Hero Header ──────────────────────────────────────────── */}}
 {{ with .Params.featured_image }}
 <div class="blog-hero">
@@ -150,5 +153,24 @@
   </div>
 </nav>
 {{ end }}
+
+<script>
+(function() {
+  var bar = document.getElementById('readingProgress');
+  if (!bar) return;
+  var ticking = false;
+  window.addEventListener('scroll', function() {
+    if (!ticking) {
+      requestAnimationFrame(function() {
+        var scrollTop = window.scrollY;
+        var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        bar.style.width = docHeight > 0 ? (scrollTop / docHeight * 100) + '%' : '0%';
+        ticking = false;
+      });
+      ticking = true;
+    }
+  });
+})();
+</script>
 
 {{ end }}

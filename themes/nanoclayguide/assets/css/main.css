@@ -280,6 +280,16 @@ table tbody tr:hover td {
   list-style: none;
 }
 
+/* Invisible bridge to cover the gap between trigger and dropdown */
+.nav-dropdown::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+}
+
 .nav-dropdown li {
   margin: 0;
 }
@@ -717,6 +727,19 @@ table tbody tr:hover td {
 /* =============================================================
    BLOG POST TEMPLATE
    ============================================================= */
+
+/* --- Reading Progress Bar ------------------------------------- */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: var(--color-accent);
+  z-index: 150;
+  transition: width 0.1s linear;
+  pointer-events: none;
+}
 
 /* --- Blog Hero ------------------------------------------------ */
 .blog-hero {
