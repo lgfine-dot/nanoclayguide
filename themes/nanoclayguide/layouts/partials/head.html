@@ -81,6 +81,25 @@
   }
 }
 </script>
+{{/* Homepage: Organization for Knowledge Panel */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AGCP Farmaceuticos, LDA",
+  "url": "https://agcp.pt",
+  "logo": {{ (printf "%sfavicon.svg" .Site.BaseURL) | jsonify }},
+  "description": {{ .Site.Params.description | jsonify }},
+  "brand": {
+    "@type": "Brand",
+    "name": {{ .Site.Title | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
+  },
+  "sameAs": [
+    "https://x.com/nanoclayguide"
+  ]
+}
+</script>
 
 {{ else if and .IsPage (eq .Section "blog") }}
 {{/* Blog posts: Article schema */}}
