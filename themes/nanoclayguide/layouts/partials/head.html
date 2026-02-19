@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 {{/* --- Favicon --- */}}
 <link rel="icon" href="/favicon.ico" sizes="48x48">
@@ -28,6 +28,7 @@
 <meta name="author" content="{{ .Site.Params.author | default .Site.Title }}">
 {{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
+{{ with .Params.robots }}<meta name="robots" content="{{ . }}">{{ end }}
 
 {{/* --- RSS Autodiscovery --- */}}
 {{ with .OutputFormats.Get "RSS" }}
@@ -101,7 +102,11 @@
   "publisher": {
     "@type": "Organization",
     "name": "AGCP Farmaceuticos, LDA",
-    "url": "https://agcp.pt"
+    "url": "https://agcp.pt",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ (printf "%sfavicon.svg" .Site.BaseURL) | jsonify }}
+    }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -184,8 +189,11 @@
 {{ end }}
 
 {{/* --- Google Fonts --- */}}
+<meta name="theme-color" content="#8B4513">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 {{/* --- Styles: inline critical CSS, async full CSS --- */}}

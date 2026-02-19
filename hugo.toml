@@ -10,6 +10,7 @@ buildFuture = false
   tagline = 'The definitive technical resource for nanoclay science, applications, and industry'
   author = 'AGCP Farmaceuticos'
 
+  twitter = 'nanoclayguide'
   analyticsProvider = 'plausible'
   plausibleDomain = 'nanoclayguide.com'
 
