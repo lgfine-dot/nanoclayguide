@@ -2,8 +2,8 @@
 title: "Nanoclay Types Compared: Sodium MMT, Organoclays, Halloysite, and More"
 description: "A side-by-side comparison of the major nanoclay families — properties, compatibility, pricing, and which type fits which application."
 slug: "nanoclay-types-compared"
-date: 2025-06-29
-lastmod: 2025-06-29
+date: 2026-02-09
+lastmod: 2026-02-09
 author: "AGCP Nanoclay Guide"
 categories:
   - Types & Comparison

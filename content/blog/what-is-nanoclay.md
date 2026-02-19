@@ -2,8 +2,8 @@
 title: "What Is Nanoclay? A Practical Definition for Engineers and Buyers"
 description: "A clear, working definition of nanoclay — what it actually is, how it differs from ordinary clay, and what matters when you're specifying or buying it."
 slug: "what-is-nanoclay"
-date: 2025-06-15
-lastmod: 2025-06-15
+date: 2026-02-01
+lastmod: 2026-02-01
 author: "AGCP Nanoclay Guide"
 categories:
   - Nanoclay 101

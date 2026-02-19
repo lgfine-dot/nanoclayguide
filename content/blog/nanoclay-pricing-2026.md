@@ -2,8 +2,8 @@
 title: "Nanoclay Pricing in 2026: What You'll Actually Pay and Why"
 description: "Current nanoclay pricing by grade, modifier, and volume — plus the cost drivers that explain why a kilogram of organoclay can range from $5 to $50."
 slug: "nanoclay-pricing-2026"
-date: 2025-07-06
-lastmod: 2026-02-18
+date: 2026-02-13
+lastmod: 2026-02-13
 author: "AGCP Nanoclay Guide"
 categories:
   - Pricing & Market

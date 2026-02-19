@@ -2,8 +2,8 @@
 title: "How Nanoclay Is Made: From Bentonite Mine to Finished Product"
 description: "The complete manufacturing chain for commercial nanoclay — mining, purification, sodium activation, organic modification, and the quality gates at each stage."
 slug: "how-nanoclay-is-made"
-date: 2025-06-22
-lastmod: 2025-06-22
+date: 2026-02-05
+lastmod: 2026-02-05
 author: "AGCP Nanoclay Guide"
 categories:
   - How It's Made
