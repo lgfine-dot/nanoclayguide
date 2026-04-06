@@ -23,7 +23,7 @@ This matters commercially because when a mining company sells "bentonite," they'
 
 There are two broad types defined by the dominant interlayer cation:
 
-**Sodium bentonite** has sodium as its primary exchangeable cation. It swells dramatically in water — up to 15 times its dry volume — and forms strong gels. Wyoming and South Dakota deposits produce most of the world's high-quality sodium bentonite. This is the starting material for most nanoclay products.
+**Sodium bentonite** has sodium as its primary exchangeable cation. It swells dramatically in water — up to 15 times its dry volume — and forms strong gels. Wyoming and South Dakota deposits produce most of the world's high-quality sodium bentonite. This is the starting material for most nanoclay products (see [How Nanoclay Is Made](/blog/how-nanoclay-is-made/) for the full manufacturing chain).
 
 **Calcium bentonite** has calcium as its primary cation. It swells less (roughly 2–3 times its dry volume), has lower cation exchange capacity, and is far more abundant globally. Calcium bentonite is often converted to sodium-activated bentonite through treatment with soda ash (sodium carbonate), which replaces calcium ions with sodium. Activated calcium bentonite can approach natural sodium bentonite performance, though experienced formulators report subtle behavioral differences, particularly in gelling speed and gel strength stability.
 
@@ -43,7 +43,7 @@ The smectite group includes several mineral species:
 
 **Saponite** — a magnesium-rich, trioctahedral smectite. Less common commercially than montmorillonite but increasingly studied for catalytic applications.
 
-**Hectorite** — a lithium-magnesium smectite found in limited deposits (notably the Hector mine in California). Natural hectorite is rare and expensive. Synthetic hectorite (Laponite, manufactured by BYK) is widely used in personal care and coatings where purity and consistency matter more than cost.
+**Hectorite** — a lithium-magnesium smectite found in limited deposits (notably the Hector mine in California). Natural hectorite is rare and expensive. Synthetic hectorite (Laponite, manufactured by BYK) is widely used in personal care and coatings where purity and consistency matter more than cost. For a full property comparison of these mineral types, see [Nanoclay Types Compared](/blog/nanoclay-types-compared/).
 
 When a supplier describes a product as a "smectite nanoclay," they're telling you it belongs to this swelling family but not which specific member. For many applications the distinction is academic — montmorillonite and beidellite perform similarly in most polymer nanocomposite systems. But for applications sensitive to layer charge density, iron content, or particle morphology, the specific mineral species matters.
 
@@ -94,3 +94,10 @@ Here's how to keep the terms straight:
 And **organoclay** is montmorillonite (or occasionally another smectite) that has been modified with organic compounds to make it compatible with hydrophobic systems. It's a manufactured product, not a natural mineral.
 
 Getting these terms right won't make you a clay mineralogist, but it will make you a smarter buyer — and that's worth more.
+
+## Where to go next
+
+- **[What Are Nanoclays?](/blog/what-are-nanoclays-complete-guide/)** — The complete guide to nanoclay science, structure, and applications
+- **[Montmorillonite vs. Kaolinite vs. Halloysite](/blog/montmorillonite-vs-kaolinite-vs-halloysite/)** — Practical decision framework for choosing between the major nanoclay types
+- **[How Nanoclay Is Made](/blog/how-nanoclay-is-made/)** — From bentonite mining to finished organoclay product
+- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-2026/)** — Why a kilogram of "nanoclay" can cost $1 or $50

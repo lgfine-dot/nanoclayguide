@@ -33,7 +33,7 @@ Here is how the three stack up on the properties that matter most for material s
 
 **Aspect ratio.** Montmorillonite platelets have aspect ratios of 100:1 to 500:1 when properly exfoliated — extreme flatness that creates long tortuous paths in barrier applications. Halloysite tubes have aspect ratios of 10:1 to 50:1. Kaolinite plates run 5:1 to 20:1. For barrier improvement and mechanical reinforcement per unit loading, montmorillonite's extreme aspect ratio is unmatched.
 
-**Dispersibility.** This is where montmorillonite's advantage becomes a double-edged sword. Na-MMT must be organophilized to disperse in hydrophobic systems, and achieving true exfoliation (complete separation of individual layers) requires careful processing. Halloysite, by contrast, is relatively easy to disperse in both aqueous and polymer systems without surface modification — the tubes don't stack as tightly as montmorillonite layers and have lower surface energy. Kaolinite is easy to disperse as a filler but difficult to delaminate to nanoscale dimensions.
+**Dispersibility.** This is where montmorillonite's advantage becomes a double-edged sword. Na-MMT must be [organophilized](/blog/nanoclay-surface-modification-organophilization-guide/) to disperse in hydrophobic systems, and achieving true exfoliation (complete separation of individual layers) requires [careful processing](/blog/nanoclay-polymer-nanocomposites-beginners-guide/). Halloysite, by contrast, is relatively easy to disperse in both aqueous and polymer systems without surface modification — the tubes don't stack as tightly as montmorillonite layers and have lower surface energy. Kaolinite is easy to disperse as a filler but difficult to delaminate to nanoscale dimensions.
 
 **Loading capacity.** Only halloysite offers a meaningful internal volume for encapsulating active agents. The lumen can be loaded with 10–25% by weight of various compounds through vacuum cycling or solvent exchange. Montmorillonite can intercalate molecules between its layers, but this is primarily how organoclays are made — it's not typically used for controlled-release loading in the same way. Kaolinite has minimal intercalation or loading capacity.
 
@@ -94,3 +94,10 @@ When evaluating which nanoclay to specify, work through these questions in order
 **Is biocompatibility critical?** Both halloysite and montmorillonite have strong safety profiles, but halloysite's loading capacity gives it an edge in biomedical formulations. Review the specific toxicology data for your target application and route of exposure.
 
 There's no universal "best" nanoclay. There is only the best nanoclay for a specific set of requirements, constraints, and economics. Getting clear on those requirements before contacting suppliers will save you time, money, and frustration.
+
+## Where to go next
+
+- **[Nanoclay Types Compared](/blog/nanoclay-types-compared/)** — Expanded comparison including organoclays and sepiolite with pricing data
+- **[Nanoclay-Polymer Nanocomposites](/blog/nanoclay-polymer-nanocomposites-beginners-guide/)** — How to achieve exfoliation and what determines success in polymer systems
+- **[Nanoclay Applications](/blog/nanoclay-applications/)** — Where each nanoclay type is actually used commercially
+- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-2026/)** — Cost comparison across types and grades

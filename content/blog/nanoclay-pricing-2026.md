@@ -61,7 +61,7 @@ A rough rule of thumb:
 - **85–92% MMT purity:** standard wet purification, the commercial sweet spot
 - **>95% MMT purity:** multiple centrifugation passes, significant yield loss, premium pricing
 
-The purity shows up directly in the CEC value. If a supplier quotes you a low price on "purified montmorillonite" but the CEC is 65 meq/100g, you're likely getting 70–80% purity with significant quartz and feldspar content. That may be fine for some applications, but you should know what you're buying.
+The purity shows up directly in the CEC value (see [How Nanoclay Is Made](/blog/how-nanoclay-is-made/) for details on purification stages). If a supplier quotes you a low price on "purified montmorillonite" but the CEC is 65 meq/100g, you're likely getting 70–80% purity with significant quartz and feldspar content. That may be fine for some applications, but you should know what you're buying.
 
 ### 2. Organic modifier cost
 

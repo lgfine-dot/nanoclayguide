@@ -31,7 +31,7 @@ In practice, most real nanocomposites are a mixture of intercalated and exfoliat
 
 The challenge is thermodynamic. Natural montmorillonite is hydrophilic — its surface is covered in oxide groups and exchangeable cations that attract water. Most polymers are hydrophobic. Mixing the two is like trying to dissolve salt in oil: the system naturally wants to phase-separate.
 
-Organophilization partially solves this by replacing the hydrophilic interlayer cations with hydrophobic quaternary ammonium surfactants. This makes the clay surface compatible with the polymer and increases the interlayer spacing to let polymer chains enter. But compatibility alone doesn't guarantee exfoliation — it just makes it thermodynamically possible. You still need enough energy input during processing to overcome the van der Waals attractions holding the layers together.
+[Organophilization](/blog/nanoclay-surface-modification-organophilization-guide/) partially solves this by replacing the hydrophilic interlayer cations with hydrophobic quaternary ammonium surfactants. This makes the clay surface compatible with the polymer and increases the interlayer spacing to let polymer chains enter. But compatibility alone doesn't guarantee exfoliation — it just makes it thermodynamically possible. You still need enough energy input during processing to overcome the van der Waals attractions holding the layers together.
 
 This is why processing method matters as much as material selection. The same organoclay can produce an exfoliated nanocomposite with one processing approach and a disappointing microcomposite with another.
 
@@ -94,3 +94,10 @@ If you're new to nanoclay nanocomposites, the lowest-risk starting point is a ny
 For polypropylene, start with 5% organoclay (Cloisite 15A or 20A) plus 10% PP-g-MA compatibilizer and expect to iterate on processing conditions before achieving acceptable dispersion.
 
 For any polymer system, insist on both XRD and TEM characterization of your nanocomposite — XRD alone cannot confirm exfoliation, and TEM alone doesn't give you statistically representative d-spacing data. You need both.
+
+## Where to go next
+
+- **[Nanoclay Surface Modification and Organophilization](/blog/nanoclay-surface-modification-organophilization-guide/)** — Deep dive into how organoclays are made and how to choose the right modifier for your polymer
+- **[Nanoclay Types Compared](/blog/nanoclay-types-compared/)** — Side-by-side comparison of MMT, halloysite, kaolinite, and sepiolite to help you pick the right base clay
+- **[How Nanoclay Is Made](/blog/how-nanoclay-is-made/)** — The manufacturing chain from bentonite mine to finished organoclay
+- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-2026/)** — What you'll pay and how to evaluate cost-per-function at production scale

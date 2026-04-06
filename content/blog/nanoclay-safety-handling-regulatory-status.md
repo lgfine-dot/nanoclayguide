@@ -23,7 +23,7 @@ The toxicology data, while generally favorable, breaks down into three exposure 
 
 **Oral exposure** is where the data is most extensive and most positive. Montmorillonite has FDA Generally Recognized as Safe (GRAS) status for food contact applications. It's been used as a pharmaceutical excipient for over a century. Oral toxicity studies in multiple animal models consistently show no significant adverse effects at doses far exceeding any realistic exposure from industrial handling. The lethal dose (LD50) for oral exposure in rats is above 5,000 mg/kg for natural montmorillonite — effectively non-toxic by oral route.
 
-**Dermal exposure** data is similarly reassuring. Bentonite clays are widely used in cosmetics and personal care products with no significant dermal toxicity concerns. Some organoclays may cause mild skin irritation due to the organic modifier (quaternary ammonium compounds are known mild irritants), so standard protective gloves are recommended when handling organoclay powders.
+**Dermal exposure** data is similarly reassuring. Bentonite clays are widely used in cosmetics and personal care products with no significant dermal toxicity concerns. Some [organoclays](/blog/nanoclay-surface-modification-organophilization-guide/) may cause mild skin irritation due to the organic modifier (quaternary ammonium compounds are known mild irritants), so standard protective gloves are recommended when handling organoclay powders.
 
 **Inhalation exposure** is the primary concern and the area requiring the most attention. Like any fine mineral dust, respirable nanoclay particles can reach the deep lung if adequate dust control isn't maintained. Chronic inhalation of respirable crystalline silica (quartz) causes silicosis, and since bentonite ore can contain quartz impurities, prolonged dust exposure in mining and processing operations is a real occupational health concern.
 
@@ -84,3 +84,10 @@ For formulators working with nanoclays, these steps cover the essentials:
 **Engage your suppliers.** Reputable nanoclay suppliers maintain regulatory compliance files and can provide registration documentation (REACH registration numbers, TSCA listings, food contact authorizations) for their products. If a supplier can't provide this documentation, consider it a red flag.
 
 The bottom line: nanoclays are among the safest nanomaterials available, with a long track record of direct human use and a growing body of nano-specific toxicology data. Proper handling is straightforward — it's standard fine powder hygiene, not exotic hazmat protocols. The main complexity lies in navigating regional regulatory requirements, which requires staying current with a rapidly evolving landscape.
+
+## Where to go next
+
+- **[What Are Nanoclays?](/blog/what-are-nanoclays-complete-guide/)** — The complete plain-language guide to nanoclay science and applications
+- **[Bentonite, Smectite, Montmorillonite: Terminology](/blog/bentonite-smectite-montmorillonite-terminology/)** — Sort out the mineral names you'll see on safety data sheets
+- **[Nanoclay Types Compared](/blog/nanoclay-types-compared/)** — Different nanoclay types have different safety and handling profiles
+- **[FAQ](/faq/)** — Quick answers including EU nanomaterial regulation and dust exposure

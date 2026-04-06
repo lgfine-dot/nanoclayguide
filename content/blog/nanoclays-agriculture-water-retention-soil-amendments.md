@@ -45,7 +45,7 @@ Nanoclay-based controlled-release fertilizers (CRFs) use two mechanisms to slow 
 
 **Encapsulation.** Nanoclay layers can be assembled around fertilizer granules or incorporated into polymer-clay composite coatings that physically slow dissolution. The clay creates a tortuous diffusion path for water and dissolved nutrients, extending the release window from days to weeks or months. This approach works particularly well for urea — coating urea granules with nanoclay-polymer composites can reduce nitrogen loss by 20–40% compared to uncoated urea.
 
-For halloysite specifically, the hollow nanotube lumen can be loaded with liquid fertilizer formulations that release through the open tube ends. Halloysite-based CRFs are a smaller niche but show promise for high-value specialty crops where precise nutrient delivery justifies the higher material cost.
+For [halloysite](/blog/montmorillonite-vs-kaolinite-vs-halloysite/) specifically, the hollow nanotube lumen can be loaded with liquid fertilizer formulations that release through the open tube ends. Halloysite-based CRFs are a smaller niche but show promise for high-value specialty crops where precise nutrient delivery justifies the higher material cost.
 
 The economics of nanoclay CRFs are improving but remain challenging for commodity crops. The added cost of the nanoclay coating or intercalation process must be offset by reduced fertilizer waste, fewer application passes, and improved crop yield. For high-value horticultural crops (fruits, vegetables, ornamentals), the economics already work. For commodity row crops (corn, wheat, soybeans), broader adoption depends on reducing formulation costs and demonstrating consistent yield improvements in multi-year, multi-site field trials.
 
@@ -65,7 +65,7 @@ Nanoclay's adsorption capacity makes it valuable for cleaning contaminated soils
 
 **Heavy metal immobilization.** Montmorillonite adsorbs heavy metals (lead, cadmium, zinc, copper, chromium) through cation exchange and surface complexation. Adding 2–5% bentonite to metal-contaminated soils can reduce bioavailable metal concentrations by 50–90%, bringing contaminated sites below regulatory thresholds without excavation. The metals remain bound to the clay in stable, low-solubility forms. This approach is particularly cost-effective for large contaminated sites where excavation and off-site disposal would be prohibitively expensive.
 
-**Organic contaminant removal.** Organoclays (montmorillonite modified with quaternary ammonium compounds) are effective adsorbents for organic pollutants — petroleum hydrocarbons, chlorinated solvents, pesticides, and pharmaceutical compounds. Organoclay permeable reactive barriers can be installed in groundwater flow paths to intercept and adsorb contaminant plumes. This is an established remediation technology with dozens of commercial installations in the United States and Europe.
+**Organic contaminant removal.** [Organoclays](/blog/nanoclay-surface-modification-organophilization-guide/) (montmorillonite modified with quaternary ammonium compounds) are effective adsorbents for organic pollutants — petroleum hydrocarbons, chlorinated solvents, pesticides, and pharmaceutical compounds. Organoclay permeable reactive barriers can be installed in groundwater flow paths to intercept and adsorb contaminant plumes. This is an established remediation technology with dozens of commercial installations in the United States and Europe.
 
 **Microplastic capture.** Emerging research shows that nanoclay can flocculate and capture microplastic particles from water through electrostatic interactions and particle bridging. While this application is still in the laboratory stage, growing regulatory attention to microplastics in water supplies could create a significant market for nanoclay-based treatment systems.
 
@@ -86,3 +86,10 @@ The path to broader agricultural adoption depends on three developments: reducin
 The convergence of climate change (increasing drought frequency), regulatory pressure (reducing agricultural chemical pollution), and precision agriculture technology (variable-rate application, soil sensing) is creating favorable conditions for nanoclay adoption. The question is whether the agricultural nanoclay industry can develop products and deliver them at price points that make adoption a financial no-brainer for farmers, rather than requiring them to pay a sustainability premium.
 
 The companies that solve this cost equation first — particularly for water retention in arid and semi-arid agriculture — will access an enormous addressable market. Desertification affects 3.6 billion people globally, and the amount of irrigated agricultural land in water-stressed regions continues to grow.
+
+## Where to go next
+
+- **[Nanoclay Applications](/blog/nanoclay-applications/)** — Survey of all commercial nanoclay applications, including agriculture
+- **[Montmorillonite vs. Kaolinite vs. Halloysite](/blog/montmorillonite-vs-kaolinite-vs-halloysite/)** — How to choose the right nanoclay type for controlled release vs. water retention
+- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-2026/)** — Understanding the economics that drive agricultural adoption decisions
+- **[Nanoclay Safety and Regulatory Status](/blog/nanoclay-safety-handling-regulatory-status/)** — Regulatory considerations for agricultural nanomaterial applications

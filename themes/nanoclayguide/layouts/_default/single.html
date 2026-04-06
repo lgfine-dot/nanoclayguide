@@ -122,6 +122,44 @@
   {{ end }}
 </article>
 
+{{/* ── Related Posts ────────────────────────────────────────── */}}
+{{ $related := slice }}
+{{ $currentCategories := .Params.categories }}
+{{ $currentPage := . }}
+{{ if $currentCategories }}
+  {{ range where (where .Site.RegularPages "Section" "blog") "Params.categories" "intersect" $currentCategories }}
+    {{ if ne .Permalink $currentPage.Permalink }}
+      {{ $related = $related | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if lt (len $related) 3 }}
+  {{ range first (sub 4 (len $related)) (where .Site.RegularPages.ByDate.Reverse "Section" "blog") }}
+    {{ if and (ne .Permalink $currentPage.Permalink) (not (in $related .)) }}
+      {{ $related = $related | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $related = first 4 $related }}
+{{ if $related }}
+<section class="blog-related" aria-label="Related articles">
+  <div class="content-wrap">
+    <h2 class="blog-related-heading">Related Articles</h2>
+    <div class="blog-related-grid">
+      {{ range $related }}
+      <a href="{{ .RelPermalink }}" class="blog-related-card">
+        <span class="blog-related-cat">
+          {{ with index .Params.categories 0 }}{{ . }}{{ end }}
+        </span>
+        <span class="blog-related-title">{{ .Title }}</span>
+        <span class="blog-related-meta">{{ .ReadingTime }} min read</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
 {{/* ── Prev / Next Navigation ────────────────────────────────── */}}
 {{ if or .PrevInSection .NextInSection }}
 <nav class="blog-prevnext" aria-label="Previous and next posts">
