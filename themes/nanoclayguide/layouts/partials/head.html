@@ -19,6 +19,14 @@
 
 {{ $img := "" }}
 {{ with .Params.featured_image }}{{ $img = . | absURL }}{{ else }}{{ with .Params.image }}{{ $img = . | absURL }}{{ end }}{{ end }}
+{{ if not $img }}
+  {{ if and .IsPage (eq .Section "blog") }}
+    {{ $ogSlug := .Params.slug | default .File.BaseFileName }}
+    {{ $img = printf "%simages/og/%s.png" .Site.BaseURL $ogSlug }}
+  {{ else }}
+    {{ $img = printf "%simages/og/default.png" .Site.BaseURL }}
+  {{ end }}
+{{ end }}
 
 {{/* --- Title tag --- */}}
 <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ $seoTitle }} | {{ .Site.Title }}{{ end }}</title>

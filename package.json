@@ -1,0 +1,16 @@
+{
+  "name": "nanoclayguide-build",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "gen-og": "node scripts/gen-og-images.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "sharp": "^0.34.5"
+  },
+  "optionalDependencies": {
+    "@img/sharp-win32-arm64": "^0.34.5"
+  }
+}

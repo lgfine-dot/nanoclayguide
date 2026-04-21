@@ -1,9 +1,10 @@
 [build]
-  command = "hugo --minify"
+  command = "npm ci && npm run gen-og && hugo --minify"
   publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.155.3"
+  NODE_VERSION = "20"
 
 # --- Cache Headers ---
 
