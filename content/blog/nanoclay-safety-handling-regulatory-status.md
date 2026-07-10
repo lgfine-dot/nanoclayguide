@@ -4,7 +4,7 @@ slug: "nanoclay-safety-handling-regulatory-status"
 date: 2026-03-16
 lastmod: 2026-03-16
 description: "Nanoclays have decades of safety data and established regulatory frameworks, but formulators must understand the specific requirements for inhalation exposure, dust control, and nano-specific regulations by region."
-categories: ["Fundamentals", "Safety & Regulation"]
+categories: ["Safety & Regulation"]
 tags: ["nanoclay safety", "nanoclay MSDS", "nanoclay regulations", "nanoclay handling", "occupational health"]
 author: "Lawrence Fine"
 toc: true

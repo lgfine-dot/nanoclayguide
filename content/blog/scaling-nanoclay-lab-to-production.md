@@ -4,7 +4,7 @@ slug: "scaling-nanoclay-lab-to-production"
 date: 2026-06-29
 lastmod: 2026-06-29
 description: "A nanoclay formulation that works beautifully on the bench often stumbles on the production line. These are the five scale-up problems that catch teams by surprise, and how to anticipate them."
-categories: ["Procurement & Market", "Processing"]
+categories: ["Processing", "How It's Made"]
 tags: ["nanoclay scale-up", "nanoclay production challenges", "nanocomposite manufacturing", "nanoclay dispersion scale", "nanoclay process"]
 author: "Lawrence Fine"
 toc: true

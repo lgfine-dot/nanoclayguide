@@ -5,8 +5,7 @@ slug: "what-is-nanoclay"
 date: 2026-02-01
 lastmod: 2026-02-01
 author: "AGCP Nanoclay Guide"
-categories:
-  - Nanoclay 101
+categories: ["Nanoclay 101"]
 tags:
   - nanoclay
   - montmorillonite

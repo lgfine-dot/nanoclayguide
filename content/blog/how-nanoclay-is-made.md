@@ -5,8 +5,7 @@ slug: "how-nanoclay-is-made"
 date: 2026-02-05
 lastmod: 2026-02-05
 author: "AGCP Nanoclay Guide"
-categories:
-  - How It's Made
+categories: ["How It's Made"]
 tags:
   - manufacturing
   - bentonite

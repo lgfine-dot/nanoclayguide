@@ -5,8 +5,7 @@ slug: "nanoclay-types-compared"
 date: 2026-02-09
 lastmod: 2026-02-09
 author: "AGCP Nanoclay Guide"
-categories:
-  - Types & Comparison
+categories: ["Types & Comparison"]
 tags:
   - montmorillonite
   - organoclay

@@ -4,7 +4,7 @@ slug: "xrd-nanoclay-characterization-d-spacing"
 date: 2026-07-06
 lastmod: 2026-07-06
 description: "X-ray diffraction is the single most important tool for characterizing nanoclays, because it measures the spacing between clay layers directly. Here is how to read a nanoclay diffraction pattern and what the d-spacing actually tells you."
-categories: ["Characterization & Testing", "QC & Procurement"]
+categories: ["QC & Procurement"]
 tags: ["nanoclay XRD", "nanoclay d-spacing", "Bragg's law", "basal spacing", "clay exfoliation"]
 author: "Lawrence Fine"
 toc: true

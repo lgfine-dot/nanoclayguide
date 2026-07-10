@@ -4,7 +4,7 @@ slug: "nanoclay-polymer-nanocomposites-beginners-guide"
 date: 2026-03-05
 lastmod: 2026-03-05
 description: "Nanoclay-polymer nanocomposites are the largest commercial application for nanoclays. This guide explains the three dispersion states, how to achieve them, which polymers work best, and where projects go wrong."
-categories: ["Polymer Nanocomposites", "Applications"]
+categories: ["Applications", "Processing"]
 tags: ["polymer nanocomposite", "nanoclay dispersion", "exfoliation", "intercalation", "melt compounding"]
 author: "Lawrence Fine"
 toc: true

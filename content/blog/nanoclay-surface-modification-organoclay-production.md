@@ -4,7 +4,7 @@ slug: "nanoclay-surface-modification-organoclay-production"
 date: 2026-05-14
 lastmod: 2026-05-14
 description: "Raw nanoclay is hydrophilic and incompatible with most polymer matrices. Surface modification transforms it into an organoclay that disperses in plastics, resins, and oils. This article explains the chemistry and the commercial process."
-categories: ["Polymer Nanocomposites", "Processing"]
+categories: ["Processing", "How It's Made"]
 tags: ["organoclay", "nanoclay surface modification", "quaternary ammonium", "nanoclay treatment", "clay compatibilization"]
 author: "Lawrence Fine"
 toc: true

@@ -5,8 +5,7 @@ slug: "nanoclay-applications"
 date: 2026-02-17
 lastmod: 2026-02-17
 author: "AGCP Nanoclay Guide"
-categories:
-  - Applications
+categories: ["Applications"]
 tags:
   - applications
   - packaging

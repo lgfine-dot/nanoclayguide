@@ -4,7 +4,7 @@ slug: "halloysite-nanotubes-drug-delivery"
 date: 2026-03-23
 lastmod: 2026-03-23
 description: "Halloysite nanotubes are naturally occurring nanocontainers with a hollow lumen that can be loaded with drugs and active agents. Here's how the loading works, what controls the release rate, and where clinical development stands."
-categories: ["Biomedical & Pharmaceutical", "Applications"]
+categories: ["Applications"]
 tags: ["halloysite nanotubes", "drug delivery", "controlled release", "nanoclay biomedical", "HNT"]
 author: "Lawrence Fine"
 toc: true

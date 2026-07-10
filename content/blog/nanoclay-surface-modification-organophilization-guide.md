@@ -4,7 +4,7 @@ slug: "nanoclay-surface-modification-organophilization-guide"
 date: 2026-03-12
 lastmod: 2026-03-12
 description: "Organophilization converts hydrophilic nanoclay into organoclay that's compatible with polymers and organic systems. This guide covers the chemistry, the process, common modifiers, and how to choose the right one for your application."
-categories: ["Fundamentals", "Processing"]
+categories: ["Processing"]
 tags: ["organoclay", "surface modification", "quaternary ammonium", "organophilization", "clay modification"]
 author: "Lawrence Fine"
 toc: true

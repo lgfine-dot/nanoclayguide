@@ -4,7 +4,7 @@ slug: "nanoclays-drilling-fluids-bentonite"
 date: 2026-03-19
 lastmod: 2026-03-19
 description: "Bentonite is the backbone of water-based drilling fluids, and organoclays serve the same role in oil-based muds. Here's how nanoclays work in drilling applications, what goes wrong in the field, and how to troubleshoot."
-categories: ["Oil, Gas & Drilling", "Applications"]
+categories: ["Applications"]
 tags: ["bentonite drilling mud", "drilling fluid", "organoclay", "wellbore stability", "oil-based mud"]
 author: "Lawrence Fine"
 toc: true

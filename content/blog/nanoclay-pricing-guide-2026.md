@@ -5,7 +5,7 @@ date: 2026-06-15
 lastmod: 2026-06-15
 description: "Nanoclay prices range from a few dollars per kilogram for technical-grade bentonite to well over a hundred dollars per kilogram for purified, surface-modified grades. This guide explains what actually drives the price and how to avoid overpaying."
 aliases: ["/blog/nanoclay-pricing-2026/"]
-categories: ["Procurement & Market", "Pricing & Market"]
+categories: ["Pricing & Market"]
 tags: ["nanoclay price", "nanoclay cost per kg", "organoclay price", "montmorillonite cost", "nanoclay procurement"]
 author: "Lawrence Fine"
 toc: true
