@@ -4,7 +4,7 @@ slug: "nanoclay-supplier-comparison"
 date: 2026-06-25
 lastmod: 2026-06-25
 description: "The commercial nanoclay supply base is smaller than the academic literature suggests. This guide maps the established producers, what they're known for, and how to think about choosing among them."
-categories: ["Procurement & Market"]
+categories: ["Procurement & Market", "QC & Procurement"]
 tags: ["nanoclay suppliers", "BYK nanoclay", "Cloisite", "Nanocor", "organoclay manufacturer"]
 author: "Lawrence Fine"
 toc: true

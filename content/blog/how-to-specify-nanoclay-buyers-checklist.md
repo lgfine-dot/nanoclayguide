@@ -4,7 +4,7 @@ slug: "how-to-specify-nanoclay-buyers-checklist"
 date: 2026-06-22
 lastmod: 2026-06-22
 description: "Most nanoclay disappointments trace back to a vague specification rather than a bad material. This buyer's checklist covers the parameters that actually determine whether a grade will work in your process."
-categories: ["Procurement & Market"]
+categories: ["Procurement & Market", "QC & Procurement"]
 tags: ["nanoclay specification", "how to buy nanoclay", "nanoclay procurement", "organoclay selection", "nanoclay grade"]
 author: "Lawrence Fine"
 toc: true

@@ -4,7 +4,7 @@ slug: "nanoclay-controlled-release-fertiliser"
 date: 2026-05-25
 lastmod: 2026-05-25
 description: "Conventional fertilisers release nutrients immediately, most of which is lost before plants can use it. Nanoclay-based controlled-release systems delay and extend nutrient availability — without the polymer waste that coated fertiliser technologies generate."
-categories: ["Agriculture"]
+categories: ["Agriculture", "Applications"]
 tags: ["nanoclay fertiliser", "controlled release fertiliser", "nanoclay agriculture", "nutrient management", "slow release fertiliser"]
 author: "Lawrence Fine"
 toc: true

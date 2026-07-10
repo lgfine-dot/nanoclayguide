@@ -4,7 +4,7 @@ slug: "bentonite-smectite-montmorillonite-terminology"
 date: 2026-02-26
 lastmod: 2026-02-26
 description: "Bentonite is a rock, smectite is a mineral group, and montmorillonite is a specific mineral species. Understanding these distinctions matters when you're specifying materials for purchase or formulation."
-categories: ["Fundamentals"]
+categories: ["Fundamentals", "Nanoclay 101"]
 tags: ["bentonite", "smectite", "montmorillonite", "clay terminology", "clay mineralogy"]
 author: "Lawrence Fine"
 toc: true

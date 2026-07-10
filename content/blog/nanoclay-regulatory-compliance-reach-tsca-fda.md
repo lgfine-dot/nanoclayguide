@@ -4,7 +4,7 @@ slug: "nanoclay-regulatory-compliance-reach-tsca-fda"
 date: 2026-07-02
 lastmod: 2026-07-02
 description: "Nanoclay sits at the intersection of chemical-inventory law and nano-specific regulation, and the rules differ sharply by region. Here is a practical map of the obligations in the EU, US, and major Asian markets."
-categories: ["Procurement & Market"]
+categories: ["Procurement & Market", "Safety & Regulation"]
 tags: ["nanoclay REACH", "nanoclay TSCA", "nanoclay FDA", "nanomaterial regulation", "nano labeling"]
 author: "Lawrence Fine"
 toc: true

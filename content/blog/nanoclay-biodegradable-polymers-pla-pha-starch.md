@@ -4,7 +4,7 @@ slug: "nanoclay-biodegradable-polymers-pla-pha-starch"
 date: 2026-05-11
 lastmod: 2026-05-11
 description: "Biodegradable polymers like PLA and PHA are commercially promising but mechanically limited. Nanoclay additions address both problems simultaneously — improving strength and barrier performance while leaving the end-of-life story intact."
-categories: ["Polymer Nanocomposites"]
+categories: ["Polymer Nanocomposites", "Applications"]
 tags: ["nanoclay PLA", "nanoclay biodegradable", "nanoclay starch", "PHA nanocomposite", "biopolymer nanoclay"]
 author: "Lawrence Fine"
 toc: true

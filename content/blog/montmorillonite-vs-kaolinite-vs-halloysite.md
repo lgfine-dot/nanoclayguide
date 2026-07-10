@@ -4,7 +4,7 @@ slug: "montmorillonite-vs-kaolinite-vs-halloysite"
 date: 2026-03-02
 lastmod: 2026-03-02
 description: "The three most commercially important nanoclays have fundamentally different structures, properties, and applications. Here's a practical decision framework for choosing between them."
-categories: ["Fundamentals"]
+categories: ["Fundamentals", "Types & Comparison"]
 tags: ["montmorillonite", "kaolinite", "halloysite", "nanoclay comparison", "nanoclay selection"]
 author: "Lawrence Fine"
 toc: true

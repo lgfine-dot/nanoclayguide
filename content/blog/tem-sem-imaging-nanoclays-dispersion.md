@@ -4,7 +4,7 @@ slug: "tem-sem-imaging-nanoclays-dispersion"
 date: 2026-07-09
 lastmod: 2026-07-09
 description: "Electron microscopy is the only way to see directly whether nanoclay platelets are exfoliated, intercalated, or simply clumped together. Here is what TEM and SEM each show, and how to tell good dispersion from bad."
-categories: ["Characterization & Testing"]
+categories: ["Characterization & Testing", "QC & Procurement"]
 tags: ["nanoclay TEM", "nanoclay SEM imaging", "clay dispersion", "exfoliation imaging", "nanocomposite microscopy"]
 author: "Lawrence Fine"
 toc: true

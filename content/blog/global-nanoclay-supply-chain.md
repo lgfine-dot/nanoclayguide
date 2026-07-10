@@ -4,7 +4,7 @@ slug: "global-nanoclay-supply-chain"
 date: 2026-03-26
 lastmod: 2026-03-26
 description: "The nanoclay supply chain runs from bentonite mines in Wyoming and Inner Mongolia through refiners and modifier companies to end-use formulators. Understanding this chain helps you find better suppliers, negotiate better prices, and manage supply risk."
-categories: ["Procurement, Market & Supply Chain"]
+categories: ["Procurement, Market & Supply Chain", "Pricing & Market"]
 tags: ["nanoclay suppliers", "bentonite producers", "nanoclay supply chain", "nanoclay procurement"]
 author: "Lawrence Fine"
 toc: true

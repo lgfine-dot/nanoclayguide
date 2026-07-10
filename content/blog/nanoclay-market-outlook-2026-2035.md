@@ -4,7 +4,7 @@ slug: "nanoclay-market-outlook-2026-2035"
 date: 2026-06-18
 lastmod: 2026-06-18
 description: "Published nanoclay market forecasts cluster around a market in the low-single-digit billions of dollars with high-single-digit annual growth. Here is what the numbers agree on, where they diverge, and three scenarios for the decade ahead."
-categories: ["Procurement & Market"]
+categories: ["Procurement & Market", "Pricing & Market"]
 tags: ["nanoclay market size", "nanoclay market forecast", "nanoclay growth", "nanocomposite market", "nanoclay 2035"]
 author: "Lawrence Fine"
 toc: true

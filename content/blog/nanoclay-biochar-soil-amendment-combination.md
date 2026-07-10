@@ -4,7 +4,7 @@ slug: "nanoclay-biochar-soil-amendment-combination"
 date: 2026-05-04
 lastmod: 2026-05-04
 description: "Applied together, nanoclay and biochar address different soil deficiencies in complementary ways. This article examines the science behind combined applications, what the early field data shows, and how formulation decisions affect performance."
-categories: ["Agriculture"]
+categories: ["Agriculture", "Applications"]
 tags: ["nanoclay biochar", "soil amendment", "carbon sequestration", "nanoclay agriculture", "biochar clay composite"]
 author: "Lawrence Fine"
 toc: true

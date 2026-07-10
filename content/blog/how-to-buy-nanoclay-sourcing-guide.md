@@ -4,7 +4,7 @@ slug: "how-to-buy-nanoclay-sourcing-guide"
 date: 2026-04-20
 lastmod: 2026-04-20
 description: "A practical guide to sourcing nanoclay — covering the major suppliers, grade selection, what to specify, minimum order quantities, and how to avoid the common mistakes that waste development budgets."
-categories: ["Procurement"]
+categories: ["Procurement", "QC & Procurement"]
 tags: ["buy nanoclay", "nanoclay suppliers", "nanoclay sourcing", "nanoclay grades", "BYK", "Southern Clay", "Nanocor"]
 author: "Lawrence Fine"
 toc: true

@@ -4,7 +4,7 @@ slug: "what-are-nanoclays-complete-guide"
 date: 2026-02-23
 lastmod: 2026-02-23
 description: "Nanoclays are layered mineral silicates with at least one dimension below 100 nm. This guide explains what they are, how they work, the major types, and why they matter for industrial applications — without the academic jargon."
-categories: ["Fundamentals"]
+categories: ["Fundamentals", "Nanoclay 101"]
 tags: ["nanoclay basics", "nanoclay definition", "layered silicates", "nanomaterials"]
 author: "Lawrence Fine"
 toc: true

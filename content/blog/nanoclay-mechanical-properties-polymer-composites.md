@@ -4,7 +4,7 @@ slug: "nanoclay-mechanical-properties-polymer-composites"
 date: 2026-05-07
 lastmod: 2026-05-07
 description: "A practical look at what nanoclay additions actually do to tensile strength, flexural modulus, impact resistance, and other mechanical properties in polymer nanocomposites — including where the data is strong, where it's disappointing, and why."
-categories: ["Technical"]
+categories: ["Technical", "Processing"]
 tags: ["nanoclay mechanical properties", "tensile strength", "flexural modulus", "impact resistance", "polymer nanocomposite"]
 author: "Lawrence Fine"
 toc: true
