@@ -16,8 +16,8 @@ tags:
 featured_image: ""
 toc: true
 draft: false
-seo_title: "Nanoclay Applications — Packaging, Automotive, Coatings & More"
-seo_description: "Where nanoclay is commercially used: packaging barrier films, automotive parts, coatings, flame retardant systems, drilling fluids, and emerging applications. Performance data and grade selection for each."
+seo_title: "Nanoclay Applications: Real Commercial Uses"
+seo_description: "Nanoclay applications that actually pay off: packaging barrier films, automotive parts, coatings, flame retardancy, and drilling fluids, with the data."
 ---
 
 The academic literature on nanoclay applications runs to tens of thousands of papers. Most of them describe laboratory-scale experiments that never reached production. This article focuses on where nanoclays are **actually used commercially** — the applications where someone is buying truckloads, not just publishing papers.
@@ -26,7 +26,7 @@ For each application, we'll cover what the nanoclay does, which type and grade t
 
 ## Packaging: the biggest commercial success story
 
-Packaging is where nanoclay nanocomposites first proved themselves commercially and where the largest volumes are still consumed. The target property is **gas barrier** — specifically, reducing oxygen and carbon dioxide transmission through plastic films and bottles.
+Packaging is where [nanoclay nanocomposites](/blog/nanoclay-polymer-nanocomposites-beginners-guide/) first proved themselves commercially and where the largest volumes are still consumed. The target property is **gas barrier** — specifically, reducing oxygen and carbon dioxide transmission through plastic films and bottles.
 
 ### How it works
 
@@ -76,7 +76,7 @@ The automotive industry was the second major commercial adopter. The value propo
 
 ### The benchmark application
 
-The original commercial success was **nylon-6/nanoclay** for under-hood and interior components. Toyota's pioneering work (with Ube Industries) demonstrated:
+The original commercial success was **nylon-6/nanoclay** for [under-hood and interior components](/blog/nanoclay-automotive-applications/). Toyota's pioneering work (with Ube Industries) demonstrated:
 
 - **2 wt% nanoclay** replacing **30 wt% glass fiber** for comparable stiffness in timing belt covers
 - **Heat distortion temperature** increased by 65–80°C (from ~65°C to ~130°C for nylon-6)
@@ -120,7 +120,7 @@ Clay platelets in a dried coating film create the same tortuous path effect as i
 
 This is the largest-volume coatings application for nanoclays and the one most people overlook because it's unglamorous:
 
-- **Sag resistance** — Organoclays (OMMT) at 0.5–2 wt% give thixotropic behavior to solvent-based paints and coatings. The coating flows when sheared (brushing, spraying) but gels at rest, preventing sag on vertical surfaces.
+- **Sag resistance** — Organoclays (OMMT) at 0.5–2 wt% give [thixotropic behavior to solvent-based paints and coatings](/blog/nanoclay-rheology-modifier-paints-coatings-adhesives/). The coating flows when sheared (brushing, spraying) but gels at rest, preventing sag on vertical surfaces.
 - **Settling prevention** — Organoclays keep pigments and fillers suspended during storage. Standard application in industrial coatings, marine coatings, and architectural paints.
 - **Grade:** OMMT with moderate d-spacing, pre-gelled in organic solvent. BYK (Cloisite, Tixogel) and Elementis are the dominant suppliers in this space.
 
@@ -136,7 +136,7 @@ FLAG FOR REVIEW: Self-healing coatings using halloysite-loaded inhibitors have e
 
 ## Flame retardancy: synergist, not standalone
 
-Nanoclay alone is not a flame retardant. It does not pass UL 94 or achieve acceptable LOI (limiting oxygen index) ratings by itself. What it does is act as a **synergist** that makes conventional flame retardant systems work better.
+Nanoclay alone is not a flame retardant. It does not pass UL 94 or achieve acceptable LOI (limiting oxygen index) ratings by itself. What it does is act as a **synergist** that makes [conventional flame retardant systems](/blog/nanoclay-flame-retardancy-mechanism/) work better.
 
 ### The mechanism
 
@@ -222,6 +222,6 @@ The common thread: **match the clay surface chemistry to the matrix chemistry**,
 ## Where to go next
 
 - **[Nanoclay Types Compared](/blog/nanoclay-types-compared/)** — Detailed comparison of Na-MMT, OMMT, halloysite, kaolinite, and sepiolite
-- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-2026/)** — What you'll pay and how to evaluate cost-per-function
+- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-guide-2026/)** — What you'll pay and how to evaluate cost-per-function
 - **[QC & Procurement](/pillars/qc-procurement/)** — How to specify, test, and qualify nanoclays for your application
 - **[How Nanoclay Is Made](/blog/how-nanoclay-is-made/)** — Understanding the manufacturing chain behind the products you're buying

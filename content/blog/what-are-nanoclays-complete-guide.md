@@ -9,6 +9,8 @@ tags: ["nanoclay basics", "nanoclay definition", "layered silicates", "nanomater
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "What Are Nanoclays? A Plain-Language Guide"
+seo_description: "Nanoclays explained in plain language: what they are, how their layered structure works, the five commercial types, and where they deliver value in industry."
 ---
 
 Most engineers and formulators first encounter nanoclays through a frustrating experience: reading academic papers filled with crystallographic notation, obscure mineral names, and contradictory terminology. The papers assume you already know what a 2:1 phyllosilicate is. You don't. Nobody outside a geology department does.
@@ -33,7 +35,7 @@ The specifics of how these layers are built determine which type of nanoclay you
 
 **2:1 clays** sandwich an octahedral sheet between two tetrahedral sheets. Montmorillonite, saponite, and hectorite all follow this pattern. The key feature: isomorphous substitution (where aluminum replaces some silicon, or magnesium replaces some aluminum) creates a net negative charge on each layer. That charge is balanced by the cations sitting in the interlayer space. Because these cations can be exchanged, 2:1 clays are the workhorses of the nanoclay world. Montmorillonite — a member of the smectite group — is by far the most commercially important nanoclay.
 
-**Tubular clays** break the pattern entirely. Halloysite has the same 1:1 chemistry as kaolinite, but a slight mismatch between the tetrahedral and octahedral sheets causes the layers to roll into hollow tubes rather than stacking flat. These halloysite nanotubes (HNTs) are typically 50 nm in outer diameter, 15 nm in inner diameter, and 500–1000 nm long. The hollow interior makes them natural containers for loading active agents — which is why halloysite shows up in drug delivery and self-healing coating research.
+**Tubular clays** break the pattern entirely. Halloysite has the same 1:1 chemistry as kaolinite, but a slight mismatch between the tetrahedral and octahedral sheets causes the layers to roll into hollow tubes rather than stacking flat. These halloysite nanotubes (HNTs) are typically 50 nm in outer diameter, 15 nm in inner diameter, and 500–1000 nm long. The hollow interior makes them natural containers for loading active agents — which is why halloysite shows up in [drug delivery](/blog/halloysite-nanotubes-drug-delivery/) and self-healing coating research.
 
 ## The five nanoclays you'll actually encounter
 
@@ -53,13 +55,13 @@ While mineralogists catalog hundreds of clay minerals, the industrial nanoclay m
 
 Nanoclays deliver value through four primary mechanisms, and understanding which one matters for your application determines which nanoclay you should specify:
 
-**Barrier improvement.** When nanoclay platelets are dispersed in a polymer film, they create a tortuous path that gas and moisture molecules must navigate to pass through. At just 3–5% loading by weight, montmorillonite can cut oxygen permeability by 50–80% in nylon and polyethylene films. This is the mechanism behind nanoclay's role in food packaging and protective coatings.
+**Barrier improvement.** When nanoclay platelets are dispersed in a polymer film, they create a tortuous path that gas and moisture molecules must navigate to pass through. At just 3–5% loading by weight, montmorillonite can cut oxygen permeability by 50–80% in nylon and polyethylene films. This is the mechanism behind nanoclay's role in [food packaging](/blog/nanoclay-barrier-properties-packaging/) and protective coatings.
 
 **Mechanical reinforcement.** The rigid silicate platelets act as tiny reinforcing elements, transferring stress from the polymer matrix across a massive interfacial area. Nanoclay additions of 2–5% can increase tensile modulus by 30–60% and heat deflection temperature by 20–40°C in engineering polymers, without the weight penalty of traditional mineral fillers.
 
-**Rheology modification.** In liquid systems, nanoclay particles form a house-of-cards network structure through edge-to-face electrostatic interactions. This creates thixotropic behavior — the formulation is thick when sitting still but flows when sheared (stirred, pumped, or spread). Paints, drilling fluids, cosmetics, and adhesives all exploit this property.
+**Rheology modification.** In liquid systems, nanoclay particles form a house-of-cards network structure through edge-to-face electrostatic interactions. This creates thixotropic behavior — the formulation is thick when sitting still but flows when sheared (stirred, pumped, or spread). Paints, [drilling fluids](/blog/nanoclays-drilling-fluids-bentonite/), cosmetics, and adhesives all exploit this property.
 
-**Adsorption and ion exchange.** The charged surfaces and interlayer spaces of nanoclays make them effective adsorbents for heavy metals, organic contaminants, dyes, and pharmaceutical compounds. The cation exchange capacity (CEC) determines how much adsorption capacity a given nanoclay has. This mechanism drives nanoclay applications in water treatment, soil remediation, and controlled-release formulations.
+**Adsorption and ion exchange.** The charged surfaces and interlayer spaces of nanoclays make them effective adsorbents for heavy metals, organic contaminants, dyes, and pharmaceutical compounds. The cation exchange capacity (CEC) determines how much adsorption capacity a given nanoclay has. This mechanism drives nanoclay applications in [water treatment](/blog/nanoclay-water-treatment-remediation/), soil remediation, and controlled-release formulations.
 
 ## The organoclay question
 
@@ -73,7 +75,7 @@ When you see commercial products like Cloisite 15A, 20A, or 30B, these are montm
 
 ## What nanoclay costs
 
-Nanoclay pricing varies enormously by type, grade, and volume. Rough benchmarks as of 2026:
+[Nanoclay pricing](/blog/nanoclay-pricing-guide-2026/) varies enormously by type, grade, and volume. Rough benchmarks as of 2026:
 
 Crude bentonite (the raw material) runs $50–150 per metric ton. Purified sodium montmorillonite in industrial quantities costs $500–2,000 per ton. Research-grade nanoclays from specialty suppliers (Cloisite, Nanomer) sell for $50–200 per kilogram in small quantities, dropping to $5–30/kg at production volumes.
 

@@ -4,6 +4,8 @@ slug: "nanoclay-supplier-comparison"
 date: 2026-06-25
 lastmod: 2026-06-25
 description: "The commercial nanoclay supply base is smaller than the academic literature suggests. This guide maps the established producers, what they're known for, and how to think about choosing among them."
+seo_title: "Nanoclay Suppliers Compared: BYK, Nanocor & More"
+seo_description: "The nanoclay suppliers you can buy from are fewer than the literature implies. This guide maps the established producers and how to choose among them."
 categories: ["QC & Procurement"]
 tags: ["nanoclay suppliers", "BYK nanoclay", "Cloisite", "Nanocor", "organoclay manufacturer"]
 author: "Lawrence Fine"
@@ -11,7 +13,7 @@ toc: true
 draft: false
 ---
 
-The academic literature on nanoclay is vast, but the list of companies you can actually buy commercial-grade material from is much shorter. Understanding who the established players are — and what each is known for — saves a lot of time when you move from reading papers to placing orders.
+The academic literature on nanoclay is vast, but the list of companies you can actually buy commercial-grade material from is much shorter. Understanding who the established players are — and what each is known for — saves a lot of time when you move from reading papers to [placing orders](/blog/how-to-buy-nanoclay-sourcing-guide/).
 
 This is a map of the supply landscape rather than an endorsement of any one supplier. Product lines, ownership, and availability change, so treat the brand names as starting points and verify current status directly before you commit.
 
@@ -19,7 +21,7 @@ This is a map of the supply landscape rather than an endorsement of any one supp
 
 A useful thing to know up front: the nanoclay supply base has consolidated over the years. Several of the brand names that dominate the literature originated with companies that were later acquired, so the same well-known product lines now sit inside larger specialty-chemical groups. That's why a researcher's old paper might cite a supplier name that no longer exists as an independent company even though the product is still on the market under new ownership.
 
-This consolidation matters commercially. It means fewer independent sources for the best-known grades, and it means a price or availability decision at the parent-company level can ripple across an entire product family. When a large additives supplier announces a portfolio-wide price increase, the well-known organoclay grades move with it.
+This consolidation matters commercially. It means fewer independent sources for the best-known grades, and it means a price or availability decision at the parent-company level can ripple across an entire product family. When a large additives supplier announces a [portfolio-wide price increase](/blog/nanoclay-pricing-guide-2026/), the well-known organoclay grades move with it.
 
 ## The established organoclay product families
 
@@ -31,11 +33,11 @@ The practical upshot of both families being so well documented: if you build a f
 
 ## Halloysite and specialty mineral suppliers
 
-Halloysite nanotubes come from a different, smaller set of suppliers, because halloysite is a geographically concentrated mineral with only a few significant deposits worldwide. Companies built around specific halloysite deposits supply this tubular clay for encapsulation, controlled-release, and reinforcement applications. If your application needs halloysite specifically, your supplier options are narrower than for montmorillonite, and security of supply deserves more attention.
+Halloysite nanotubes come from a different, smaller set of suppliers, because halloysite is a geographically concentrated mineral with only a few significant deposits worldwide. Companies built around specific halloysite deposits supply this tubular clay for [encapsulation, controlled-release](/blog/halloysite-nanotubes-drug-delivery/), and reinforcement applications. If your application needs halloysite specifically, your supplier options are narrower than for montmorillonite, and security of supply deserves more attention.
 
 ## Regional and commodity producers
 
-Below the branded specialty grades sits a large base of bentonite and montmorillonite producers serving commodity markets — drilling fluids, foundry sands, civil engineering, cat litter, and bulk industrial uses. Many of these can supply purified or partially processed clay suitable as a starting point, and some offer nanoclay-relevant grades. Asia-Pacific producers, in particular, have grown as both a manufacturing base and a source of lower-cost material. For a buyer who can do their own purification or modification, or whose application tolerates commodity grades, this tier is worth exploring.
+Below the branded specialty grades sits a large base of bentonite and montmorillonite producers serving commodity markets — drilling fluids, foundry sands, civil engineering, cat litter, and bulk industrial uses. Many of these can supply purified or partially processed clay suitable as a starting point, and some offer nanoclay-relevant grades. [Asia-Pacific producers](/blog/global-nanoclay-supply-chain/), in particular, have grown as both a manufacturing base and a source of lower-cost material. For a buyer who can do their own purification or modification, or whose application tolerates commodity grades, this tier is worth exploring.
 
 ## How to choose among them
 

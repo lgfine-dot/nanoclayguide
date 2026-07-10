@@ -15,8 +15,8 @@ tags:
 featured_image: ""
 toc: true
 draft: false
-seo_title: "Nanoclay Types Compared — MMT, Organoclays, Halloysite & Others"
-seo_description: "Side-by-side comparison of nanoclay types: sodium montmorillonite, organoclays, halloysite nanotubes, kaolinite, and sepiolite. Properties, pricing, compatibility, and application fit."
+seo_title: "Nanoclay Types Compared: MMT, Organoclay & More"
+seo_description: "Side-by-side comparison of nanoclay types — sodium montmorillonite, organoclays, halloysite, kaolinite, and sepiolite — with properties, pricing, and fit."
 ---
 
 "Which nanoclay should I use?" is the most common question we hear from engineers evaluating these materials for the first time. The answer depends entirely on your matrix chemistry, processing conditions, and performance targets — but you can narrow the field quickly once you understand how the major types differ.
@@ -75,13 +75,13 @@ Na-MMT is **strongly hydrophilic**. In water, it swells to 10–15 times its dry
 
 ### What it is
 
-Na-MMT with the sodium interlayer cations **exchanged for quaternary ammonium surfactants**. This is the workhorse nanoclay for polymer nanocomposites and the type most people mean when they say "nanoclay" in a materials engineering context.
+Na-MMT with the sodium interlayer cations **[exchanged for quaternary ammonium surfactants](/blog/nanoclay-surface-modification-organophilization-guide/)**. This is the workhorse nanoclay for polymer nanocomposites and the type most people mean when they say "nanoclay" in a materials engineering context.
 
 ### Structure and properties
 
 The organic modifier pushes the platelets apart, increasing d-spacing from 1.2 nm to **1.8–4.0 nm** depending on the modifier chain length and loading. The modifier tails also render the platelet surfaces hydrophobic, making them compatible with organic polymer matrices.
 
-The thermal stability ceiling is set by the **organic modifier, not the clay**. Quaternary ammonium salts begin to decompose at **180–250°C** (the onset temperature depends on the specific modifier chemistry — hydrogenated tallow quats are more stable than shorter-chain alternatives). This is the primary processing constraint: if your melt compounding temperature exceeds the modifier's degradation onset, you'll lose performance and can generate discoloration, odor, and volatile byproducts.
+The thermal stability ceiling is set by the **organic modifier, not the clay**. Quaternary ammonium salts begin to decompose at **180–250°C** (the onset temperature depends on the specific modifier chemistry — hydrogenated tallow quats are more stable than shorter-chain alternatives). This is the primary processing constraint: if your [melt compounding](/blog/nanoclay-polymer-nanocomposites-beginners-guide/) temperature exceeds the modifier's degradation onset, you'll lose performance and can generate discoloration, odor, and volatile byproducts.
 
 The organic modifier typically accounts for **25–45% of the product weight** (measurable by TGA). This means when you buy a kilogram of organoclay, you're getting 550–750 grams of actual clay mineral plus 250–450 grams of surfactant. Keep this in mind when comparing loading levels across products — 5 wt% of a heavily modified organoclay delivers less mineral content than 5 wt% of a lightly modified one.
 
@@ -118,7 +118,7 @@ A completely different clay mineral from montmorillonite. Halloysite is a **1:1 
 
 Halloysite tubes are typically **300–1,500 nm long**, with an **outer diameter of 40–70 nm** and an **inner lumen of 10–20 nm**. The aspect ratio (length ÷ diameter) is much lower than montmorillonite's — typically **10–50** compared to montmorillonite's 100–500.
 
-The hollow lumen is halloysite's unique feature. It can be loaded with active agents — corrosion inhibitors, antimicrobials, flame retardants, drugs — and released over time. This makes halloysite a **natural nanoscale container**, a property that montmorillonite cannot match.
+The hollow lumen is halloysite's unique feature. It can be loaded with active agents — corrosion inhibitors, antimicrobials, flame retardants, drugs — and released over time. This makes halloysite a **[natural nanoscale container](/blog/halloysite-nanotubes-drug-delivery/)**, a property that montmorillonite cannot match.
 
 Halloysite's CEC is very low (**6–10 meq/100g**) compared to montmorillonite. This means less capacity for organic modification, but it also means halloysite disperses more easily in polymer matrices without modification — it doesn't have the strong platelet-to-platelet electrostatic attraction that makes montmorillonite tactoids hard to separate.
 
@@ -133,7 +133,7 @@ Thermal stability is good: halloysite is stable to **>400°C** without organic m
 
 ### Key limitation
 
-Halloysite cannot match montmorillonite for **barrier improvement**. Gas barrier depends on platelet aspect ratio — flat, high-aspect-ratio platelets create a tortuous diffusion path. Tubes don't do this effectively. If barrier is your primary target, halloysite is the wrong choice.
+Halloysite cannot match montmorillonite for **barrier improvement**. Gas barrier depends on platelet aspect ratio — flat, high-aspect-ratio platelets create a [tortuous diffusion path](/blog/nanoclay-barrier-properties-packaging/). Tubes don't do this effectively. If barrier is your primary target, halloysite is the wrong choice.
 
 ### Pricing
 

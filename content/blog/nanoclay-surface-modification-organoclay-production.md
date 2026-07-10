@@ -9,6 +9,8 @@ tags: ["organoclay", "nanoclay surface modification", "quaternary ammonium", "na
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "How Organoclays Are Made: Surface Modification"
+seo_description: "Surface modification converts hydrophilic clay into organoclay by ion exchange with quaternary ammonium salts. See the chemistry, commercial process, and QC."
 ---
 
 Most nanoclay that ends up in a commercial product has been chemically modified before it gets there. The modification is not cosmetic — it is functionally necessary. Without it, nanoclay and polymer simply do not mix at the nanoscale, and the performance improvements that make nanoclay commercially interesting do not materialise.
@@ -31,11 +33,11 @@ The most widely used surface modifiers are quaternary ammonium salts (quats), al
 
 The process is simple in principle: dissolve the quat in water (or a water-alcohol mixture), add nanoclay, stir at elevated temperature, filter, wash, and dry. The quat molecules exchange into the gallery, the original sodium or calcium ions wash out, and the result is an organoclay with expanded interlayer spacing and an organophilic surface.
 
-The expansion in d-spacing — measured by X-ray diffraction — is diagnostic. Raw Na-MMT has a d001 spacing of approximately 1.2 nm. After modification with a long-chain alkylammonium compound, this typically expands to 1.8–3.5 nm, depending on the modifier chain length and concentration. This expanded gallery makes it easier for polymer chains to intercalate during melt processing.
+The expansion in d-spacing — measured by [X-ray diffraction](/blog/xrd-nanoclay-characterization-d-spacing/) — is diagnostic. Raw Na-MMT has a d001 spacing of approximately 1.2 nm. After modification with a long-chain alkylammonium compound, this typically expands to 1.8–3.5 nm, depending on the modifier chain length and concentration. This expanded gallery makes it easier for polymer chains to intercalate during melt processing.
 
 ## Modifier structure and its effects
 
-The choice of quaternary ammonium modifier is not arbitrary — it is matched to the target polymer system and processing conditions.
+The choice of quaternary ammonium modifier is not arbitrary — it is [matched to the target polymer system](/blog/nanoclay-surface-modification-organophilization-guide/) and processing conditions.
 
 **Chain length** determines the degree of interlayer expansion and the hydrophobicity of the resulting organoclay. Longer chains (typically C16–C18, hexadecyl or octadecyl) expand the gallery more and create a more hydrophobic surface. Shorter chains expand less but may be adequate for polar polymer systems.
 
@@ -59,7 +61,7 @@ Quat-based modification dominates commercially, but it is not the only approach.
 
 Evaluating whether a surface modification has worked as intended requires several measurements.
 
-X-ray diffraction (XRD) gives the interlayer d-spacing, confirming that gallery expansion has occurred and providing a quantitative measure of the degree of modification. Thermogravimetric analysis (TGA) quantifies the organic content of the organoclay and can identify thermal stability limitations. Fourier transform infrared spectroscopy (FTIR) confirms the presence of characteristic organic functional groups. Transmission electron microscopy (TEM) on the final nanocomposite shows whether the clay has exfoliated (individual platelets dispersed in the matrix), intercalated (polymer chains in the gallery but platelets still stacked), or agglomerated.
+X-ray diffraction (XRD) gives the interlayer d-spacing, confirming that gallery expansion has occurred and providing a quantitative measure of the degree of modification. Thermogravimetric analysis (TGA) quantifies the organic content of the organoclay and can identify thermal stability limitations. Fourier transform infrared spectroscopy (FTIR) confirms the presence of characteristic organic functional groups. [Transmission electron microscopy (TEM)](/blog/tem-sem-imaging-nanoclays-dispersion/) on the final nanocomposite shows whether the clay has exfoliated (individual platelets dispersed in the matrix), intercalated (polymer chains in the gallery but platelets still stacked), or agglomerated.
 
 Commercial organoclay specifications typically include d-spacing, organic modifier content, moisture content, and particle size distribution. When evaluating competing suppliers, these parameters — alongside the specific modifier chemistry and its implications for processing temperature and polymer compatibility — are the primary differentiation criteria.
 

@@ -9,6 +9,8 @@ tags: ["organoclay", "surface modification", "quaternary ammonium", "organophili
 author: "Lawrence Fine"
 toc: true
 draft: true
+seo_title: "Organophilization: Nanoclay Surface Modification"
+seo_description: "Organophilization turns hydrophilic nanoclay into polymer-compatible organoclay. This guide covers the chemistry, process steps, and modifier selection."
 ---
 
 Natural sodium montmorillonite and most organic polymers don't mix. The clay surface is hydrophilic, the polymer is hydrophobic, and forcing them together produces a lumpy, poorly dispersed composite that performs worse than the unfilled polymer. This incompatibility is the single biggest barrier to using nanoclays in the applications where they could deliver the most value.
@@ -39,11 +41,11 @@ This exchange has three important consequences:
 
 **The interlayer spacing increases.** The bulky organic cations push the clay layers farther apart — from ~1.2 nm for dry Na-MMT to 1.8–4.0 nm depending on the modifier's chain length and packing arrangement. This expanded gallery makes it easier for polymer chains to intercalate during processing.
 
-**The clay becomes dispersible in organic media.** Organoclays swell in organic solvents (toluene, mineral oil, various monomers) just as sodium montmorillonite swells in water. This organic swelling is the basis for using organoclays as rheology modifiers in paints, coatings, drilling fluids, and greases.
+**The clay becomes dispersible in organic media.** Organoclays swell in organic solvents (toluene, mineral oil, various monomers) just as sodium montmorillonite swells in water. This organic swelling is the basis for using organoclays as rheology modifiers in paints, coatings, [drilling fluids](/blog/nanoclays-drilling-fluids-bentonite/), and greases.
 
 ## Common organic modifiers
 
-The vast majority of commercial organoclays use quaternary ammonium compounds (quats) as the organic modifier. These molecules have a central nitrogen atom carrying a permanent positive charge, bonded to four organic substituent groups. The substituents determine the organoclay's compatibility profile.
+The vast majority of [commercial organoclays](/blog/nanoclay-surface-modification-organoclay-production/) use quaternary ammonium compounds (quats) as the organic modifier. These molecules have a central nitrogen atom carrying a permanent positive charge, bonded to four organic substituent groups. The substituents determine the organoclay's compatibility profile.
 
 **Dimethyl dihydrogenated tallow quaternary ammonium (2M2HT).** This is the workhorse modifier for nonpolar polymer systems. "Hydrogenated tallow" refers to C14–C18 saturated hydrocarbon chains derived from animal fat. The two long chains and two methyl groups create a hydrophobic surface well-suited for polyolefins, polystyrene, and other nonpolar polymers. Cloisite 15A and 20A use this modifier class. Thermal stability is adequate for most processing below 200–220°C but becomes a concern above that range.
 
@@ -93,7 +95,7 @@ The selection framework is driven by the target matrix:
 
 Three analytical techniques confirm that organophilization worked correctly:
 
-**XRD (X-ray diffraction)** measures the d-spacing between clay layers. Successful modification should show a shift of the (001) peak to a lower 2θ angle, corresponding to an increased d-spacing. Na-MMT shows a d-spacing of ~1.2 nm (dry). Organoclays typically show 1.8–4.0 nm depending on the modifier. If the d-spacing hasn't changed, the exchange didn't work.
+**XRD (X-ray diffraction)** measures the [d-spacing](/blog/xrd-nanoclay-characterization-d-spacing/) between clay layers. Successful modification should show a shift of the (001) peak to a lower 2θ angle, corresponding to an increased d-spacing. Na-MMT shows a d-spacing of ~1.2 nm (dry). Organoclays typically show 1.8–4.0 nm depending on the modifier. If the d-spacing hasn't changed, the exchange didn't work.
 
 **FTIR (Fourier-transform infrared spectroscopy)** confirms the presence of the organic modifier by detecting C-H stretching vibrations at 2920 and 2850 cm⁻¹ (asymmetric and symmetric CH₂ stretching). The intensity and position of these peaks indicate the amount and arrangement of the organic modifier.
 

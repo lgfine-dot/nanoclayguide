@@ -4,6 +4,8 @@ slug: "global-nanoclay-supply-chain"
 date: 2026-03-26
 lastmod: 2026-03-26
 description: "The nanoclay supply chain runs from bentonite mines in Wyoming and Inner Mongolia through refiners and modifier companies to end-use formulators. Understanding this chain helps you find better suppliers, negotiate better prices, and manage supply risk."
+seo_title: "Global Nanoclay Supply Chain: Mines to Market"
+seo_description: "The nanoclay supply chain runs from bentonite mines through refiners and modifiers to formulators. Map the four layers to source smarter and manage risk."
 categories: ["Pricing & Market"]
 tags: ["nanoclay suppliers", "bentonite producers", "nanoclay supply chain", "nanoclay procurement"]
 author: "Lawrence Fine"
@@ -35,7 +37,7 @@ All natural nanoclays start as geological deposits mined through conventional op
 
 ## Layer 2: Purification and refining
 
-Raw bentonite from the mine contains quartz, feldspar, cristobalite, mica, and other non-clay minerals. The montmorillonite content of crude bentonite varies from 50% to 95% depending on the deposit. For most nanoclay applications, purification is necessary to remove these impurities and concentrate the active clay mineral.
+Raw bentonite from the mine contains quartz, feldspar, cristobalite, mica, and other non-clay minerals. The montmorillonite content of crude bentonite varies from 50% to 95% depending on the deposit. For most nanoclay applications, [purification is necessary](/blog/how-nanoclay-is-made/) to remove these impurities and concentrate the active clay mineral.
 
 Purification typically follows this sequence:
 
@@ -57,7 +59,7 @@ This is where nanoclay becomes a differentiated, high-margin product. The modifi
 
 **Organoclay producers** who perform cation exchange with quaternary ammonium or other organic modifiers to produce organoclays for polymer nanocomposites, coatings, drilling fluids, and other organic-matrix applications. The major players:
 
-BYK (a division of Altana AG, Germany) is the market leader in specialty organoclays, producing the Cloisite product line (formerly Southern Clay Products, acquired in 2012). Cloisite 10A, 15A, 20A, and 30B are the most widely referenced organoclays in the research literature and serve as de facto standards for polymer nanocomposite development. BYK also produces Laponite (synthetic hectorite) and a range of rheology additives based on organoclay technology.
+BYK (a division of Altana AG, Germany) is the [market leader in specialty organoclays](/blog/nanoclay-supplier-comparison/), producing the Cloisite product line (formerly Southern Clay Products, acquired in 2012). Cloisite 10A, 15A, 20A, and 30B are the most widely referenced organoclays in the research literature and serve as de facto standards for polymer nanocomposite development. BYK also produces Laponite (synthetic hectorite) and a range of rheology additives based on organoclay technology.
 
 Nanocor (a subsidiary of Minerals Technologies) produces the Nanomer product line, another widely used series of organoclays for nanocomposite applications. Nanocor holds significant intellectual property in the nanoclay nanocomposite space from its early commercial development work.
 
@@ -65,7 +67,7 @@ Elementis produces organoclays primarily for the coatings, inks, and personal ca
 
 Several Chinese companies (Zhejiang Fenghong New Materials, Huate Magnet, Zhengzhou Gongyi) produce organoclays for domestic and export markets at significantly lower prices than Western producers. Quality and consistency are improving but remain variable — incoming inspection and testing are essential when sourcing from Chinese organoclay producers.
 
-**Halloysite specialty processors** purify, size-classify, and sometimes functionalize halloysite nanotubes for high-value applications. Applied Minerals (Dragon Mine, Utah) and Imerys (New Zealand deposits) are primary producers. NaturalNano was an early halloysite specialty company, though it went through financial difficulties. The halloysite specialty market is smaller than the organoclay market but growing rapidly, driven by research interest in drug delivery, coatings, and catalysis.
+**Halloysite specialty processors** purify, size-classify, and sometimes functionalize [halloysite nanotubes](/blog/halloysite-nanotubes-drug-delivery/) for high-value applications. Applied Minerals (Dragon Mine, Utah) and Imerys (New Zealand deposits) are primary producers. NaturalNano was an early halloysite specialty company, though it went through financial difficulties. The halloysite specialty market is smaller than the organoclay market but growing rapidly, driven by research interest in drug delivery, coatings, and catalysis.
 
 **Synthetic nanoclay producers.** BYK's Laponite is the primary synthetic nanoclay product — a lithium magnesium silicate that forms transparent, thixotropic gels in water. Its synthetic origin provides consistency that natural clays can't match, justifying premium pricing for applications in cosmetics, personal care, and precision coatings.
 
@@ -73,7 +75,7 @@ Several Chinese companies (Zhejiang Fenghong New Materials, Huate Magnet, Zhengz
 
 Most formulators and researchers don't buy directly from miners or refiners. They buy through distributors, lab supply companies, or specialty chemical distributors:
 
-**Lab supply and research quantities** (grams to kilograms): Sigma-Aldrich (now MilliporeSigma/Merck), Fisher Scientific, and Alfa Aesar stock research-grade nanoclays at premium prices. Expect $50–200/kg for organoclays and $30–100/kg for unmodified montmorillonite at these quantities. The pricing reflects handling, packaging, and quality documentation costs rather than material value.
+**Lab supply and research quantities** (grams to kilograms): Sigma-Aldrich (now MilliporeSigma/Merck), Fisher Scientific, and Alfa Aesar stock research-grade nanoclays at premium prices. Expect [$50–200/kg for organoclays](/blog/nanoclay-pricing-guide-2026/) and $30–100/kg for unmodified montmorillonite at these quantities. The pricing reflects handling, packaging, and quality documentation costs rather than material value.
 
 **Development and pilot quantities** (10–500 kg): Direct purchase from the modifier/specialty producer (BYK, Nanocor, Elementis) or from specialty chemical distributors like Univar, Brenntag, or IMCD. Prices drop significantly from research quantities — typically $15–50/kg for organoclays and $3–15/kg for purified Na-MMT.
 

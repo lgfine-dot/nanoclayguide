@@ -15,8 +15,8 @@ tags:
 featured_image: ""
 toc: true
 draft: false
-seo_title: "How Nanoclay Is Made — Mining, Purification & Organic Modification"
-seo_description: "How commercial nanoclay is manufactured: bentonite mining, montmorillonite purification, sodium activation, cation exchange with organic modifiers, and quality control at every stage."
+seo_title: "How Nanoclay Is Made: From Mine to Product"
+seo_description: "How commercial nanoclay is manufactured: bentonite mining, montmorillonite purification, sodium activation, organic modification, and quality control."
 ---
 
 Every nanoclay product starts as a rock in the ground. Between the open-pit mine and the sealed bag that arrives at your facility, there are four to six processing stages — each one affecting the properties you'll see on the datasheet. Understanding this chain helps you ask better questions of suppliers and write tighter specifications.

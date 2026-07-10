@@ -4,6 +4,8 @@ slug: "how-to-specify-nanoclay-buyers-checklist"
 date: 2026-06-22
 lastmod: 2026-06-22
 description: "Most nanoclay disappointments trace back to a vague specification rather than a bad material. This buyer's checklist covers the parameters that actually determine whether a grade will work in your process."
+seo_title: "How to Specify Nanoclay: Buyer's Checklist"
+seo_description: "A vague nanoclay specification, not a bad material, causes most trial failures. This checklist covers the parameters that decide whether a grade works."
 categories: ["QC & Procurement"]
 tags: ["nanoclay specification", "how to buy nanoclay", "nanoclay procurement", "organoclay selection", "nanoclay grade"]
 author: "Lawrence Fine"
@@ -19,7 +21,7 @@ A good specification removes that ambiguity. Here's the checklist of parameters 
 
 **Mineral type.** State the clay mineral explicitly — montmorillonite, halloysite, hectorite, or another — rather than the generic "nanoclay." These behave differently: platy montmorillonite and tubular halloysite are not interchangeable, and a specification that doesn't say which one you mean is incomplete from the first line.
 
-**Surface modification.** Decide whether you need an unmodified (hydrophilic) clay or an organically modified (organophilic) grade, and if modified, what modifier chemistry. Quaternary ammonium modifiers are the default; phosphonium modifiers offer higher thermal stability for high-temperature processing. The modifier determines compatibility with your matrix and the temperature your process can survive without the modifier degrading.
+**Surface modification.** Decide whether you need an unmodified (hydrophilic) clay or an organically modified (organophilic) grade, and if modified, what modifier chemistry. Quaternary ammonium modifiers are the default; [phosphonium modifiers](/blog/nanoclay-surface-modification-organoclay-production/) offer higher thermal stability for high-temperature processing. The modifier determines compatibility with your matrix and the temperature your process can survive without the modifier degrading.
 
 ## Purity and composition
 
@@ -47,14 +49,14 @@ A good specification removes that ambiguity. Here's the checklist of parameters 
 
 **Specification limits, not just typical values.** A technical data sheet often lists "typical" values. For a production specification you want stated limits with a defined test method, so an out-of-spec lot is unambiguous.
 
-**Documentation.** Require a certificate of analysis per lot, a current safety data sheet reflecting the material's nanoscale nature, and — for regulated applications — evidence of the relevant regional compliance (food-contact authorization, chemical-inventory listing).
+**Documentation.** Require a certificate of analysis per lot, a current safety data sheet reflecting the material's nanoscale nature, and — for regulated applications — evidence of the relevant [regional compliance](/blog/nanoclay-regulatory-compliance-reach-tsca-fda/) (food-contact authorization, chemical-inventory listing).
 
 **Lot size, lead time, and minimum order.** Specify the commercial terms alongside the technical ones. A perfect grade with a six-month lead time and a tonne minimum may be unusable for a pilot line.
 
 ## A short worked example
 
-Suppose you're reinforcing a polyamide for an under-the-hood automotive part. Your specification should name montmorillonite, require an organic modifier with thermal stability above your compounding temperature (which likely points to a phosphonium or a high-stability ammonium grade), set a minimum mineral purity and a CEC range, cap moisture tightly because polyamide is hydrolysis-sensitive, specify a powder or masterbatch form compatible with your compounder, and require a certificate of analysis per lot plus chemical-inventory compliance for your markets. That specification is buyable and comparable across suppliers. "Automotive-grade nanoclay" is neither.
+Suppose you're reinforcing a polyamide for an under-the-hood automotive part. Your specification should name montmorillonite, require an organic modifier with thermal stability above your compounding temperature (which likely points to a phosphonium or a high-stability ammonium grade), set a minimum mineral purity and a CEC range, cap moisture tightly because polyamide is hydrolysis-sensitive, specify a powder or masterbatch form compatible with your compounder, and require a certificate of analysis per lot plus chemical-inventory compliance for your markets. That specification is buyable and [comparable across suppliers](/blog/nanoclay-supplier-comparison/). "Automotive-grade nanoclay" is neither.
 
 ## The bottom line
 
-A nanoclay specification is worth the hour it takes to write. Name the mineral and modifier, pin down purity, CEC, moisture, and particle size, state the thermal stability your process demands, and insist on dispersion data in a matrix like yours plus per-lot documentation. Most trial failures and most overpaying both come from skipping this step — and both are avoidable.
+A nanoclay specification is worth the hour it takes to write. Name the mineral and modifier, pin down purity, CEC, moisture, and particle size, state the thermal stability your process demands, and insist on dispersion data in a matrix like yours plus per-lot documentation. Most trial failures and most [overpaying](/blog/nanoclay-pricing-guide-2026/) both come from skipping this step — and both are avoidable.

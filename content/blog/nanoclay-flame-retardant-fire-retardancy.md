@@ -4,6 +4,8 @@ slug: "nanoclay-flame-retardant-fire-retardancy"
 date: 2026-04-13
 lastmod: 2026-04-13
 description: "Nanoclay can significantly improve the fire resistance of polymer composites — reducing peak heat release, slowing flame spread, and improving char formation — without the weight penalties of traditional halogenated flame retardants."
+seo_title: "Nanoclay Flame Retardant: How It Works & Fits"
+seo_description: "Nanoclay flame retardant cuts peak heat release and slows flame spread, but won't pass UL-94 alone. Cone calorimetry and synergists tell the real story."
 categories: ["Applications"]
 tags: ["nanoclay flame retardant", "fire resistance", "polymer nanocomposite", "heat release rate", "cone calorimetry"]
 author: "Lawrence Fine"
@@ -13,7 +15,7 @@ draft: false
 
 Flame retardancy is one of the most commercially important applications of nanoclay in polymer composites — and one of the most misunderstood. The misunderstanding usually starts with the data. Cone calorimeter results for nanoclay nanocomposites show dramatic reductions in peak heat release rate (sometimes 50–70%), which looks like excellent fire performance. Then someone tests flammability by UL-94 and finds the nanoclay doesn't help at all, or barely passes. Confusion follows.
 
-The resolution is straightforward once you understand what nanoclay actually does to burning polymers — and equally important, what it doesn't do.
+The resolution is straightforward once you understand [what nanoclay actually does to burning polymers](/blog/nanoclay-flame-retardancy-mechanism/) — and equally important, what it doesn't do.
 
 ## The mechanism: char formation and heat shield
 
@@ -57,11 +59,11 @@ The most studied and practically useful synergies:
 
 ## Effect of dispersion state on flame retardancy
 
-The correlation between exfoliation and flame retardancy performance is well-established: better-exfoliated nanoclay provides better fire performance.
+The correlation between exfoliation and flame retardancy performance is well-established: [better-exfoliated nanoclay](/blog/nanoclay-polymer-nanocomposites-beginners-guide/) provides better fire performance.
 
 The mechanism explains why. The insulating char layer depends on the clay platelets being distributed throughout the polymer matrix at sufficient density that they can consolidate into a coherent shield as the polymer burns. Intercalated or aggregated clay — where platelets remain in stacks — forms a less coherent char with gaps and cracks that allow heat and volatiles to penetrate.
 
-Practical consequence: the same processing discipline that improves mechanical properties (careful attention to shear, temperature, and clay selection for your specific polymer) also improves flame retardancy. There's no shortcut for poor dispersion.
+Practical consequence: the same processing discipline that [improves mechanical properties](/blog/nanoclay-mechanical-properties-polymer-composites/) (careful attention to shear, temperature, and clay selection for your specific polymer) also improves flame retardancy. There's no shortcut for poor dispersion.
 
 ## Polymer systems and nanoclay compatibility
 

@@ -9,6 +9,8 @@ tags: ["nanoclay REACH", "nanoclay TSCA", "nanoclay FDA", "nanomaterial regulati
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Nanoclay Compliance: REACH, TSCA & FDA by Region"
+seo_description: "Nanoclay regulatory compliance mapped by region: how REACH, TSCA, FDA, and Asian chemical-inventory rules treat nanoclay and organoclays across markets."
 ---
 
 Nanoclay is a regulated material twice over: once as a chemical substance under each region's chemical-inventory law, and again — increasingly — under nano-specific rules that treat nanoscale forms differently from their bulk counterparts. The two layers interact differently in each major market, and getting compliance wrong is an expensive way to learn the difference.
@@ -21,9 +23,9 @@ The EU has the most developed nano-specific regulatory architecture, and it star
 
 Under REACH, the EU's overarching chemicals regulation, nanoforms of a substance can carry information requirements distinct from the bulk substance, including nano-specific characterization and hazard data. The European Chemicals Agency has issued guidance on these nanoform obligations.
 
-For food-contact applications, nanoclay additives in plastics fall under the EU's plastic food-contact regulation, which authorizes specific substances at specified conditions and limits. A nanoclay grade intended for food packaging needs to be covered by that authorization framework for the relevant use.
+For food-contact applications, nanoclay additives in plastics fall under the EU's plastic food-contact regulation, which authorizes specific substances at specified conditions and limits. A nanoclay grade intended for [food packaging](/blog/nanoclay-barrier-properties-packaging/) needs to be covered by that authorization framework for the relevant use.
 
-For cosmetics, the EU Cosmetics Regulation requires pre-market notification of products containing nanomaterials and nano-labeling — ingredients present as nanomaterials are identified in the ingredient list with the word "nano" in brackets.
+For [cosmetics](/blog/nanoclay-cosmetics-personal-care-formulation/), the EU Cosmetics Regulation requires pre-market notification of products containing nanomaterials and nano-labeling — ingredients present as nanomaterials are identified in the ingredient list with the word "nano" in brackets.
 
 ## The United States: inventory plus nano reporting
 
@@ -37,7 +39,7 @@ The practical contrast with the EU is worth holding onto: the US framework leans
 
 Across the major Asian markets, the first-order question is usually inventory listing. China's chemical-management regime maintains an inventory of existing substances and requires notification for new ones; updated regulations have brought greater attention to nanomaterial identification. Japan's Chemical Substances Control Law, South Korea's K-REACH, and Australia's industrial-chemicals scheme each maintain their own inventories and registration requirements.
 
-Conventional clay minerals are typically already listed across these inventories, but a novel organoclay with a new modifier can require new-substance notification market by market. For a company selling internationally, the reality is that "compliant in one region" does not mean "compliant everywhere" — each inventory is its own gate.
+Conventional clay minerals are typically already listed across these inventories, but a novel [organoclay](/blog/nanoclay-surface-modification-organophilization-guide/) with a new modifier can require new-substance notification market by market. For a company selling internationally, the reality is that "compliant in one region" does not mean "compliant everywhere" — each inventory is its own gate.
 
 ## The cross-cutting issue: nano-labeling and documentation
 
@@ -47,7 +49,7 @@ For a B2B nanoclay supplier, the obligation is concrete: maintain current safety
 
 ## A practical compliance sequence
 
-For a team bringing a nanoclay-containing product to market, a workable order of operations is: confirm the clay substance and any modifier are listed on the chemical inventory of every market you'll sell into; determine whether your material meets each region's nanomaterial definition and what nano-specific reporting or notification that triggers; for food-contact or cosmetic uses, confirm the specific sectoral authorization or notification pathway; obtain current, nano-accurate safety data sheets from your supplier and prepare your own for your product; and document all of this so an audit or a customer's regulatory team can follow your reasoning.
+For a team bringing a nanoclay-containing product to market, a workable order of operations is: confirm the clay substance and any modifier are listed on the chemical inventory of every market you'll sell into; determine whether your material meets each region's nanomaterial definition and what nano-specific reporting or notification that triggers; for food-contact or cosmetic uses, confirm the specific sectoral authorization or notification pathway; obtain current, nano-accurate [safety data sheets](/blog/nanoclay-safety-handling-regulatory-status/) from your supplier and prepare your own for your product; and document all of this so an audit or a customer's regulatory team can follow your reasoning.
 
 ## The bottom line
 

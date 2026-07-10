@@ -4,6 +4,8 @@ slug: "bentonite-drilling-fluids-engineering-guide"
 date: 2026-04-30
 lastmod: 2026-04-30
 description: "Drilling fluid formulation is one of the largest industrial applications of nanoclay. This deep-dive covers how bentonite and specialty nanoclays function in water-based and non-aqueous mud systems, performance specifications, and what happens when the clay doesn't work."
+seo_title: "Bentonite Drilling Fluids: Engineering the Mud"
+seo_description: "Bentonite drilling fluids control viscosity, gel strength, and fluid loss; this guide covers API 13A specs, calcium and salt contamination, and organoclays."
 categories: ["Applications"]
 tags: ["bentonite drilling", "drilling mud", "drilling fluid nanoclay", "API bentonite", "oilfield clay"]
 author: "Lawrence Fine"
@@ -11,7 +13,7 @@ toc: true
 draft: false
 ---
 
-The first article on this site covering nanoclays in drilling fluids gave an overview of why clay is used in mud systems. This article goes deeper — for engineers and formulators who need to understand not just what bentonite does, but how to specify it, test it, troubleshoot it, and know when it's not the right choice.
+The first article on this site covering [nanoclays in drilling fluids](/blog/nanoclays-drilling-fluids-bentonite/) gave an overview of why clay is used in mud systems. This article goes deeper — for engineers and formulators who need to understand not just what bentonite does, but how to specify it, test it, troubleshoot it, and know when it's not the right choice.
 
 ## The functions of bentonite in water-based mud
 
@@ -41,7 +43,7 @@ The key API 13A Section 9 parameters for drilling bentonite:
 
 **Filtrate volume:** Maximum 15 mL in the standard API filter press test.
 
-**Methylene blue test (MBT):** Maximum 10 meq/100g. This tests for contamination with calcium-saturated clays (calcium montmorillonite, which has much lower yield than sodium montmorillonite) and with non-swelling clays. High MBT values can indicate adulteration with sub-standard material.
+**Methylene blue test (MBT):** Maximum 10 meq/100g. This tests for contamination with calcium-saturated clays (calcium montmorillonite, which has much lower yield than [sodium montmorillonite](/blog/bentonite-smectite-montmorillonite-terminology/)) and with non-swelling clays. High MBT values can indicate adulteration with sub-standard material.
 
 Specifying API 13A Section 9 conformance in your bentonite purchase specification provides a minimum quality assurance baseline. For critical wells, requesting full COA data against these parameters for each lot is appropriate.
 
@@ -63,7 +65,7 @@ Understanding the chemistry of bentonite degradation is essential for troublesho
 
 When reservoir formation water sensitivity, wellbore stability, or high-temperature performance requirements rule out water-based mud, oil-based mud (OBM) or synthetic-based mud (SBM) systems are used. These systems require oil-compatible clay organoclays rather than water-swelling bentonite.
 
-Organoclays — typically modified bentonites with quaternary ammonium surface treatment — disperse in the oil continuous phase to provide:
+[Organoclays](/blog/nanoclay-surface-modification-organophilization-guide/) — typically modified bentonites with quaternary ammonium surface treatment — disperse in the oil continuous phase to provide:
 
 **Thixotropic rheology:** The same gel strength and hole cleaning function as bentonite in WBM, but in an oil-continuous system.
 
@@ -71,7 +73,7 @@ Organoclays — typically modified bentonites with quaternary ammonium surface t
 
 **Sag resistance:** A critical concern in high-angle and horizontal wells, where density-differentiated sag of weighting material (barite) can occur during periods of low circulation. Organoclay rheology contributes to sag resistance.
 
-Organoclays for OBM applications are supplied by the same companies that supply oilfield bentonite — Imerys (MINERALS), BYK Additives, and Elementis — as well as specialty OBM chemical suppliers. The specific organoclay grade must be matched to the base oil (mineral oil, linear alpha olefin, ester, or internal olefin base) because compatibility varies with oil polarity.
+Organoclays for OBM applications are supplied by [the same companies that supply oilfield bentonite](/blog/nanoclay-supplier-comparison/) — Imerys (MINERALS), BYK Additives, and Elementis — as well as specialty OBM chemical suppliers. The specific organoclay grade must be matched to the base oil (mineral oil, linear alpha olefin, ester, or internal olefin base) because compatibility varies with oil polarity.
 
 ## Specialty nanoclay products for high-performance mud systems
 

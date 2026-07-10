@@ -4,6 +4,8 @@ slug: "how-to-buy-nanoclay-sourcing-guide"
 date: 2026-04-20
 lastmod: 2026-04-20
 description: "A practical guide to sourcing nanoclay — covering the major suppliers, grade selection, what to specify, minimum order quantities, and how to avoid the common mistakes that waste development budgets."
+seo_title: "How to Buy Nanoclay: A Sourcing Guide"
+seo_description: "Buy nanoclay right the first time: how to pick a clay type, choose among major suppliers, set your specification, and avoid the mistakes that waste budget."
 categories: ["QC & Procurement"]
 tags: ["buy nanoclay", "nanoclay suppliers", "nanoclay sourcing", "nanoclay grades", "BYK", "Southern Clay", "Nanocor"]
 author: "Lawrence Fine"
@@ -17,7 +19,7 @@ This guide is written for engineers, formulators, and procurement professionals 
 
 ## The first decision: what type of nanoclay do you actually need?
 
-Before you look at a supplier catalog, you need to be clear on which clay type is right for your application. The wrong clay type won't perform — no amount of good processing will fix a fundamental material mismatch.
+Before you look at a supplier catalog, you need to be clear on [which clay type is right for your application](/blog/montmorillonite-vs-kaolinite-vs-halloysite/). The wrong clay type won't perform — no amount of good processing will fix a fundamental material mismatch.
 
 **If your application involves water-based systems** (water-based coatings, drilling fluids, personal care gels, water purification): You need a hydrophilic clay — sodium montmorillonite, bentonite, or synthetic hectorite (Laponite). These swell and disperse in water. Do not use organoclay in water-based systems.
 
@@ -47,7 +49,7 @@ Once you've identified the clay family, you can start evaluating supplier option
 
 ## What to specify when requesting a quotation
 
-A clay supplier quotation should be based on a specification, not just a product name. The specification parameters that matter most:
+A clay supplier quotation should be based on [a specification](/blog/how-to-specify-nanoclay-buyers-checklist/), not just a product name. The specification parameters that matter most:
 
 **Cation Exchange Capacity (CEC):** Measured in milliequivalents per 100 grams (meq/100g). For montmorillonite, typical CEC is 80–120 meq/100g. CEC determines the maximum organic modifier loading that can be achieved and is related to surface charge density. Higher CEC generally means better rheological performance potential per unit weight.
 
@@ -67,7 +69,7 @@ A clay supplier quotation should be based on a specification, not just a product
 
 **Laboratory / feasibility stage:** Most major suppliers offer technical samples of 100g–1 kg at no charge or nominal cost. This is the appropriate way to source material for initial compatibility and performance testing. Call the technical service line, explain your application, and ask for samples of 2–3 grades. Good suppliers will recommend specific grades for your application rather than sending you the full catalog.
 
-**Development stage:** Minimum order quantities for development quantities typically range from 5–25 kg from established Western suppliers. At this scale, prices are in the range of $20–100/kg depending on grade and supplier. Catalog sales through Sigma-Aldrich or similar distributors can be convenient at this stage but are more expensive per kilogram.
+**Development stage:** Minimum order quantities for development quantities typically range from 5–25 kg from established Western suppliers. At this scale, prices are in the range of [$20–100/kg](/blog/nanoclay-pricing-guide-2026/) depending on grade and supplier. Catalog sales through Sigma-Aldrich or similar distributors can be convenient at this stage but are more expensive per kilogram.
 
 **Pilot scale:** 25–200 kg orders are typically available from major suppliers with lead times of 2–6 weeks. At this scale, you should have direct contact with the supplier's technical service team and be providing application-specific information to help them support your development.
 
@@ -87,4 +89,4 @@ A clay supplier quotation should be based on a specification, not just a product
 
 **Assuming literature grades are the same as commercial grades.** CLOISITE grades from Southern Clay Products have been reformulated over time. The organoclay modifier system for CLOISITE 30B changed in response to restrictions on some quaternary ammonium compounds. If you're replicating published work, confirm with the supplier that the current grade is equivalent to the grade used in the publication.
 
-The nanoclay sourcing process rewards buyers who invest time upfront in understanding what they need and communicating it clearly to supplier technical teams. The major suppliers have significant formulation expertise that they make available to customers — using it is the fastest path from specification to validated performance.
+The nanoclay sourcing process rewards buyers who invest time upfront in understanding what they need and communicating it clearly to supplier technical teams. The [major suppliers](/blog/nanoclay-supplier-comparison/) have significant formulation expertise that they make available to customers — using it is the fastest path from specification to validated performance.

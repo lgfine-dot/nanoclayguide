@@ -4,6 +4,8 @@ slug: "nanoclay-soil-water-retention-agriculture"
 date: 2026-05-21
 lastmod: 2026-05-21
 description: "Nanoclay soil amendments improve water retention in sandy soils by physically transforming pore structure. The mechanism is different from superabsorbent polymers, the performance is more durable, and the applications are wider than most growers realise."
+seo_title: "Nanoclay Soil Water Retention in Sandy Soils"
+seo_description: "Nanoclay soil amendments boost water retention in sandy soils by reshaping pore structure, raising plant-available water 40 to 80 percent per application."
 categories: ["Applications"]
 tags: ["nanoclay agriculture", "nanoclay water retention", "nanoclay soil amendment", "sandy soil improvement", "drought resilience"]
 author: "Lawrence Fine"
@@ -11,7 +13,7 @@ toc: true
 draft: false
 ---
 
-Water is the primary constraint on agricultural productivity in most of the world's dryland farming regions. Of all the approaches to improving water use efficiency at the soil level — mulching, deficit irrigation, crop variety selection, soil organic matter accumulation — nanoclay amendment is one of the least understood and, in the right soil types, one of the most effective.
+Water is the primary constraint on [agricultural productivity](/blog/nanoclays-agriculture-water-retention-soil-amendments/) in most of the world's dryland farming regions. Of all the approaches to improving water use efficiency at the soil level — mulching, deficit irrigation, crop variety selection, soil organic matter accumulation — nanoclay amendment is one of the least understood and, in the right soil types, one of the most effective.
 
 This article explains how nanoclay retains water in soil, which soil types benefit most, and how to think about the technology alongside the more familiar alternatives.
 
@@ -71,7 +73,7 @@ The commercial case for nanoclay is clearest when it is compared directly to the
 
 ## A note on nanoclay and biochar combinations
 
-Research programs — including work being conducted by AGCP in Lisbon — are evaluating nanoclay and biochar as a combined soil amendment. The hypothesis is straightforward: biochar provides macro-porosity and organic matter that supports biological activity and nutrient cycling, while nanoclay fills micro-pores and provides water retention. Early gravimetric data from multiple-treatment trials suggest the combination outperforms either amendment applied alone, particularly at the moderate application rates practical for agricultural use at scale.
+Research programs — including work being conducted by AGCP in Lisbon — are evaluating [nanoclay and biochar as a combined soil amendment](/blog/nanoclay-biochar-soil-amendment-combination/). The hypothesis is straightforward: biochar provides macro-porosity and organic matter that supports biological activity and nutrient cycling, while nanoclay fills micro-pores and provides water retention. Early gravimetric data from multiple-treatment trials suggest the combination outperforms either amendment applied alone, particularly at the moderate application rates practical for agricultural use at scale.
 
 This is an area of active research rather than established best practice, but the mechanistic rationale is sound and the preliminary data are consistent with what the physical chemistry would predict.
 

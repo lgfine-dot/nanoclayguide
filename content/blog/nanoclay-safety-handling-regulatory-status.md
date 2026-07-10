@@ -9,6 +9,8 @@ tags: ["nanoclay safety", "nanoclay MSDS", "nanoclay regulations", "nanoclay han
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Nanoclay Safety, Handling & Dust Control"
+seo_description: "Nanoclay safety and handling explained: toxicology by exposure route, respirable dust and silica controls, PPE, storage, and regional regulatory status."
 ---
 
 Every new nanoclay user eventually asks the same question: "Is this stuff safe?" The answer is nuanced but ultimately reassuring — nanoclays have one of the strongest safety profiles of any nanomaterial, supported by decades of occupational health data and a long history of direct human use. But "safe" doesn't mean "handle carelessly," and the regulatory landscape for nanomaterials has become more complex in recent years.
@@ -29,7 +31,7 @@ The toxicology data, while generally favorable, breaks down into three exposure 
 
 However, the silicate clay minerals themselves (montmorillonite, kaolinite, halloysite) are not classified as carcinogens by IARC or major regulatory bodies. Purified nanoclay products with low free silica content present significantly lower inhalation risk than raw bentonite ore. The key question for any specific product is the crystalline silica content — which should be specified on the Safety Data Sheet.
 
-Nano-specific toxicity studies — looking at whether the nanoscale dimensions of clay particles create unique hazards beyond those of conventional clay dust — have generally shown low cytotoxicity for both montmorillonite and halloysite. Several in-vitro studies report that nanoclay particles are taken up by cells without causing significant cell death at concentrations relevant to realistic exposure scenarios. Halloysite nanotubes have received particularly favorable biocompatibility evaluations, with multiple studies showing minimal inflammatory response even at relatively high concentrations.
+Nano-specific toxicity studies — looking at whether the nanoscale dimensions of clay particles create unique hazards beyond those of conventional clay dust — have generally shown low cytotoxicity for both montmorillonite and halloysite. Several in-vitro studies report that nanoclay particles are taken up by cells without causing significant cell death at concentrations relevant to realistic exposure scenarios. [Halloysite nanotubes](/blog/halloysite-nanotubes-drug-delivery/) have received particularly favorable biocompatibility evaluations, with multiple studies showing minimal inflammatory response even at relatively high concentrations.
 
 That said, the nano-specific toxicology literature is still developing, and some researchers have reported pro-inflammatory effects of nanoclay particles at high concentrations or with specific surface modifications. The conservative approach is to treat nanoclays with the same level of care you'd apply to any fine industrial powder: minimize dust exposure, use appropriate personal protective equipment, and maintain good industrial hygiene practices.
 
@@ -49,7 +51,7 @@ Proper nanoclay handling follows standard practices for fine mineral powders, wi
 
 ## Regulatory landscape by region
 
-Nanoclay regulatory requirements vary significantly by region and by intended application. Here's the current state:
+[Nanoclay regulatory requirements](/blog/nanoclay-regulatory-compliance-reach-tsca-fda/) vary significantly by region and by intended application. Here's the current state:
 
 **United States.** Bentonite and montmorillonite are listed on the EPA's TSCA Inventory under CAS numbers for their mineral compositions. No specific nano-registration is required under TSCA for nanoclays with established CAS numbers, though EPA's Significant New Use Rules (SNURs) could apply to novel surface modifications. For food contact applications, FDA regulates under 21 CFR — bentonite has GRAS status for several food contact uses. For cosmetics, no pre-market approval is required, but the ingredients must be safe under FDA's general safety provisions.
 

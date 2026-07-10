@@ -9,6 +9,8 @@ tags: ["nanoclay coatings", "rheology modifier", "anti-sag", "hectorite", "lapon
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Nanoclay Coatings: Rheology & Anti-Sag Guide"
+seo_description: "Nanoclay coatings gain thixotropy and anti-sag control from clay platelet networks; here are the grades, dispersion steps, and loadings formulators use."
 ---
 
 Walk into any coatings laboratory and ask about rheology modifiers and someone will mention nanoclay within the first few minutes. It's been part of the paint formulator's toolkit for decades — predating the current wave of nanomaterial interest by forty years, in fact. Attapulgite and smectite clays were being used in paints long before anyone called them "nanoclay."
@@ -19,19 +21,19 @@ The terminology has evolved. The applications have expanded. But the core reason
 
 Most rheology modifiers make a coating thicker. They increase viscosity uniformly across the shear rate spectrum — useful for storage stability, less useful when you need the paint to level after application.
 
-Nanoclay is different because it creates a structured, thixotropic system. At rest, the clay platelets form a weak three-dimensional network — an "edge-to-face" house-of-cards architecture — that gives the coating high viscosity at low shear. Under the mechanical shear of a brush or roller, this network breaks down and viscosity drops dramatically, allowing the coating to flow and apply easily. When shear is removed, the network rebuilds over seconds to minutes, giving the applied film the viscosity it needs to resist sagging before it dries.
+Nanoclay is different because it creates a structured, [thixotropic system](/blog/nanoclay-rheology-modifier-paints-coatings-adhesives/). At rest, the clay platelets form a weak three-dimensional network — an "edge-to-face" house-of-cards architecture — that gives the coating high viscosity at low shear. Under the mechanical shear of a brush or roller, this network breaks down and viscosity drops dramatically, allowing the coating to flow and apply easily. When shear is removed, the network rebuilds over seconds to minutes, giving the applied film the viscosity it needs to resist sagging before it dries.
 
 This combination — high viscosity at rest, low viscosity under shear, rapid recovery — is what coatings formulators mean by "thixotropy," and it's what makes nanoclay valuable in a way that straightforward viscosity builders are not.
 
 ## The nanoclay grades used in coatings
 
-Several clay families appear in coatings applications, each with different characteristics:
+[Several clay families](/blog/nanoclay-types-compared/) appear in coatings applications, each with different characteristics:
 
-**Hectorite:** A magnesium lithium silicate smectite, either natural or synthetic. Synthetic hectorite (Laponite is the best-known commercial grade) is prized for its exceptional whiteness, transparency, and consistency. It forms excellent clear gel structures in water and in some polar organic solvents. Used in high-quality architectural coatings where optical clarity matters, and in cosmetic coatings where whiteness is critical.
+**Hectorite:** A magnesium lithium silicate smectite, either natural or synthetic. Synthetic hectorite (Laponite is the best-known commercial grade) is prized for its exceptional whiteness, transparency, and consistency. It forms excellent clear gel structures in water and in some polar organic solvents. Used in high-quality architectural coatings where optical clarity matters, and in [cosmetic coatings](/blog/nanoclay-cosmetics-personal-care-formulation/) where whiteness is critical.
 
 **Bentonite (sodium montmorillonite):** The workhorse for water-based systems. Swells significantly in water to form viscous dispersions. Requires activation — a high-shear dispersion step — to develop its full rheological potential. Less expensive than hectorite but more variable in performance depending on source grade.
 
-**Organoclays (modified smectites):** For solventborne coatings, organoclays — smectites where the interlayer sodium has been exchanged for quaternary ammonium compounds — disperse into organic solvents and provide the same thixotropic structuring in non-aqueous systems. They're the standard choice for alkyd, epoxy, and other solventborne coating systems.
+**Organoclays (modified smectites):** For solventborne coatings, organoclays — smectites where the interlayer sodium has been exchanged for [quaternary ammonium compounds](/blog/nanoclay-surface-modification-organoclay-production/) — disperse into organic solvents and provide the same thixotropic structuring in non-aqueous systems. They're the standard choice for alkyd, epoxy, and other solventborne coating systems.
 
 **Attapulgite (palygorskite):** A fibrous clay mineral that provides rheological control through a different mechanism — fibers forming a physical network rather than platelet edge-to-face interaction. Particularly useful at high ionic strength where montmorillonite performance degrades. Often used in industrial and architectural coatings where robustness across formulation variations matters more than optical performance.
 

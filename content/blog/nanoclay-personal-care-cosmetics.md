@@ -4,6 +4,8 @@ slug: "nanoclay-personal-care-cosmetics"
 date: 2026-05-28
 lastmod: 2026-05-28
 description: "Nanoclay has been used in cosmetics for decades as a thickener, stabiliser, and active carrier. This article reviews the main applications, the clay types used, and the safety evidence — including what the evolving regulatory landscape means for formulators."
+seo_title: "Nanoclay in Personal Care: Texture & Safety"
+seo_description: "Nanoclay in personal care thickens, stabilises emulsions, and carries actives. Review clay types, clay-mask effect, and why platelets won't penetrate skin."
 categories: ["Applications"]
 tags: ["nanoclay cosmetics", "nanoclay personal care", "hectorite cosmetics", "laponite formulation", "nanoclay skincare"]
 author: "Lawrence Fine"
@@ -13,7 +15,7 @@ draft: false
 
 Before nanoclay became a topic of serious industrial interest in the 1990s, it was already present in cosmetics and personal care products. Bentonite masks, kaolin cleansers, and smectite-thickened emulsions have been commercial products for most of the twentieth century. What has changed is the level of understanding about why these clays work, how to optimise their use, and what the regulatory environment requires formulators to demonstrate about safety.
 
-This article covers the principal applications of nanoclay in personal care — rheology modification, active ingredient delivery, skin interaction — and addresses the safety question that is increasingly important for formulators in the EU and elsewhere.
+This article covers the principal applications of nanoclay in personal care — rheology modification, active ingredient delivery, skin interaction — and addresses the safety question that is increasingly important for formulators in the EU and elsewhere. A companion guide covers [clay grades and formulation notes](/blog/nanoclay-cosmetics-personal-care-formulation/) in depth.
 
 ## Why nanoclay belongs in cosmetics formulations
 
@@ -35,7 +37,7 @@ Nanoclay provides all of these without the sensory penalties associated with som
 
 ## Thickening and stabilisation
 
-The primary functional use of nanoclay in cosmetics is rheology modification and emulsion stabilisation. Both rely on the same gel network mechanism described for industrial coatings, adapted to the aqueous continuous phase of a cosmetic formulation.
+The primary functional use of nanoclay in cosmetics is [rheology modification and emulsion stabilisation](/blog/nanoclay-rheology-modifier-paints-coatings-adhesives/). Both rely on the same gel network mechanism described for industrial coatings, adapted to the aqueous continuous phase of a cosmetic formulation.
 
 In oil-in-water emulsions (most lotions, serums, and creams), dispersed nanoclay builds a gel network in the continuous water phase that physically stabilises droplets against coalescence and creaming. This Pickering-type stabilisation — where particles rather than surfactants stabilise the emulsion interface — is increasingly attractive to formulators seeking to reduce surfactant use or achieve clean-label positioning, since clay is a natural ingredient and is Cosmos/Ecocert compliant when properly sourced.
 
@@ -63,7 +65,7 @@ Nanoclay safety in cosmetics has been evaluated by the Scientific Committee on C
 
 The evidence strongly indicates that nanoclay platelets do not penetrate intact skin. The platelet dimensions (lateral size of hundreds of nanometres, with 1 nm thickness) are too large for transdermal transport through stratum corneum, and the hydrophilic nature of the clay surface makes partitioning into lipid-rich skin layers energetically unfavourable. Multiple skin penetration studies support this conclusion.
 
-The EU Cosmetics Regulation requires nanomaterials to be notified and assessed, and "clay" materials are currently treated under the general mineral ingredient framework rather than as novel nanomaterials — though this is an area of ongoing regulatory development. Formulators working in the EU should monitor SCCS opinions and the Cosmetics Ingredient Database (CosIng) for updated guidance.
+The EU Cosmetics Regulation requires [nanomaterials to be notified and assessed](/blog/nanoclay-regulatory-compliance-reach-tsca-fda/), and "clay" materials are currently treated under the general mineral ingredient framework rather than as novel nanomaterials — though this is an area of ongoing regulatory development. Formulators working in the EU should monitor SCCS opinions and the Cosmetics Ingredient Database (CosIng) for updated guidance.
 
 The US FDA treats cosmetic-grade clay as generally recognised as safe within established use conditions. No post-market safety signals from cosmetic nanoclay use have emerged in the published literature or regulatory surveillance.
 

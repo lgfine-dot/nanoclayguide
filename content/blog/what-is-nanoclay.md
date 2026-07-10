@@ -15,8 +15,8 @@ tags:
 featured_image: ""
 toc: true
 draft: false
-seo_title: "What Is Nanoclay? Practical Definition for Engineers & Buyers"
-seo_description: "What nanoclay actually is, how it differs from ordinary clay, the nano dimension explained, tactoids vs exfoliated platelets, EU nanomaterial rules, and what nanoclay is NOT."
+seo_title: "What Is Nanoclay? A Practical Definition"
+seo_description: "What nanoclay actually is, how it differs from ordinary clay, why tactoids and exfoliation matter, and when a clay counts as a nanomaterial for buyers."
 ---
 
 If you search "what is nanoclay" you'll get a dozen academic definitions involving phyllosilicate crystal chemistry and interlayer cation exchange thermodynamics. That's accurate, but it's not useful if you're an engineer trying to evaluate a material or a buyer trying to write a purchase specification.
@@ -45,7 +45,7 @@ This is probably the most important practical distinction for anyone working wit
 
 ### Tactoids (the reality)
 
-When you open a bag of commercial nanoclay powder, you are **not** looking at individual 1 nm platelets. You're looking at **tactoids** — ordered stacks of platelets with a characteristic spacing between them (the *d-spacing* or *basal spacing*, measured by X-ray diffraction).
+When you open a bag of commercial nanoclay powder, you are **not** looking at individual 1 nm platelets. You're looking at **tactoids** — ordered stacks of platelets with a characteristic spacing between them (the *d-spacing* or *basal spacing*, measured by [X-ray diffraction](/blog/xrd-nanoclay-characterization-d-spacing/)).
 
 A typical unmodified sodium montmorillonite has a d-spacing of about **1.2 nm** — just enough room for the hydrated sodium ions between the platelet faces. An organically modified nanoclay (where the sodium ions have been exchanged for quaternary ammonium surfactants) will show a d-spacing of **1.8–4 nm**, depending on the modifier chemistry and loading.
 
@@ -83,7 +83,7 @@ This ambiguity is real and unresolved in practice. If you're buying nanoclay for
 
 ### REACH implications
 
-Under **REACH** (Registration, Evaluation, Authorisation and Restriction of Chemicals), nanomaterials may have additional registration requirements. Since January 2020, REACH registration dossiers must include information on nanoforms. If your nanoclay supplier is based outside the EU, confirm they or their EU-based representative have filed the necessary nanoform characterization.
+Under **REACH** (Registration, Evaluation, Authorisation and Restriction of Chemicals), nanomaterials may have [additional registration requirements](/blog/nanoclay-regulatory-compliance-reach-tsca-fda/). Since January 2020, REACH registration dossiers must include information on nanoforms. If your nanoclay supplier is based outside the EU, confirm they or their EU-based representative have filed the necessary nanoform characterization.
 
 <!--
 FLAG FOR REVIEW: The January 2020 date for REACH nanoform requirements is based on the amended REACH Annexes (Commission Regulation (EU) 2018/1881). Please verify this is the correct enforcement date and whether there have been further amendments since.
@@ -116,17 +116,17 @@ Some buyers conflate "nano" with "synthetic" or "engineered." If your regulatory
 - **Halloysite nanotubes** — a different clay mineral entirely (tubular, not platelet), sometimes marketed under the "nanoclay" umbrella
 - **Acid-activated montmorillonite** — partially dissolved structure with increased surface area, used in catalysis and adsorbent applications
 
-Specifying "nanoclay" on a purchase order is like specifying "steel." You need to know the grade, the modification, and the target application. At minimum, a nanoclay specification should include: **mineral type**, **organic modifier (if any)**, **d-spacing**, **CEC**, **particle size range**, and **moisture content**.
+Specifying "nanoclay" on a purchase order is like specifying "steel." You need to know [the grade, the modification](/blog/nanoclay-types-compared/), and the target application. At minimum, a nanoclay specification should include: **mineral type**, **organic modifier (if any)**, **d-spacing**, **CEC**, **particle size range**, and **moisture content**.
 
 ### Nanoclay is not graphene (or carbon nanotubes)
 
-Nanoclays and carbon nanomaterials are both "nano," but they share almost nothing else. Nanoclay is an inorganic mineral, priced at **$5–50/kg** depending on grade and modification. Graphene and carbon nanotubes are carbon allotropes priced at **$50–500/kg or more**. Their property profiles, processing methods, and applications overlap only at the margins.
+Nanoclays and carbon nanomaterials are both "nano," but they share almost nothing else. Nanoclay is an inorganic mineral, priced at **[$5–50/kg](/blog/nanoclay-pricing-guide-2026/)** depending on grade and modification. Graphene and carbon nanotubes are carbon allotropes priced at **$50–500/kg or more**. Their property profiles, processing methods, and applications overlap only at the margins.
 
 If you're evaluating nanoclays against carbon nanomaterials for a specific application, the comparison should be made on **cost-performance ratio** at your target loading level, not on headline property numbers.
 
 ### Nanoclay is not dangerous by default
 
-Unmodified nanoclays have a long safety history in food contact, cosmetics, and pharmaceuticals (montmorillonite is the active ingredient in some antidiarrheal medications). The primary workplace hazard is **respirable dust**, as with any fine mineral powder. Crystalline silica (quartz) content in poorly purified grades is the main inhalation concern — always check your supplier's safety data sheet.
+Unmodified nanoclays have a long safety history in food contact, cosmetics, and pharmaceuticals (montmorillonite is the active ingredient in some antidiarrheal medications). The primary workplace hazard is **respirable dust**, as with any fine mineral powder. Crystalline silica (quartz) content in poorly purified grades is the main inhalation concern — always check your supplier's [safety data sheet](/blog/nanoclay-safety-handling-regulatory-status/).
 
 Organically modified nanoclays carry additional considerations from the quaternary ammonium surfactants, including aquatic toxicity and potential skin irritation. Standard PPE and ventilation practices for fine chemical handling apply.
 

@@ -9,9 +9,11 @@ tags: ["bentonite", "smectite", "montmorillonite", "clay terminology", "clay min
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Bentonite vs Smectite vs Montmorillonite"
+seo_description: "Bentonite, smectite, and montmorillonite explained: bentonite is a rock, smectite a mineral group, montmorillonite a species — and why the difference matters."
 ---
 
-If you've ever tried to source nanoclay and found yourself confused by suppliers using "bentonite," "smectite," and "montmorillonite" as though they're interchangeable — you're not alone. These three terms describe three different things at three different levels of specificity, and the confusion costs real money when buyers order the wrong material or pay a premium for a grade they don't need.
+If you've ever tried to [source nanoclay](/blog/how-to-buy-nanoclay-sourcing-guide/) and found yourself confused by suppliers using "bentonite," "smectite," and "montmorillonite" as though they're interchangeable — you're not alone. These three terms describe three different things at three different levels of specificity, and the confusion costs real money when buyers order the wrong material or pay a premium for a grade they don't need.
 
 Here's the hierarchy, explained once so you never have to wonder again.
 
@@ -91,7 +93,7 @@ Here's how to keep the terms straight:
 
 **Montmorillonite** is the specific mineral species you're usually paying for. It's defined by its crystal chemistry, CEC, and d-spacing. When precision matters, this is the level of specificity you need.
 
-And **organoclay** is montmorillonite (or occasionally another smectite) that has been modified with organic compounds to make it compatible with hydrophobic systems. It's a manufactured product, not a natural mineral.
+And **organoclay** is montmorillonite (or occasionally another smectite) that has been [modified with organic compounds](/blog/nanoclay-surface-modification-organophilization-guide/) to make it compatible with hydrophobic systems. It's a manufactured product, not a natural mineral.
 
 Getting these terms right won't make you a clay mineralogist, but it will make you a smarter buyer — and that's worth more.
 
@@ -100,4 +102,4 @@ Getting these terms right won't make you a clay mineralogist, but it will make y
 - **[What Are Nanoclays?](/blog/what-are-nanoclays-complete-guide/)** — The complete guide to nanoclay science, structure, and applications
 - **[Montmorillonite vs. Kaolinite vs. Halloysite](/blog/montmorillonite-vs-kaolinite-vs-halloysite/)** — Practical decision framework for choosing between the major nanoclay types
 - **[How Nanoclay Is Made](/blog/how-nanoclay-is-made/)** — From bentonite mining to finished organoclay product
-- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-2026/)** — Why a kilogram of "nanoclay" can cost $1 or $50
+- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-guide-2026/)** — Why a kilogram of "nanoclay" can cost $1 or $50

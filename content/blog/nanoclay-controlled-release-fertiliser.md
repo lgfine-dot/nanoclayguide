@@ -4,6 +4,8 @@ slug: "nanoclay-controlled-release-fertiliser"
 date: 2026-05-25
 lastmod: 2026-05-25
 description: "Conventional fertilisers release nutrients immediately, most of which is lost before plants can use it. Nanoclay-based controlled-release systems delay and extend nutrient availability — without the polymer waste that coated fertiliser technologies generate."
+seo_title: "Nanoclay Controlled-Release Fertiliser"
+seo_description: "Nanoclay controlled-release fertiliser buffers nutrient supply by adsorption-desorption, cutting nitrate leaching 20 to 50 percent with no polymer waste."
 categories: ["Applications"]
 tags: ["nanoclay fertiliser", "controlled release fertiliser", "nanoclay agriculture", "nutrient management", "slow release fertiliser"]
 author: "Lawrence Fine"
@@ -11,7 +13,7 @@ toc: true
 draft: false
 ---
 
-Of every kilogram of nitrogen fertiliser applied to agricultural soil worldwide, a substantial fraction never reaches a plant. It leaches through the soil profile into groundwater, volatilises as ammonia or nitrous oxide into the atmosphere, or runs off in irrigation water or rainfall events. The estimates vary by crop, soil, and application method, but losses of 30–50% are typical for conventional urea under typical application conditions.
+Of every kilogram of nitrogen fertiliser applied to [agricultural soil](/blog/nanoclays-agriculture-water-retention-soil-amendments/) worldwide, a substantial fraction never reaches a plant. It leaches through the soil profile into groundwater, volatilises as ammonia or nitrous oxide into the atmosphere, or runs off in irrigation water or rainfall events. The estimates vary by crop, soil, and application method, but losses of 30–50% are typical for conventional urea under typical application conditions.
 
 This is simultaneously an economic problem (fertiliser is expensive, and losing half of it is a direct cost to growers), an environmental problem (nitrate leaching and nitrous oxide emissions are significant contributors to water pollution and greenhouse gas loading), and an agronomic problem (uneven temporal availability of nutrients creates periods of excess and deficit that reduce yield).
 
@@ -45,7 +47,7 @@ Preparing nanoclay-fertiliser complexes uses several approaches:
 
 **Intercalation of slow-release organic N sources** uses the clay gallery to host molecules like glycine (amino acid), creatine, or other slow-mineralising organic nitrogen sources that release N over weeks as soil microorganisms mineralise the organic fraction.
 
-**Composite systems** combine nanoclay with hydrogels, biochar, or biopolymers (chitosan is frequently studied) to produce materials that simultaneously manage water retention and nutrient release. These systems are more complex to manufacture but offer the closest match to the ideal agronomic release profile.
+**Composite systems** combine nanoclay with hydrogels, [biochar](/blog/nanoclay-biochar-soil-amendment-combination/), or biopolymers (chitosan is frequently studied) to produce materials that simultaneously manage [water retention](/blog/nanoclay-soil-water-retention-agriculture/) and nutrient release. These systems are more complex to manufacture but offer the closest match to the ideal agronomic release profile.
 
 ## Performance evidence
 

@@ -4,6 +4,8 @@ slug: "xrd-nanoclay-characterization-d-spacing"
 date: 2026-07-06
 lastmod: 2026-07-06
 description: "X-ray diffraction is the single most important tool for characterizing nanoclays, because it measures the spacing between clay layers directly. Here is how to read a nanoclay diffraction pattern and what the d-spacing actually tells you."
+seo_title: "Nanoclay XRD: Reading d-Spacing & Exfoliation"
+seo_description: "Nanoclay XRD measures d-spacing directly, so a shifting or vanishing basal peak reveals whether your clay is modified, intercalated, or exfoliated."
 categories: ["QC & Procurement"]
 tags: ["nanoclay XRD", "nanoclay d-spacing", "Bragg's law", "basal spacing", "clay exfoliation"]
 author: "Lawrence Fine"
@@ -31,9 +33,9 @@ So for nanoclay, the rule of thumb is the one worth memorizing: **a peak at a lo
 
 For an unmodified sodium montmorillonite, the characteristic basal peak sits at a position corresponding to a relatively tight interlayer spacing, reflecting the hydrated sodium ions in the gallery.
 
-When you organically modify the clay — exchanging the interlayer cations for a bulky quaternary ammonium or phosphonium surfactant — the surfactant props the layers apart. The basal peak shifts to a lower angle, corresponding to a larger d-spacing. The size of that shift is a direct readout of how much the modifier expanded the gallery, and it's the standard confirmation that surface modification succeeded.
+When you [organically modify the clay](/blog/nanoclay-surface-modification-organoclay-production/) — exchanging the interlayer cations for a bulky quaternary ammonium or phosphonium surfactant — the surfactant props the layers apart. The basal peak shifts to a lower angle, corresponding to a larger d-spacing. The size of that shift is a direct readout of how much the modifier expanded the gallery, and it's the standard confirmation that surface modification succeeded.
 
-When you then disperse the organoclay into a polymer, three outcomes are possible, and XRD distinguishes them:
+When you then [disperse the organoclay into a polymer](/blog/nanoclay-polymer-nanocomposites-beginners-guide/), three outcomes are possible, and XRD distinguishes them:
 
 **Immiscible (conventional composite):** the peak position barely moves. The polymer hasn't entered the galleries; the clay is acting as a conventional filler.
 
@@ -45,7 +47,7 @@ When you then disperse the organoclay into a polymer, three outcomes are possibl
 
 That last point is the most common source of confusion. A beginner sees the peak vanish and worries the measurement failed. In fact a disappearing basal peak is often the result you were hoping for. But it has to be interpreted carefully: a peak can also weaken for mundane reasons — low clay loading, poor sample preparation, or preferred orientation — so a missing peak alone isn't proof of exfoliation.
 
-This is exactly why XRD is best paired with electron microscopy. XRD tells you what the average layer spacing is across the whole sample and whether regular stacking persists; microscopy lets you see directly whether individual platelets are separated. The two techniques answer different questions, and the confident conclusion comes from combining them.
+This is exactly why XRD is best paired with [electron microscopy](/blog/tem-sem-imaging-nanoclays-dispersion/). XRD tells you what the average layer spacing is across the whole sample and whether regular stacking persists; microscopy lets you see directly whether individual platelets are separated. The two techniques answer different questions, and the confident conclusion comes from combining them.
 
 ## Practical notes on running the measurement
 

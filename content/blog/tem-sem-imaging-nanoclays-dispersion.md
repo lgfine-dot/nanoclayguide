@@ -9,9 +9,11 @@ tags: ["nanoclay TEM", "nanoclay SEM imaging", "clay dispersion", "exfoliation i
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "TEM & SEM Imaging of Nanoclay Dispersion"
+seo_description: "TEM and SEM imaging reveals whether nanoclay platelets are exfoliated, intercalated, or clumped. See what good dispersion looks like under each technique."
 ---
 
-X-ray diffraction tells you the average layer spacing in a nanoclay sample, but it can't show you a single platelet. Electron microscopy can. When you want to *see* whether your clay is exfoliated into individual layers, intercalated into expanded stacks, or just sitting around as undispersed clumps, you reach for a microscope — and the two main types, TEM and SEM, answer different questions.
+X-ray diffraction tells you the average layer spacing in a nanoclay sample, but it can't show you a single platelet. Electron microscopy can. When you want to *see* whether your clay is [exfoliated into individual layers](/blog/nanoclay-polymer-nanocomposites-beginners-guide/), intercalated into expanded stacks, or just sitting around as undispersed clumps, you reach for a microscope — and the two main types, TEM and SEM, answer different questions.
 
 This article explains what each technique shows, what good dispersion looks like under each, and why microscopy and diffraction are best used together.
 
@@ -37,13 +39,13 @@ The progression from clumps to ordered stacks to isolated lines is the visual st
 
 SEM operates at the scale where you catch problems TEM might miss because of its tiny field of view. On a fracture surface, SEM reveals whether the clay is uniformly distributed or concentrated in streaks and pockets, whether there are large agglomerates the size of many microns, and whether dispersion introduced voids or defects. A sample can look beautifully exfoliated in a small TEM field and still be badly inhomogeneous at the millimetre scale — SEM is how you catch that.
 
-For halloysite nanotubes, SEM is particularly informative because the tubular morphology is large enough to image well and you can assess whether tubes are intact, well-separated, or bundled.
+For [halloysite nanotubes](/blog/halloysite-nanotubes-drug-delivery/), SEM is particularly informative because the tubular morphology is large enough to image well and you can assess whether tubes are intact, well-separated, or bundled.
 
 ## Why you need both microscopy and diffraction
 
 Each technique has a blind spot. TEM gives a gorgeous, convincing image — but of an extremely small region. Choose a flattering field of view and you can make almost any sample look well-dispersed; this is the classic way microscopy misleads. SEM covers a large area but can't resolve individual platelets to confirm true exfoliation. XRD averages over the whole sample and tells you whether regular layer stacking persists, but shows you no images at all.
 
-The credible workflow combines them. XRD gives the population-average answer on whether stacking remains. TEM confirms what the separated (or stacked) platelets actually look like locally. SEM checks that the good local dispersion is representative across the bulk. A claim of exfoliation backed by all three is solid; a claim backed by one cherry-picked TEM image is not.
+The credible workflow combines them. [XRD](/blog/xrd-nanoclay-characterization-d-spacing/) gives the population-average answer on whether stacking remains. TEM confirms what the separated (or stacked) platelets actually look like locally. SEM checks that the good local dispersion is representative across the bulk. A claim of exfoliation backed by all three is solid; a claim backed by one cherry-picked TEM image is not.
 
 ## Practical cautions
 

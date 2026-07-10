@@ -9,6 +9,8 @@ tags: ["montmorillonite", "kaolinite", "halloysite", "nanoclay comparison", "nan
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Montmorillonite vs Kaolinite vs Halloysite"
+seo_description: "Montmorillonite vs kaolinite vs halloysite compared on structure, surface area, dispersibility, and cost — a framework for choosing the right nanoclay."
 ---
 
 Choosing a nanoclay is not like choosing a grade of steel, where you're picking from a spectrum of the same basic material. Montmorillonite, kaolinite, and halloysite are structurally distinct minerals with different morphologies, surface chemistries, and performance profiles. Picking the wrong one doesn't just cost money — it can send a development program down a six-month dead end.
@@ -41,7 +43,7 @@ Here is how the three stack up on the properties that matter most for material s
 
 **Cost.** Kaolinite is the cheapest, available in bulk at $100–300/ton for ceramic and paper grades. Montmorillonite costs $500–2,000/ton for purified industrial grades, with organoclays at 2–5x that. Halloysite occupies the middle-to-upper range, with high-purity grades (Dragon Mine, New Zealand deposits) running $1,000–5,000/ton depending on quality and volume.
 
-**Biocompatibility.** All three clays have extensive safety data, but halloysite has received the most attention for biomedical applications due to its tubular morphology (suitable for drug loading), relatively low surface charge (reduced cytotoxicity versus highly charged nanoplatelets), and FDA GRAS status for certain grades. Montmorillonite has a long history as a pharmaceutical excipient (oral antacids and anti-diarrheal agents). Kaolinite is used in kaolin-pectin preparations and cosmetics.
+**Biocompatibility.** All three clays have extensive safety data, but halloysite has received the most attention for biomedical applications due to its tubular morphology (suitable for [drug loading](/blog/halloysite-nanotubes-drug-delivery/)), relatively low surface charge (reduced cytotoxicity versus highly charged nanoplatelets), and FDA GRAS status for certain grades. Montmorillonite has a long history as a pharmaceutical excipient (oral antacids and anti-diarrheal agents). Kaolinite is used in kaolin-pectin preparations and cosmetics.
 
 ## When to choose montmorillonite
 
@@ -53,7 +55,7 @@ Montmorillonite is the right choice when your application depends on one or more
 
 **Rheology modification.** Montmorillonite forms thixotropic gels in aqueous systems and organoclay-based gels in organic systems. For paints, coatings, adhesives, drilling fluids, and personal care products where controlled viscosity is needed, montmorillonite (or its organoclay derivatives) is the go-to.
 
-**Flame retardancy.** Nanoclay char formation during combustion creates a protective barrier layer that reduces peak heat release rate. Montmorillonite is the most studied nanoclay for flame retardant applications, often used in combination with conventional flame retardants to achieve synergistic effects.
+**Flame retardancy.** Nanoclay char formation during combustion creates a protective barrier layer that reduces peak heat release rate. Montmorillonite is the most studied nanoclay for [flame retardant applications](/blog/nanoclay-flame-retardancy-mechanism/), often used in combination with conventional flame retardants to achieve synergistic effects.
 
 ## When to choose halloysite
 
@@ -100,4 +102,4 @@ There's no universal "best" nanoclay. There is only the best nanoclay for a spec
 - **[Nanoclay Types Compared](/blog/nanoclay-types-compared/)** — Expanded comparison including organoclays and sepiolite with pricing data
 - **[Nanoclay-Polymer Nanocomposites](/blog/nanoclay-polymer-nanocomposites-beginners-guide/)** — How to achieve exfoliation and what determines success in polymer systems
 - **[Nanoclay Applications](/blog/nanoclay-applications/)** — Where each nanoclay type is actually used commercially
-- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-2026/)** — Cost comparison across types and grades
+- **[Nanoclay Pricing in 2026](/blog/nanoclay-pricing-guide-2026/)** — Cost comparison across types and grades
