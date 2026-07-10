@@ -6,6 +6,63 @@
   HUGO_VERSION = "0.155.3"
   NODE_VERSION = "20"
 
+# --- Redirects: retired free-form category pages -> topic pillars ---
+
+[[redirects]]
+  from = "/categories/fundamentals/"
+  to = "/pillars/nanoclay-101/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/procurement/"
+  to = "/pillars/qc-procurement/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/procurement--market/"
+  to = "/pillars/pricing-market/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/procurement-market--supply-chain/"
+  to = "/pillars/pricing-market/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/characterization--testing/"
+  to = "/pillars/qc-procurement/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/technical/"
+  to = "/pillars/processing/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/polymer-nanocomposites/"
+  to = "/pillars/applications/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/agriculture/"
+  to = "/pillars/applications/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/agriculture--environment/"
+  to = "/pillars/applications/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/biomedical--pharmaceutical/"
+  to = "/pillars/applications/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/oil-gas--drilling/"
+  to = "/pillars/applications/"
+  status = 301
+
 # --- Cache Headers ---
 
 [[headers]]
