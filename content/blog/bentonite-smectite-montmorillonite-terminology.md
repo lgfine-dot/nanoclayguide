@@ -93,7 +93,7 @@ Here's how to keep the terms straight:
 
 **Montmorillonite** is the specific mineral species you're usually paying for. It's defined by its crystal chemistry, CEC, and d-spacing. When precision matters, this is the level of specificity you need.
 
-And **organoclay** is montmorillonite (or occasionally another smectite) that has been [modified with organic compounds](/blog/nanoclay-surface-modification-organophilization-guide/) to make it compatible with hydrophobic systems. It's a manufactured product, not a natural mineral.
+And **organoclay** is montmorillonite (or occasionally another smectite) that has been [modified with organic compounds](/blog/nanoclay-surface-modification-organoclay-production/) to make it compatible with hydrophobic systems. It's a manufactured product, not a natural mineral.
 
 Getting these terms right won't make you a clay mineralogist, but it will make you a smarter buyer — and that's worth more.
 

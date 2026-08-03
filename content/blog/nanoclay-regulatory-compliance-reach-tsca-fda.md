@@ -39,7 +39,7 @@ The practical contrast with the EU is worth holding onto: the US framework leans
 
 Across the major Asian markets, the first-order question is usually inventory listing. China's chemical-management regime maintains an inventory of existing substances and requires notification for new ones; updated regulations have brought greater attention to nanomaterial identification. Japan's Chemical Substances Control Law, South Korea's K-REACH, and Australia's industrial-chemicals scheme each maintain their own inventories and registration requirements.
 
-Conventional clay minerals are typically already listed across these inventories, but a novel [organoclay](/blog/nanoclay-surface-modification-organophilization-guide/) with a new modifier can require new-substance notification market by market. For a company selling internationally, the reality is that "compliant in one region" does not mean "compliant everywhere" — each inventory is its own gate.
+Conventional clay minerals are typically already listed across these inventories, but a novel [organoclay](/blog/nanoclay-surface-modification-organoclay-production/) with a new modifier can require new-substance notification market by market. For a company selling internationally, the reality is that "compliant in one region" does not mean "compliant everywhere" — each inventory is its own gate.
 
 ## The cross-cutting issue: nano-labeling and documentation
 

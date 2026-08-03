@@ -94,4 +94,4 @@ This article provides the foundation. The rest of the Nanoclay Guide dives deep 
 - If you're confused by mineral names, read [Bentonite, Smectite, Montmorillonite: Sorting Out the Terminology Confusion](/blog/bentonite-smectite-montmorillonite-terminology/)
 - If you need to choose between nanoclay types, read [Montmorillonite vs. Kaolinite vs. Halloysite: How to Choose](/blog/montmorillonite-vs-kaolinite-vs-halloysite/)
 - If you're buying nanoclay, read [How to Specify Nanoclay for Your Application: The Buyer's Checklist](/blog/how-to-specify-nanoclay-buyers-checklist/)
-- If you're formulating with nanoclay, read [The Complete Guide to Nanoclay Surface Modification and Organophilization](/blog/nanoclay-surface-modification-organophilization-guide/)
+- If you're formulating with nanoclay, read [Nanoclay Surface Modification: How and Why Organoclays Are Made](/blog/nanoclay-surface-modification-organoclay-production/)

@@ -65,7 +65,7 @@ Understanding the chemistry of bentonite degradation is essential for troublesho
 
 When reservoir formation water sensitivity, wellbore stability, or high-temperature performance requirements rule out water-based mud, oil-based mud (OBM) or synthetic-based mud (SBM) systems are used. These systems require oil-compatible clay organoclays rather than water-swelling bentonite.
 
-[Organoclays](/blog/nanoclay-surface-modification-organophilization-guide/) — typically modified bentonites with quaternary ammonium surface treatment — disperse in the oil continuous phase to provide:
+[Organoclays](/blog/nanoclay-surface-modification-organoclay-production/) — typically modified bentonites with quaternary ammonium surface treatment — disperse in the oil continuous phase to provide:
 
 **Thixotropic rheology:** The same gel strength and hole cleaning function as bentonite in WBM, but in an oil-continuous system.
 

@@ -194,7 +194,7 @@ What is the difference between sodium and calcium bentonite?
 
 **Sodium bentonite** has sodium as its primary interlayer cation. It swells dramatically in water (10--15&times; its dry volume), forms strong thixotropic gels, and has higher cation exchange capacity. Wyoming, USA produces the world's benchmark sodium bentonite.
 
-**Calcium bentonite** has calcium as the dominant cation, swells less (2--3&times;), and is far more abundant globally. It can be converted to "sodium-activated" bentonite through treatment with soda ash (Na&sub2;CO&sub3;), which approaches natural sodium bentonite performance. For nanoclay production, the sodium form is preferred because sodium is more easily displaced during [organophilization](/blog/nanoclay-surface-modification-organophilization-guide/).
+**Calcium bentonite** has calcium as the dominant cation, swells less (2--3&times;), and is far more abundant globally. It can be converted to "sodium-activated" bentonite through treatment with soda ash (Na&sub2;CO&sub3;), which approaches natural sodium bentonite performance. For nanoclay production, the sodium form is preferred because sodium is more easily displaced during [organophilization](/blog/nanoclay-surface-modification-organoclay-production/).
 
 </div>
 </details>
@@ -210,7 +210,7 @@ Organoclay is montmorillonite that has been modified by exchanging its sodium in
 
 **You need organoclay when** your application involves a hydrophobic matrix -- polymer nanocomposites (PP, PE, nylon, epoxy), solvent-based coatings, oil-based drilling fluids, or organic adhesives.
 
-**You do NOT need organoclay for** water-based systems (paints, paper coatings, drilling muds) -- unmodified sodium montmorillonite works better and costs less in aqueous applications. Learn more in our [surface modification guide](/blog/nanoclay-surface-modification-organophilization-guide/).
+**You do NOT need organoclay for** water-based systems (paints, paper coatings, drilling muds) -- unmodified sodium montmorillonite works better and costs less in aqueous applications. Learn more in our [surface modification guide](/blog/nanoclay-surface-modification-organoclay-production/).
 
 </div>
 </details>

@@ -37,7 +37,7 @@ The expansion in d-spacing — measured by [X-ray diffraction](/blog/xrd-nanocla
 
 ## Modifier structure and its effects
 
-The choice of quaternary ammonium modifier is not arbitrary — it is [matched to the target polymer system](/blog/nanoclay-surface-modification-organophilization-guide/) and processing conditions.
+The choice of quaternary ammonium modifier is not arbitrary — it is matched to the target polymer system and processing conditions.
 
 **Chain length** determines the degree of interlayer expansion and the hydrophobicity of the resulting organoclay. Longer chains (typically C16–C18, hexadecyl or octadecyl) expand the gallery more and create a more hydrophobic surface. Shorter chains expand less but may be adequate for polar polymer systems.
 

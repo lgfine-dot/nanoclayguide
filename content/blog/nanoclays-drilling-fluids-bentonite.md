@@ -71,7 +71,7 @@ Bentonite-based drilling fluids fail in predictable ways, and each failure mode 
 
 When water-based fluids can't handle the job — severe shale instability, extreme temperatures, or formations requiring non-damaging completion fluids — the industry turns to oil-based muds (OBMs) or synthetic-based muds (SBMs) where the continuous phase is a non-aqueous liquid (diesel, mineral oil, or synthetic base fluid).
 
-In these systems, sodium bentonite can't function because it doesn't disperse in oil. Organoclays take its place as the viscosifier and gelling agent. The [quaternary ammonium modification](/blog/nanoclay-surface-modification-organophilization-guide/) converts the clay surface from hydrophilic to organophilic, allowing it to swell and gel in the oil phase just as sodium bentonite swells and gels in water.
+In these systems, sodium bentonite can't function because it doesn't disperse in oil. Organoclays take its place as the viscosifier and gelling agent. The [quaternary ammonium modification](/blog/nanoclay-surface-modification-organoclay-production/) converts the clay surface from hydrophilic to organophilic, allowing it to swell and gel in the oil phase just as sodium bentonite swells and gels in water.
 
 The same house-of-cards mechanism applies, but in an organic medium. Organoclays for drilling fluids are typically coarser than those used in polymer nanocomposites (larger particle size for easier field handling) and are designed to activate quickly when mixed with the oil phase, often with the help of a polar activator (water or a low-molecular-weight alcohol) that partially hydrates the residual interlayer space and promotes swelling.
 
@@ -101,5 +101,5 @@ These innovations represent the convergence of nanoclay technology with an indus
 
 - **[Bentonite, Smectite, Montmorillonite: Terminology](/blog/bentonite-smectite-montmorillonite-terminology/)** — Sort out the mineral names used across the drilling industry
 - **[Nanoclay Types Compared](/blog/nanoclay-types-compared/)** — How montmorillonite, organoclays, and fibrous clays compare for different drilling applications
-- **[Nanoclay Surface Modification](/blog/nanoclay-surface-modification-organophilization-guide/)** — How organoclays used in oil-based muds are manufactured
+- **[Nanoclay Surface Modification](/blog/nanoclay-surface-modification-organoclay-production/)** — How organoclays used in oil-based muds are manufactured
 - **[Nanoclay Applications](/blog/nanoclay-applications/)** — Full survey of commercial nanoclay applications beyond drilling

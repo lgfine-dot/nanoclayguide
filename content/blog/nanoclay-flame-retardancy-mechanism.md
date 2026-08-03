@@ -57,7 +57,7 @@ The commercially significant application of nanoclay in fire performance is as a
 
 Achieving the fire performance benefits of nanoclay requires good dispersion — specifically, intercalated or exfoliated clay rather than agglomerated tactoids. The same processing requirements that apply to [nanoclay nanocomposites](/blog/nanoclay-polymer-nanocomposites-beginners-guide/) generally (twin-screw extrusion, appropriate shear, correct clay grade and surface modification) apply specifically to flame retardant applications.
 
-An additional complication: some conventional flame retardants — particularly those with ionic character — interact with clay surfaces and can reduce the quality of clay dispersion, partially defeating the purpose. Phosphonium or imidazolium-surface-treated [organoclays](/blog/nanoclay-surface-modification-organophilization-guide/) are more compatible with certain phosphorus flame retardant systems than standard quaternary ammonium organoclays, which is another reason modifier selection matters beyond processing temperature stability.
+An additional complication: some conventional flame retardants — particularly those with ionic character — interact with clay surfaces and can reduce the quality of clay dispersion, partially defeating the purpose. Phosphonium or imidazolium-surface-treated [organoclays](/blog/nanoclay-surface-modification-organoclay-production/) are more compatible with certain phosphorus flame retardant systems than standard quaternary ammonium organoclays, which is another reason modifier selection matters beyond processing temperature stability.
 
 ## Regulatory context
 

@@ -75,7 +75,7 @@ Na-MMT is **strongly hydrophilic**. In water, it swells to 10–15 times its dry
 
 ### What it is
 
-Na-MMT with the sodium interlayer cations **[exchanged for quaternary ammonium surfactants](/blog/nanoclay-surface-modification-organophilization-guide/)**. This is the workhorse nanoclay for polymer nanocomposites and the type most people mean when they say "nanoclay" in a materials engineering context.
+Na-MMT with the sodium interlayer cations **[exchanged for quaternary ammonium surfactants](/blog/nanoclay-surface-modification-organoclay-production/)**. This is the workhorse nanoclay for polymer nanocomposites and the type most people mean when they say "nanoclay" in a materials engineering context.
 
 ### Structure and properties
 

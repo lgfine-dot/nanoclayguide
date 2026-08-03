@@ -47,7 +47,7 @@ PHB is the most crystalline of the PHAs and the most brittle. Nanoclay additions
 
 PHBV is less crystalline and tougher than PHB, and it accepts nanoclay somewhat more readily. Studies consistently show improvements in oxygen and water vapour transmission rates at modest clay loadings, with [tensile modulus improvements](/blog/nanoclay-mechanical-properties-polymer-composites/) of 15–25% in well-exfoliated systems.
 
-A practical complication in PHA-nanoclay systems is thermal processing sensitivity. PHB and PHBV have narrow processing windows — the difference between adequate melt flow and thermal degradation is small. [Organomodified clays](/blog/nanoclay-surface-modification-organophilization-guide/) must be chosen carefully, as some quaternary ammonium surface treatments begin to degrade at the temperatures required to melt PHA, releasing acidic compounds that accelerate chain scission. Thermally stable organomodifiers — imidazolium-based or aminosilane-based treatments — are preferred in high-temperature PHA processing.
+A practical complication in PHA-nanoclay systems is thermal processing sensitivity. PHB and PHBV have narrow processing windows — the difference between adequate melt flow and thermal degradation is small. [Organomodified clays](/blog/nanoclay-surface-modification-organoclay-production/) must be chosen carefully, as some quaternary ammonium surface treatments begin to degrade at the temperatures required to melt PHA, releasing acidic compounds that accelerate chain scission. Thermally stable organomodifiers — imidazolium-based or aminosilane-based treatments — are preferred in high-temperature PHA processing.
 
 ## Nanoclay in thermoplastic starch
 
