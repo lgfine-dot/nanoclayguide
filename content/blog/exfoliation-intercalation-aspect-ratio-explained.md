@@ -31,7 +31,7 @@ The signature is a specific one, and it is measurable. Because the layers remain
 
 Dry sodium montmorillonite has a d-spacing around 1.2 nm. Modify it with a quaternary ammonium surfactant and the gallery expands to somewhere in the 1.8–3.5 nm range depending on the surfactant's chain length and how densely it packs. Intercalate a polymer into that gallery and it expands further.
 
-**Watching the (001) peak shift to lower angle is how you know intercalation is happening.** It is the single most useful measurement in the field, and it is why every serious nanoclay paper opens with an XRD trace.
+**Watching the (001) peak shift to lower angle is how you know intercalation is happening.** ([Reading d-spacing from an XRD trace](/blog/xrd-nanoclay-characterization-d-spacing/) is covered separately.) It is the single most useful measurement in the field, and it is why every serious nanoclay paper opens with an XRD trace.
 
 ## Exfoliation: the deck comes apart
 
@@ -41,7 +41,7 @@ The XRD signature of exfoliation is the **absence** of a signature. With no peri
 
 **The peak also disappears if the clay is badly dispersed.** A very dilute clay loading, a disordered but still-stacked structure, or a peak that has shifted out of the instrument's accessible angular range all produce a flat trace. "No peak" is consistent with exfoliation but does not prove it.
 
-This is why XRD alone is insufficient and why the literature insists on **TEM alongside it**. TEM shows you the platelets directly: whether they are individual or still in stacks, how they are oriented, how uniformly they are distributed. XRD tells you about average periodicity across a bulk sample; TEM tells you what a small region actually looks like. Neither is sufficient alone, and any claim of exfoliation supported by only one of them should be read with suspicion.
+This is why XRD alone is insufficient and why the literature insists on **[TEM alongside it](/blog/tem-sem-imaging-nanoclays-dispersion/)**. TEM shows you the platelets directly: whether they are individual or still in stacks, how they are oriented, how uniformly they are distributed. XRD tells you about average periodicity across a bulk sample; TEM tells you what a small region actually looks like. Neither is sufficient alone, and any claim of exfoliation supported by only one of them should be read with suspicion.
 
 In practice, most real nanocomposites are **mixed**: some exfoliated platelets, some intercalated tactoids, some unmodified stacks that never opened at all. Fully exfoliated systems are the exception, not the rule. The honest way to describe a commercial material is usually "predominantly intercalated with partial exfoliation," and the reason you rarely see that phrasing on a datasheet is not that it is inaccurate.
 

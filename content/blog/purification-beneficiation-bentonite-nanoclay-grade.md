@@ -11,13 +11,13 @@ toc: true
 draft: false
 ---
 
-Most explanations of nanoclay manufacturing have a gap in the middle. They describe the deposit — a volcanic ash bed altered over geological time into montmorillonite — and then they describe surface modification, where quaternary ammonium surfactants are ion-exchanged into the gallery to make an organoclay.
+Most explanations of [nanoclay manufacturing](/blog/how-nanoclay-is-made/) have a gap in the middle. They describe the deposit — a volcanic ash bed altered over geological time into montmorillonite — and then they describe [surface modification](/blog/nanoclay-surface-modification-organoclay-production/), where quaternary ammonium surfactants are ion-exchanged into the gallery to make an organoclay.
 
 Between those two things sits an entire industrial process, and it is the one that determines whether the material you eventually buy is any good.
 
 ## What comes out of the ground
 
-Bentonite ore is not montmorillonite. It is montmorillonite *plus everything else that was in the deposit.*
+[Bentonite ore is not montmorillonite](/blog/bentonite-smectite-montmorillonite-terminology/). It is montmorillonite *plus everything else that was in the deposit.*
 
 A typical run-of-mine bentonite might be 60–90% montmorillonite, with the balance made up of **quartz**, **feldspar**, **calcite**, **gypsum**, **cristobalite**, **mica**, **illite**, and organic matter, in proportions that depend entirely on the geology of the specific deposit and often on the specific seam within it.
 

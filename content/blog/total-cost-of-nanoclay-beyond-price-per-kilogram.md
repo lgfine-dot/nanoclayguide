@@ -11,7 +11,7 @@ toc: true
 draft: false
 ---
 
-Nanoclay procurement almost always starts as a price-per-kilogram exercise. Three suppliers are asked to quote, the quotes are lined up, and the cheapest acceptable one wins.
+[Nanoclay procurement](/blog/how-to-buy-nanoclay-sourcing-guide/) almost always starts as a price-per-kilogram exercise. Three suppliers are asked to quote, the quotes are lined up, and the cheapest acceptable one wins.
 
 This is a reasonable way to buy commodity chemicals and a poor way to buy nanoclay, and the reason is structural: **the purchase price is a small and often misleading fraction of what the material actually costs you.** The dominant costs sit downstream — in processing, in qualification, in yield, in the parts you scrap — and they vary substantially between materials that look interchangeable on a quote sheet.
 
@@ -23,7 +23,7 @@ The obvious layer, and the one everyone models.
 
 What is worth understanding is the shape of the market. Unmodified bentonite is a mined commodity produced at enormous scale, and it is priced as such. Purified, beneficiated nanoclay grades cost more, because beneficiation costs yield. Organoclays cost more again, because they carry surfactant — and surfactant, not clay, is often the majority of the raw-material cost. Synthetic clays are a specialty product and are priced in a different bracket entirely.
 
-Note that these are not adjacent price points on a continuum. The steps between them are large. And each step is buying you something specific — purity, organophilicity, consistency — which is precisely why comparing across them on price alone is a category error.
+Note that these are not adjacent [price points](/blog/nanoclay-pricing-guide-2026/) on a continuum. The steps between them are large. And each step is buying you something specific — purity, organophilicity, consistency — which is precisely why comparing across them on price alone is a category error.
 
 ## Layer 2: what you have to buy alongside it
 

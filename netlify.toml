@@ -6,6 +6,26 @@
   HUGO_VERSION = "0.155.3"
   NODE_VERSION = "20"
 
+# ─────────────────────────────────────────────────────────────────────
+#  TAXONOMY RETIREMENT (2026-08-17)
+#
+#  Hugo used to generate 242 taxonomy pages: 234 tag pages and 8 category
+#  pages, together 75% of a 310-URL sitemap. 209 of the tag pages listed
+#  exactly one article each, and the 8 category pages were slug-identical
+#  duplicates of the hand-written pillar pages, competing with them.
+#
+#  Taxonomies are now off (disableKinds in hugo.toml), so none of those
+#  URLs are built any more. The catch-all rules at the BOTTOM of this file
+#  stop them 404ing.
+#
+#  Netlify applies the FIRST matching rule, so the specific legacy rules
+#  immediately below have to stay above the catch-alls: they map retired
+#  free-form names onto pillars that are NOT a slug-for-slug match
+#  (/categories/fundamentals/ -> /pillars/nanoclay-101/, and so on). A
+#  catch-all placed first would swallow them and send those URLs to
+#  /pillars/fundamentals/, which does not exist.
+# ─────────────────────────────────────────────────────────────────────
+
 # --- Redirects: retired free-form category pages -> topic pillars ---
 
 [[redirects]]
@@ -61,6 +81,26 @@
 [[redirects]]
   from = "/categories/oil-gas--drilling/"
   to = "/pillars/applications/"
+  status = 301
+
+# --- Catch-alls for the retired taxonomy pages -----------------------
+# These MUST stay below the specific rules above. See the note at the top.
+
+# The 8 remaining category slugs are identical to the pillar slugs, so
+# this is an exact one-to-one mapping: /categories/applications/ lands on
+# /pillars/applications/, which lists the same articles and is the page
+# that was actually written for the job.
+[[redirects]]
+  from = "/categories/*"
+  to = "/pillars/:splat"
+  status = 301
+
+# 234 tag URLs, 209 of which described a single article. There is no
+# meaningful per-tag destination, so they all land on the full article
+# index rather than 404ing.
+[[redirects]]
+  from = "/tags/*"
+  to = "/blog/"
   status = 301
 
 # --- Cache Headers ---

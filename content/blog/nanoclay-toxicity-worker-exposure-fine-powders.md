@@ -21,7 +21,7 @@ Montmorillonite, kaolinite, and halloysite are not exotic materials that arrived
 
 Dermal exposure is similarly quiet for the natural clays. Bentonite and kaolin appear across the cosmetics industry in leave-on and rinse-off products at meaningful concentrations without a signal.
 
-Organoclays are the exception worth flagging. The quaternary ammonium surfactants used to make clay organophilic are mild skin and eye irritants in their own right. Handling organoclay powder is not the same hazard as handling untreated bentonite, and the difference is entirely the modifier. Gloves and eye protection are not optional here.
+Organoclays are the exception worth flagging. The [quaternary ammonium surfactants used to make clay organophilic](/blog/nanoclay-surface-modification-organoclay-production/) are mild skin and eye irritants in their own right. Handling organoclay powder is not the same hazard as handling untreated bentonite, and the difference is entirely the modifier. Gloves and eye protection are not optional here.
 
 ## The inhalation question is the real one
 
@@ -57,7 +57,7 @@ That said, it would be overclaiming to say the question is settled. Nano-specifi
 
 ## What competent handling actually looks like
 
-None of this requires exotic protocols. It requires the fine-powder discipline that a well-run plant already has.
+None of this requires exotic protocols. It requires the fine-powder discipline that a well-run plant already has, and it sits alongside the wider [safety, handling and regulatory picture](/blog/nanoclay-safety-handling-regulatory-status/).
 
 **Engineering controls first.** Local exhaust ventilation at transfer points, enclosed handling for bag dumping and weighing, and dust collection on any operation that generates airborne powder. This is where the exposure reduction actually happens, and PPE is a backstop, not a substitute.
 

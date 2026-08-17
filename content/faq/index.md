@@ -180,7 +180,7 @@ Prices vary enormously by type and volume:
 - **Specialty/high-purity organoclays:** $15--35/kg
 - **Halloysite nanotubes:** $6--15/kg
 
-Lab quantities are 3--5&times; higher. The volume discount from sample to production is typically 60--80%. Remember that nanoclay loading levels are low (1--10% by weight), so the cost impact on your finished product is often modest. For a full breakdown, see our [nanoclay pricing guide](/blog/nanoclay-pricing-2026/).
+Lab quantities are 3--5&times; higher. The volume discount from sample to production is typically 60--80%. Remember that nanoclay loading levels are low (1--10% by weight), so the cost impact on your finished product is often modest. For a full breakdown, see our [nanoclay pricing guide](/blog/nanoclay-pricing-guide-2026/).
 
 </div>
 </details>

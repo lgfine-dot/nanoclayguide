@@ -1,0 +1,34 @@
+{{- /*
+  Resolve a category NAME to its pillar page URL. Returns "" if there is no
+  matching pillar.
+
+      {{ $url := partial "pillar-link.html" "QC & Procurement" }}
+
+  WHY THIS IS NEEDED
+  ------------------
+  Blog posts used to link their category to /categories/<urlize name>/.
+  Those pages no longer exist (taxonomies are off — see hugo.toml), so the
+  links have to point at the hand-written pillar pages instead.
+
+  The obvious shortcut — swap "categories" for "pillars" in the URL — is
+  wrong for half the categories. Hugo's urlize turns "QC & Procurement"
+  into "qc--procurement" (the ampersand vanishes and leaves two hyphens),
+  but the pillar directory is "qc-procurement". Four of the eight
+  categories break that way: QC & Procurement, Types & Comparison,
+  Safety & Regulation, Pricing & Market.
+
+  So the mapping is resolved from data instead of from string munging.
+  Each pillar's _index.md declares `category:` naming the category it
+  represents, which is the same string blog posts carry in front matter.
+  Match on that and the URL is whatever the pillar's actual permalink is.
+*/ -}}
+{{- $cat := . -}}
+{{- $url := "" -}}
+{{- with site.GetPage "/pillars" -}}
+  {{- range .Sections -}}
+    {{- if eq (.Params.category | default .Title) $cat -}}
+      {{- $url = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}

@@ -11,7 +11,7 @@ toc: true
 draft: false
 ---
 
-When you order or produce an organoclay, you want to confirm two things: that the surfactant modifier is actually present on the clay, and that it's there in a reasonable amount. X-ray diffraction tells you the layers moved apart, which is strong indirect evidence of modification — but FTIR tells you directly that the organic modifier is chemically there. The two together make a confident quality check.
+When you order or [produce an organoclay](/blog/nanoclay-surface-modification-organoclay-production/), you want to confirm two things: that the surfactant modifier is actually present on the clay, and that it's there in a reasonable amount. X-ray diffraction tells you the layers moved apart, which is strong indirect evidence of modification — but FTIR tells you directly that the organic modifier is chemically there. The two together make a confident quality check.
 
 This article explains what FTIR detects in an organoclay, which spectral signals matter, and how to use it as a practical incoming-inspection tool. No spectroscopy background assumed.
 
@@ -35,7 +35,7 @@ FTIR isn't a precise quantitative tool for modifier loading on its own, but the 
 
 ## Why FTIR complements XRD
 
-XRD and FTIR answer different halves of the same question. XRD shows that the interlayer spacing increased, which is consistent with a bulky modifier propping the layers apart — but a spacing change is indirect evidence; in principle other things can change spacing. FTIR shows directly that organic C–H-containing material is present. Together they're convincing: the layers moved apart *and* the organic species responsible is detectable. Either alone leaves a gap a careful reviewer could question.
+XRD and FTIR answer different halves of the same question. [XRD shows that the interlayer spacing increased](/blog/xrd-nanoclay-characterization-d-spacing/), which is consistent with a bulky modifier propping the layers apart — but a spacing change is indirect evidence; in principle other things can change spacing. FTIR shows directly that organic C–H-containing material is present. Together they're convincing: the layers moved apart *and* the organic species responsible is detectable. Either alone leaves a gap a careful reviewer could question.
 
 FTIR also has practical advantages as a routine check. It's fast, widely available, requires little sample, and modern attenuated-total-reflectance accessories let you press a bit of powder against a crystal and get a spectrum in minutes with minimal preparation. That makes it well suited to incoming inspection, where you want a quick go/no-go on whether a received lot is actually modified.
 

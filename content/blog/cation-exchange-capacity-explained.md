@@ -58,7 +58,7 @@ Once you have the number, a surprising amount follows from it.
 
 **Swelling.** High CEC means densely charged layers, which means a large population of hydrated cations in the interlayer gallery, which means water is drawn in and the layers push apart. This is why montmorillonite swells dramatically and kaolinite essentially does not. Swelling is not a separate property that happens to correlate with CEC; it is a consequence of it.
 
-**Whether it can be made into an organoclay.** Organoclay is made by exchanging the natural inorganic cations for quaternary ammonium surfactants. The clay's capacity to accept those surfactants *is* its CEC. This is why organoclay production uses montmorillonite and not kaolinite: a clay with a CEC of 10 has almost nothing to exchange, and no amount of process ingenuity will change that.
+**Whether it can be made into an organoclay.** [Organoclay is made](/blog/nanoclay-surface-modification-organoclay-production/) by exchanging the natural inorganic cations for quaternary ammonium surfactants. The clay's capacity to accept those surfactants *is* its CEC. This is why organoclay production uses montmorillonite and not kaolinite: a clay with a CEC of 10 has almost nothing to exchange, and no amount of process ingenuity will change that.
 
 It also explains organoclay pricing. Surfactant loading is specified as a fraction or multiple of CEC — 0.5× CEC, 1.0× CEC, 1.5× CEC are all standard formulations. Higher CEC means more surfactant per kilogram of clay to reach the same loading ratio, and surfactant is the expensive component. **The CEC of the base clay is a direct input to the cost of the finished organoclay.**
 
@@ -70,7 +70,7 @@ It also explains organoclay pricing. Surfactant loading is specified as a fracti
 
 Here is the practical reason to care.
 
-Montmorillonite is a mineral species, not a specification. Two commercial montmorillonites from different deposits can have genuinely different CEC values — one at 85, one at 120 — because the degree of isomorphous substitution in the parent deposit was different. They will not perform identically. The higher-CEC material will swell more, adsorb more, and require more surfactant to reach a given organoclay loading.
+[Montmorillonite is a mineral species, not a specification](/blog/bentonite-smectite-montmorillonite-terminology/). Two commercial montmorillonites from different deposits can have genuinely different CEC values — one at 85, one at 120 — because the degree of isomorphous substitution in the parent deposit was different. They will not perform identically. The higher-CEC material will swell more, adsorb more, and require more surfactant to reach a given organoclay loading.
 
 There is a second, less obvious source of variation: **purity**. Bentonite ore contains quartz, calcite, feldspar, mica, and illite alongside the montmorillonite. Those accessory minerals have low or negligible CEC, and they dilute the measured value. A bentonite with a low CEC may not have low-charge montmorillonite in it — it may simply have less montmorillonite in it. Which means **CEC doubles as a rough purity indicator**, and a low number should prompt a question about beneficiation rather than an assumption about the mineral.
 

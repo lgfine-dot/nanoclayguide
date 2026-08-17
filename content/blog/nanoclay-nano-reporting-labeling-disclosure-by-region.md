@@ -11,7 +11,7 @@ toc: true
 draft: false
 ---
 
-Most companies working with nanoclay understand the first layer of compliance: the substance has to be on the relevant chemical inventory. Bentonite is. Montmorillonite is. That box is usually ticked before anyone thinks hard about it.
+Most companies working with nanoclay understand [the first layer of compliance](/blog/nanoclay-safety-handling-regulatory-status/): the substance has to be on the relevant chemical inventory. Bentonite is. Montmorillonite is. That box is usually ticked before anyone thinks hard about it.
 
 The second layer is the one that catches people. A growing set of nano-specific obligations sits on top of ordinary chemical law, and they are triggered not by *what* the substance is but by *what form* it is in. The uncomfortable part is that "nano enough to trigger reporting" has no single definition. It has at least four, and they don't agree.
 
@@ -29,7 +29,7 @@ For nanoclay specifically, the number-based criterion is treacherous. An individ
 
 ## European Union: the deepest architecture
 
-**REACH nanoforms.** Since Commission Regulation (EU) 2018/1881 took effect on 1 January 2020, companies manufacturing or importing a substance in nanoform at 1 tonne or more per year must provide nanoform-specific information in the registration dossier — characterization, and where relevant, nano-specific fate and toxicology. The nanoform is not covered by the bulk registration; it needs its own data.
+**[REACH](/blog/nanoclay-regulatory-compliance-reach-tsca-fda/) nanoforms.** Since Commission Regulation (EU) 2018/1881 took effect on 1 January 2020, companies manufacturing or importing a substance in nanoform at 1 tonne or more per year must provide nanoform-specific information in the registration dossier — characterization, and where relevant, nano-specific fate and toxicology. The nanoform is not covered by the bulk registration; it needs its own data.
 
 **Cosmetics.** Two obligations, both under Regulation 1223/2009. The Responsible Person must notify the Commission through the CPNP **six months before** placing a nanomaterial-containing product on the market (Article 16(3)), with substance identity, full physicochemical characterization, estimated annual quantity, toxicological profile, and foreseeable exposure. Separately, Article 19(1)(g) requires the ingredient list to name the substance followed by "(nano)" in brackets. The lowercase form matters; enforcement authorities have flagged variants.
 

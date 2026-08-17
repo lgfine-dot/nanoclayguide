@@ -11,7 +11,7 @@ toc: true
 draft: false
 ---
 
-Barrier packaging is one of the most commercially attractive nanoclay applications, and it is also the one where the regulatory gate is highest. An additive that is unremarkable in an automotive part becomes a regulated food-contact substance the moment it goes into a film that will touch a sandwich.
+[Barrier packaging](/blog/nanoclay-barrier-properties-packaging/) is one of the most commercially attractive nanoclay applications, and it is also the one where the regulatory gate is highest. An additive that is unremarkable in an automotive part becomes a regulated food-contact substance the moment it goes into a film that will touch a sandwich.
 
 This article covers the compliance pathway only — what has to be authorized, what has to be demonstrated, and how the approval routes differ. It does not address formulation or performance.
 
@@ -93,7 +93,7 @@ A few failure patterns recur.
 
 For anyone planning a food-contact nanoclay program, the order of operations matters more than the effort:
 
-1. **Determine regulatory status before technical development, not after.** Whether the nanoform is authorized in your target market is a gating question. Finding out at the end that it is not can strand a substantial development program.
+1. **Determine [regulatory status](/blog/nanoclay-regulatory-compliance-reach-tsca-fda/) before technical development, not after.** Whether the nanoform is authorized in your target market is a gating question. Finding out at the end that it is not can strand a substantial development program.
 2. **Get characterization data early,** to a standard that would survive a regulatory review rather than a sales conversation.
 3. **Assess the modifier separately from the mineral.**
 4. **Identify the pathway and its timeline,** and build that timeline into the commercial plan. An EFSA petition is not a formality you slot in before launch.

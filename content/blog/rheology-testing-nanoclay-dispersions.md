@@ -11,7 +11,7 @@ toc: true
 draft: false
 ---
 
-Rheology occupies an unusual position in nanoclay work: it's simultaneously a property people buy nanoclay *for* — as a thickener and anti-sag additive in paints, drilling fluids, and coatings — and one of the most sensitive ways to *measure* how well the clay is dispersed. Learning to read a few rheology curves pays off on both fronts.
+Rheology occupies an unusual position in nanoclay work: it's simultaneously a property people buy nanoclay *for* — as [a thickener and anti-sag additive in paints, drilling fluids, and coatings](/blog/nanoclay-rheology-modifier-paints-coatings-adhesives/) — and one of the most sensitive ways to *measure* how well the clay is dispersed. Learning to read a few rheology curves pays off on both fronts.
 
 This article explains the core concepts — viscosity, shear-thinning, yield stress, and thixotropy — in plain terms, and shows how they reveal both performance and dispersion quality in nanoclay systems.
 
@@ -27,7 +27,7 @@ The most useful nanoclay rheology behaviour is shear-thinning: the material is h
 
 A viscosity curve — viscosity plotted against shear rate — captures this directly. A shear-thinning nanoclay dispersion shows high viscosity at low shear rates dropping steeply as shear rate rises. This is exactly the behaviour you want in a paint (brushes and sprays easily under the high shear of application, then thickens again on the wall so it doesn't run) or a drilling fluid (pumps easily, but suspends cuttings when flow stops).
 
-The steepness and shape of that curve are a fingerprint of the network — and therefore of dispersion. A well-dispersed clay that has built a strong network shows pronounced shear-thinning; a poorly dispersed clay that's mostly clumped tactoids builds little network and shows a flatter, less interesting curve. That's the link between rheology and dispersion quality.
+The steepness and shape of that curve are a fingerprint of the network — and therefore of dispersion. A well-dispersed clay that has built a strong network shows pronounced shear-thinning; a poorly dispersed clay that's mostly clumped tactoids builds little network and shows a flatter, less interesting curve. That's the link between rheology and dispersion quality — and where rheology and [direct imaging by TEM or SEM](/blog/tem-sem-imaging-nanoclays-dispersion/) are answering the same question by different means.
 
 ## Yield stress: the structure has to be broken before flow starts
 

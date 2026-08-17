@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+{{/* Fails the build if this post links to no other post, or links to a page
+     that does not exist. Blog only — pillars, FAQ and resources are
+     reference pages, not articles, and are not expected to link onward.
+     See layouts/partials/linkguard.html. */}}
+{{ if eq .Section "blog" }}{{ partial "linkguard.html" . }}{{ end }}
+
 {{/* ── Reading Progress Bar ────────────────────────────────── */}}
 <div class="reading-progress" id="readingProgress"></div>
 
@@ -11,7 +17,8 @@
   <div class="blog-hero-content">
     <div class="content-wrap">
       {{ with index $.Params.categories 0 }}
-      <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="blog-hero-cat">{{ . }}</a>
+      {{ $u := partial "pillar-link.html" . }}
+      {{ if $u }}<a href="{{ $u }}" class="blog-hero-cat">{{ . }}</a>{{ else }}<span class="blog-hero-cat">{{ . }}</span>{{ end }}
       {{ end }}
       <h1>{{ $.Title }}</h1>
     </div>
@@ -23,7 +30,8 @@
   <div class="blog-hero-content">
     <div class="content-wrap">
       {{ with index .Params.categories 0 }}
-      <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="blog-hero-cat">{{ . }}</a>
+      {{ $u := partial "pillar-link.html" . }}
+      {{ if $u }}<a href="{{ $u }}" class="blog-hero-cat">{{ . }}</a>{{ else }}<span class="blog-hero-cat">{{ . }}</span>{{ end }}
       {{ end }}
       <h1>{{ .Title }}</h1>
     </div>
@@ -60,7 +68,8 @@
           {{ .ReadingTime }} min read
         </span>
         {{ with index .Params.categories 0 }}
-        <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="blog-meta-badge">{{ . }}</a>
+        {{ $u := partial "pillar-link.html" . }}
+        {{ if $u }}<a href="{{ $u }}" class="blog-meta-badge">{{ . }}</a>{{ else }}<span class="blog-meta-badge">{{ . }}</span>{{ end }}
         {{ end }}
       </div>
     </div>
@@ -91,14 +100,11 @@
     <div class="blog-body">
       {{ .Content }}
 
-      {{/* ── Tags ───────────────────────────────────────────── */}}
-      {{ with .Params.tags }}
-      <div class="blog-tags">
-        {{ range . }}
-        <a href="{{ "tags/" | absURL }}{{ . | urlize }}/" class="blog-tag">#{{ . }}</a>
-        {{ end }}
-      </div>
-      {{ end }}
+      {{/* Tags are no longer rendered as links. They generated 234 pages,
+           209 of which listed a single article, and every post pushed
+           crawlers into them. The `tags` front matter is still used — for
+           article:tag meta and schema keywords in head.html — it just does
+           not create pages or links any more. See disableKinds in hugo.toml. */}}
     </div>
 
   </div>{{/* end .blog-layout */}}
@@ -109,13 +115,7 @@
     <div class="blog-body">
       {{ .Content }}
 
-      {{ with .Params.tags }}
-      <div class="blog-tags">
-        {{ range . }}
-        <a href="{{ "tags/" | absURL }}{{ . | urlize }}/" class="blog-tag">#{{ . }}</a>
-        {{ end }}
-      </div>
-      {{ end }}
+      {{/* Tags deliberately not rendered — see the note in the branch above. */}}
     </div>
   </div>
 

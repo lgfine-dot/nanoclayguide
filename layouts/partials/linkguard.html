@@ -1,0 +1,93 @@
+{{- /*
+  LINK GUARD — stops the build if a post links nowhere, or links somewhere
+  that does not exist.
+
+  WHY THIS EXISTS
+  ---------------
+  On 2026-08-17 an audit found 11 of 52 posts (21%) linking to no other
+  post. They were fixed in the same pass. This partial is what stops the
+  number climbing back, because every individual omission is invisible at
+  the time it is made — which is exactly how the sister site
+  grapheneguide.com reached 48% orphaned.
+
+  WHY AN ERROR AND NOT A WARNING
+  ------------------------------
+  A warning in a build log is a thing nobody reads, and it would be
+  invisible in precisely the same way as the omission it is reporting.
+  This fails the build instead. Netlify keeps serving the previous deploy,
+  nothing breaks for readers, and the fix is to add a link.
+
+  WHAT COUNTS
+  -----------
+  Links in the post BODY to other posts. Links to pillars, resources, the
+  FAQ, other sites or #anchors do not count — the point is an article
+  passing a reader on to another article.
+
+  Both link styles work: /blog/x/ and https://nanoclayguide.com/blog/x/
+  normalise to the same path. The domain is read from site.BaseURL rather
+  than written here, so changing baseURL cannot silently break this.
+
+  IF IT FIRES
+  -----------
+  The message names the file and the problem. Add a link inside a sentence
+  where it is genuinely useful — not a list bolted on at the bottom — and
+  rebuild.
+*/ -}}
+{{- $minimum := 1 -}}
+{{- $page := . -}}
+{{- $content := .Content -}}
+{{- $base := strings.TrimSuffix "/" site.BaseURL -}}
+
+{{- /* Collect body links to other posts, normalised to a site-relative path. */ -}}
+{{- $hrefs := slice -}}
+{{- range findRE `href="[^"]*"` $content -}}
+  {{- $u := replaceRE `^href="|"$` "" . -}}
+  {{- if hasPrefix $u $base -}}{{- $u = strings.TrimPrefix $base $u -}}{{- end -}}
+  {{- $u = index (split $u "#") 0 -}}
+  {{- if and (hasPrefix $u "/blog/") (ne $u "/blog/") (ne $u $page.RelPermalink) -}}
+    {{- $hrefs = $hrefs | append $u -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* CHECK 1 — the post is not a dead end. */ -}}
+{{- if lt (len $hrefs) $minimum -}}
+  {{- errorf `LINK GUARD FAILED — dead-end post
+
+  %q
+  file:  %s
+  found: %d link(s) to other posts in the body, need at least %d
+
+  A reader arriving on this post from search has nowhere to go next, and
+  the post passes no ranking signal to the rest of the site.
+
+  Fix it by linking to another post from within the text, in a sentence
+  where the link is genuinely useful. Then rebuild.
+
+  Links to pillars, resources, other websites and #anchors do not count.
+` $page.Title $page.File.Path (len $hrefs) $minimum -}}
+{{- end -}}
+
+{{- /* CHECK 2 — and every link goes somewhere real. */ -}}
+{{- $known := slice -}}
+{{- range site.Pages -}}
+  {{- $known = $known | append .RelPermalink -}}
+{{- end -}}
+
+{{- range $h := $hrefs -}}
+  {{- if not (in $known $h) -}}
+    {{- errorf `LINK GUARD FAILED — broken internal link
+
+  %q
+  file: %s
+  link: %s
+
+  That address does not exist on this site, so the link is a 404.
+
+  A post's address comes from its FILENAME:
+
+      content/blog/my-file.md   ->   /blog/my-file/
+
+  Check the filename in content/blog/ and correct the link.
+` $page.Title $page.File.Path $h -}}
+  {{- end -}}
+{{- end -}}

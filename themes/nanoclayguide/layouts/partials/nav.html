@@ -23,19 +23,31 @@
         {{ end }}
       {{ end }}
 
-      {{/* Auto-generate Categories dropdown from taxonomy */}}
-      {{ with .Site.Taxonomies.categories }}
+      {{/* Topics dropdown, built from the hand-written PILLAR pages.
+
+           This used to iterate .Site.Taxonomies.categories and link to
+           /categories/<slug>/. Those pages were auto-generated duplicates
+           of the pillars — identical slugs, same article lists — and the
+           nav was sending every visitor and crawler to the duplicate
+           rather than to the page actually written for the purpose.
+
+           Taxonomies are off now, so .Site.Taxonomies.categories is empty
+           and this would have silently rendered nothing. */}}
+      {{ with site.GetPage "/pillars" }}
+      {{ $pillars := .Sections }}
+      {{ with $pillars }}
       <li class="nav-has-dropdown">
-        <a href="{{ "categories/" | absURL }}" aria-haspopup="true">
-          Categories
+        <a href="/pillars/" aria-haspopup="true">
+          Topics
           <svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
         </a>
         <ul class="nav-dropdown">
-          {{ range $name, $pages := . }}
-          <li><a href="{{ "categories/" | absURL }}{{ $name | urlize }}/">{{ $name | humanize | title }}</a></li>
+          {{ range .ByTitle }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
           {{ end }}
         </ul>
       </li>
+      {{ end }}
       {{ end }}
     </ul>
 

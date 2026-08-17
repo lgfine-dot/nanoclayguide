@@ -5,6 +5,28 @@ theme = 'nanoclayguide'
 enableRobotsTXT = true
 buildFuture = false
 
+# ─────────────────────────────────────────────────────────────────────
+#  TAXONOMY PAGES ARE OFF. This is the single most consequential line
+#  in this file.
+#
+#  Hugo generated 242 pages from front matter: 234 tag pages and 8
+#  category pages. 209 of the tag pages listed exactly ONE article each —
+#  a page whose entire content is a single link. They made up 75% of a
+#  310-URL sitemap, which teaches a crawler this site is mostly filler.
+#
+#  The 8 category pages were worse in a quieter way: their slugs are
+#  identical to the 8 hand-written pillar pages, so /categories/applications/
+#  and /pillars/applications/ listed the same 22 articles and competed
+#  with each other.
+#
+#  Both sets are redirected in netlify.toml rather than left to 404.
+#
+#  `tags:` and `categories:` in front matter still work and are still
+#  used — the pillar pages match articles on `categories`, and the schema
+#  and Open Graph markup read both. They simply no longer generate pages.
+# ─────────────────────────────────────────────────────────────────────
+disableKinds = ['taxonomy', 'term']
+
 [params]
   description = 'The definitive technical resource for nanoclay science, applications, and industry'
   tagline = 'The definitive technical resource for nanoclay science, applications, and industry'
@@ -14,9 +36,11 @@ buildFuture = false
   analyticsProvider = 'plausible'
   plausibleDomain = 'nanoclayguide.com'
 
+# Empty on purpose. Hugo defaults to tags + categories if this table is
+# absent, so it has to be present and empty to override the defaults.
+# Keep it immediately above another table header — bare keys placed after
+# it would be parsed as taxonomy definitions.
 [taxonomies]
-  category = 'categories'
-  tag = 'tags'
 
 [sitemap]
   changefreq = 'weekly'

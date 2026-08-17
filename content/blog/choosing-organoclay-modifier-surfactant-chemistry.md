@@ -27,7 +27,7 @@ Two things happen at once. The gallery becomes organophilic, so the polymer will
 
 ## The four variables you are actually choosing
 
-Commercial organoclay grades differ along four axes. Understanding them turns a product code into a decision.
+Commercial organoclay grades differ along four axes. Understanding them turns a product code into a decision. (For the manufacturing step itself, see [how organoclays are made](/blog/nanoclay-surface-modification-organoclay-production/).)
 
 ### 1. Tail length
 
@@ -110,7 +110,7 @@ Putting it together, the order of decisions matters:
 
 **4. Prefer loadings at or near 1.0× CEC** unless there is a specific reason to exceed it, and if a supplier's grade is loaded above CEC, understand that you are buying free surfactant and plan for where it will go.
 
-**5. Ask what the CEC of the base clay was.** Loading is expressed relative to it, so the same "1.0× CEC" grade on two different base clays contains different absolute amounts of surfactant.
+**5. Ask what the [CEC of the base clay](/blog/cation-exchange-capacity-explained/) was.** Loading is expressed relative to it, so the same "1.0× CEC" grade on two different base clays contains different absolute amounts of surfactant.
 
 **6. Consider whether the modifier is a regulatory issue.** For food contact and cosmetics, the quaternary ammonium compound is a substance in its own right with its own migration and toxicology profile — and it is frequently the component that fails, not the clay.
 

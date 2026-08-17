@@ -11,7 +11,7 @@ toc: true
 draft: false
 ---
 
-Almost every nanoclay comparison you will read is a comparison among *natural* clays: montmorillonite versus kaolinite versus halloysite, sodium bentonite versus calcium bentonite. That framing quietly assumes the material came out of the ground.
+Almost every nanoclay comparison you will read is a comparison among *natural* clays: [montmorillonite versus kaolinite versus halloysite](/blog/montmorillonite-vs-kaolinite-vs-halloysite/), sodium bentonite versus calcium bentonite. That framing quietly assumes the material came out of the ground.
 
 Some of it does not. Synthetic layered silicates are manufactured from purified precursors under controlled conditions, and they are a genuinely different proposition — not a marginally better mined clay, but a material with a different economic and technical logic. They also cost several times more.
 
@@ -25,7 +25,7 @@ Its empirical formula is Na₀.₇[(Si₈Mg₅.₅Li₀.₃)O₂₀(OH)₄], and
 
 Read those dimensions carefully, because they are the crux of the entire natural-versus-synthetic argument. A Laponite disc is *small* — 25 nm across, against 100–1000+ nm for a montmorillonite platelet. Its aspect ratio is therefore roughly 25:1, an order of magnitude below what montmorillonite offers.
 
-**The synthetic clay is not the higher-performance material on the axis most people assume matters.** If aspect ratio is what you are buying — barrier, reinforcement — natural montmorillonite wins, and it wins decisively. Anyone selling you synthetic clay for a barrier film has the wrong product.
+**The synthetic clay is not the higher-performance material on the axis most people assume matters.** If [aspect ratio](/blog/exfoliation-intercalation-aspect-ratio-explained/) is what you are buying — barrier, reinforcement — natural montmorillonite wins, and it wins decisively. Anyone selling you synthetic clay for a barrier film has the wrong product.
 
 So what is the premium buying?
 
