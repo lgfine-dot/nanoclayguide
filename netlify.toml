@@ -83,8 +83,39 @@
   to = "/pillars/applications/"
   status = 301
 
+# --- Ampersand categories: double-hyphen slugs -----------------------
+# Hugo's urlize dropped the "&" and left the surrounding spaces, so
+# "Pricing & Market" became "pricing--market" with TWO hyphens. The pillar
+# directory has one. These four therefore do NOT map slug-for-slug and
+# must be listed explicitly, above the catch-all, or they 301 into a 404.
+#
+# Verified live on 2026-08-17: without these, /categories/pricing--market/
+# resolved to /pillars/pricing--market/, which returned 404.
+
+[[redirects]]
+  from = "/categories/pricing--market/"
+  to = "/pillars/pricing-market/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/qc--procurement/"
+  to = "/pillars/qc-procurement/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/types--comparison/"
+  to = "/pillars/types-comparison/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/safety--regulation/"
+  to = "/pillars/safety-regulation/"
+  status = 301
+
 # --- Catch-alls for the retired taxonomy pages -----------------------
 # These MUST stay below the specific rules above. See the note at the top.
+# The catch-all is correct only for the four categories whose slug already
+# matches its pillar: applications, processing, nanoclay-101, how-its-made.
 
 # The 8 remaining category slugs are identical to the pillar slugs, so
 # this is an exact one-to-one mapping: /categories/applications/ lands on
