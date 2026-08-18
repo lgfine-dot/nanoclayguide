@@ -4,8 +4,8 @@ slug: "nanoclay-flame-retardant-fire-retardancy"
 date: 2026-04-13
 lastmod: 2026-04-13
 description: "Nanoclay can significantly improve the fire resistance of polymer composites — reducing peak heat release, slowing flame spread, and improving char formation — without the weight penalties of traditional halogenated flame retardants."
-seo_title: "Nanoclay Flame Retardant: How It Works & Fits"
-seo_description: "Nanoclay flame retardant cuts peak heat release and slows flame spread, but won't pass UL-94 alone. Cone calorimetry and synergists tell the real story."
+seo_title: "Flame Retardant Synergists & Cone Testing"
+seo_description: "Cone calorimetry is the right test for nanoclay flame retardancy. How synergist blends, dispersion state and polymer choice change the result."
 categories: ["Applications"]
 tags: ["nanoclay flame retardant", "fire resistance", "polymer nanocomposite", "heat release rate", "cone calorimetry"]
 author: "Lawrence Fine"

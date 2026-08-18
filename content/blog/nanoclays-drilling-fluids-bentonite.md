@@ -9,8 +9,8 @@ tags: ["bentonite drilling mud", "drilling fluid", "organoclay", "wellbore stabi
 author: "Lawrence Fine"
 toc: true
 draft: false
-seo_title: "Bentonite Drilling Mud: How Nanoclays Perform"
-seo_description: "Bentonite drilling mud is the backbone of water-based fluids; organoclays run oil-based muds. Learn how nanoclays build viscosity and stabilize wellbores."
+seo_title: "How Bentonite Drilling Mud Works"
+seo_description: "What drilling fluid does, how bentonite builds viscosity and filter cake, the four properties engineers measure, and what goes wrong downhole."
 ---
 
 Bentonite's largest single market by volume isn't nanotechnology — it's drilling. Every year, millions of tons of bentonite go downhole in drilling fluids used by the oil and gas, geothermal, mining, and water well industries. This is the oldest industrial application for the clay mineral that the nanoclay community has rebranded as a high-tech material, and it remains the application where clay performance is tested under the harshest real-world conditions: extreme temperatures, crushing pressures, corrosive brines, and rock formations that punish any formulation weakness.

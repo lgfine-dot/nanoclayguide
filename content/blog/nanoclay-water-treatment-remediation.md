@@ -4,8 +4,8 @@ slug: "nanoclay-water-treatment-remediation"
 date: 2026-04-23
 lastmod: 2026-04-23
 description: "Nanoclays adsorb heavy metals, dyes, pharmaceutical contaminants, and other pollutants from water with high efficiency. This article covers the mechanisms, the clay types used, adsorption performance data, and the path from laboratory to deployment."
-seo_title: "Nanoclay Water Treatment for Contaminant Removal"
-seo_description: "Nanoclay water treatment adsorbs heavy metals, dyes, and PFAS from water; this guide covers the mechanisms, clay types, capacity data, and deployment."
+seo_title: "Nanoclay for PFAS & Dye Removal"
+seo_description: "Nanoclay adsorption for dyes, PFAS and emerging contaminants: removal mechanisms, performance benchmarks, and where it is commercially deployed."
 categories: ["Applications"]
 tags: ["nanoclay water treatment", "nanoclay adsorption", "heavy metal removal", "dye removal", "environmental remediation"]
 author: "Lawrence Fine"

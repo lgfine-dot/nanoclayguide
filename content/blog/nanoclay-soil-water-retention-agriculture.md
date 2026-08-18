@@ -4,8 +4,8 @@ slug: "nanoclay-soil-water-retention-agriculture"
 date: 2026-05-21
 lastmod: 2026-05-21
 description: "Nanoclay soil amendments improve water retention in sandy soils by physically transforming pore structure. The mechanism is different from superabsorbent polymers, the performance is more durable, and the applications are wider than most growers realise."
-seo_title: "Nanoclay Soil Water Retention in Sandy Soils"
-seo_description: "Nanoclay soil amendments boost water retention in sandy soils by reshaping pore structure, raising plant-available water 40 to 80 percent per application."
+seo_title: "Nanoclay for Sandy Soil Water Retention"
+seo_description: "How nanoclay holds water in sandy soil: application methods and rates, which crops and climates benefit, and how it compares to other strategies."
 categories: ["Applications"]
 tags: ["nanoclay agriculture", "nanoclay water retention", "nanoclay soil amendment", "sandy soil improvement", "drought resilience"]
 author: "Lawrence Fine"

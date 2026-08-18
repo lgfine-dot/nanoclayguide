@@ -4,8 +4,8 @@ slug: "nanoclay-flame-retardancy-mechanism"
 date: 2026-06-04
 lastmod: 2026-06-04
 description: "Nanoclay is not a conventional flame retardant, but it changes how polymers burn in ways that are commercially significant. Understanding the physical mechanism explains both its capabilities and its limitations — and why it is usually used alongside, not instead of, conventional flame retardants."
-seo_title: "Nanoclay Flame Retardant Mechanism Explained"
-seo_description: "Nanoclay flame retardant mechanism: how a few percent of clay forms a protective char layer, cuts peak heat release, and works best with other retardants."
+seo_title: "How Nanoclay Flame Retardancy Works"
+seo_description: "Why a few percent of clay changes a polymer's fire behaviour: the char barrier mechanism, what nanoclay cannot do alone, and processing implications."
 categories: ["Applications"]
 tags: ["nanoclay flame retardant", "nanoclay fire resistance", "polymer fire behaviour", "nanoclay nanocomposite fire", "MMT flame retardant"]
 author: "Lawrence Fine"

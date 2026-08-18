@@ -4,8 +4,8 @@ slug: "nanoclay-personal-care-cosmetics"
 date: 2026-05-28
 lastmod: 2026-05-28
 description: "Nanoclay has been used in cosmetics for decades as a thickener, stabiliser, and active carrier. This article reviews the main applications, the clay types used, and the safety evidence — including what the evolving regulatory landscape means for formulators."
-seo_title: "Nanoclay in Personal Care: Texture & Safety"
-seo_description: "Nanoclay in personal care thickens, stabilises emulsions, and carries actives. Review clay types, clay-mask effect, and why platelets won't penetrate skin."
+seo_title: "How Nanoclay Thickens & Delivers Actives"
+seo_description: "How nanoclay thickens and stabilises personal care formulations, carries active ingredients, and produces the clay mask effect on skin."
 categories: ["Applications"]
 tags: ["nanoclay cosmetics", "nanoclay personal care", "hectorite cosmetics", "laponite formulation", "nanoclay skincare"]
 author: "Lawrence Fine"

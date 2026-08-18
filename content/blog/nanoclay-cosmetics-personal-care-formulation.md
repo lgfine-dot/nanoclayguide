@@ -4,8 +4,8 @@ slug: "nanoclay-cosmetics-personal-care-formulation"
 date: 2026-04-16
 lastmod: 2026-04-16
 description: "Nanoclays serve as rheology modifiers, oil absorbers, active encapsulants, and texture agents in cosmetics and personal care. This guide covers which clay types are used, what they do, and the regulatory considerations formulators need to know."
-seo_title: "Nanoclay in Cosmetics: Grades & Formulation"
-seo_description: "Nanoclay in cosmetics works as a rheology modifier, oil absorber, and active carrier. Compare kaolin, hectorite, Laponite, and bentonite plus EU nano rules."
+seo_title: "Cosmetic Clay Grades, INCI & Laponite"
+seo_description: "Which clay grades cosmetic formulators use, why Laponite appears in premium products, INCI naming, and the regulatory and skin-irritation picture."
 categories: ["Applications"]
 tags: ["nanoclay cosmetics", "hectorite cosmetics", "laponite skincare", "kaolin cosmetics", "clay mask", "cosmetic formulation"]
 author: "Lawrence Fine"

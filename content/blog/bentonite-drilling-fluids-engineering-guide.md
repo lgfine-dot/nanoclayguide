@@ -4,8 +4,8 @@ slug: "bentonite-drilling-fluids-engineering-guide"
 date: 2026-04-30
 lastmod: 2026-04-30
 description: "Drilling fluid formulation is one of the largest industrial applications of nanoclay. This deep-dive covers how bentonite and specialty nanoclays function in water-based and non-aqueous mud systems, performance specifications, and what happens when the clay doesn't work."
-seo_title: "Bentonite Drilling Fluids: Engineering the Mud"
-seo_description: "Bentonite drilling fluids control viscosity, gel strength, and fluid loss; this guide covers API 13A specs, calcium and salt contamination, and organoclays."
+seo_title: "API Bentonite Specs & Mud Troubleshooting"
+seo_description: "The API bentonite specification explained, the contaminants that wreck mud performance, organoclays for oil-based systems, and a troubleshooting guide."
 categories: ["Applications"]
 tags: ["bentonite drilling", "drilling mud", "drilling fluid nanoclay", "API bentonite", "oilfield clay"]
 author: "Lawrence Fine"
