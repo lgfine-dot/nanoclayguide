@@ -120,10 +120,56 @@
 # The 8 remaining category slugs are identical to the pillar slugs, so
 # this is an exact one-to-one mapping: /categories/applications/ lands on
 # /pillars/applications/, which lists the same articles and is the page
-# that was actually written for the job.
+# that was actually written for the job. They are written out one by one
+# rather than as a wildcard on purpose — a `to = "/pillars/:splat"` also
+# matched slugs that never existed, 301ing them to a pillar that isn't
+# there and turning a clean 404 into a redirect chain ending in a 404.
+
+[[redirects]]
+  from = "/categories/applications/"
+  to = "/pillars/applications/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/how-its-made/"
+  to = "/pillars/how-its-made/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/nanoclay-101/"
+  to = "/pillars/nanoclay-101/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/pricing-market/"
+  to = "/pillars/pricing-market/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/processing/"
+  to = "/pillars/processing/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/qc-procurement/"
+  to = "/pillars/qc-procurement/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/safety-regulation/"
+  to = "/pillars/safety-regulation/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/types-comparison/"
+  to = "/pillars/types-comparison/"
+  status = 301
+
+# Anything else under /categories/ was never a real page. Send it to the
+# pillar index, which is a real page, instead of guessing a slug.
 [[redirects]]
   from = "/categories/*"
-  to = "/pillars/:splat"
+  to = "/pillars/"
   status = 301
 
 # 234 tag URLs, 209 of which described a single article. There is no

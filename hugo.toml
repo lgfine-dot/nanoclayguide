@@ -30,6 +30,11 @@ disableKinds = ['taxonomy', 'term']
 [params]
   description = 'The definitive technical resource for nanoclay science, applications, and industry'
   tagline = 'The definitive technical resource for nanoclay science, applications, and industry'
+
+  # Homepage <title> only. The tagline is 82 characters, so `title — tagline`
+  # ran to 99 and Google truncated it well before the end. This is the short
+  # version that actually fits; the tagline is still used on the page itself.
+  home_title = 'Nanoclay Guide — Nanoclay Science & Applications'
   author = 'AGCP Farmaceuticos'
 
   twitter = 'nanoclayguide'

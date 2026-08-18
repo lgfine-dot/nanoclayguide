@@ -29,7 +29,11 @@
 {{ end }}
 
 {{/* --- Title tag --- */}}
-<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ $seoTitle }} | {{ .Site.Title }}{{ end }}</title>
+{{/* The home title used to be site title + the full tagline, which came to
+     99 characters — Google shows roughly 60, so most of it was never seen.
+     `home_title` in hugo.toml carries a short one; the old construction is
+     kept as the fallback so removing the param can't break the tag. */}}
+<title>{{ if .IsHome }}{{ .Site.Params.home_title | default (printf "%s — %s" .Site.Title .Site.Params.tagline) }}{{ else }}{{ $seoTitle }} | {{ .Site.Title }}{{ end }}</title>
 
 {{/* --- SEO Meta --- */}}
 <meta name="description" content="{{ $desc }}">
@@ -85,13 +89,11 @@
     "url" .Site.BaseURL
     "description" .Site.Params.description
     "publisher" $publisher
-    "potentialAction" (dict
-      "@type" "SearchAction"
-      "target" (dict
-        "@type" "EntryPoint"
-        "urlTemplate" (printf "%ssearch?q={search_term_string}" .Site.BaseURL))
-      "query-input" "required name=search_term_string")
   }}
+  {{/* No `potentialAction`/SearchAction here: it declared a search
+       endpoint at /search?q=, and this site has no search page — that URL
+       404s. Schema that points at a 404 is worse than schema that is
+       absent. Restore it only if a real /search page is ever built. */}}
   <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
   {{ $org := dict
     "@context" "https://schema.org"
