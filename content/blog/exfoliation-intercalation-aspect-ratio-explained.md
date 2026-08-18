@@ -9,6 +9,8 @@ tags: ["exfoliation", "intercalation", "aspect ratio", "nanocomposite", "XRD d-s
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Exfoliation vs Intercalation vs Aspect Ratio"
+seo_description: "Exfoliation, intercalation and aspect ratio are the three concepts behind every nanoclay performance claim. What each means, and how they relate."
 ---
 
 Read three nanoclay datasheets and you will see the same three words: exfoliated, intercalated, high aspect ratio. Read them closely and you will notice that nobody defines them, that they are frequently used as if they were synonyms for "good," and that the numbers attached to them are rarely measured on the material you would actually receive.

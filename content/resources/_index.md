@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 description: "Downloadable tools, templates, and a glossary of key nanoclay terms for engineers, formulators, and procurement teams."
-seo_title: "Nanoclay Resources — Checklists, Templates & Glossary"
+seo_title: "Nanoclay Resources & Templates"
 seo_description: "Free nanoclay resources: procurement checklist, test panel datasheet template, and glossary of key terms (CEC, BET, XRD, TRL, and more)."
 layout: "single"
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Frequently Asked Questions"
 description: "Quick answers to the most common questions about nanoclays — regulation, types, testing, safety, pricing, food packaging, drilling fluids, and polymer nanocomposites."
-seo_title: "Nanoclay FAQ — Safety, Pricing, Types, Regulation & Applications"
-seo_description: "Answers to 16 common nanoclay questions: food packaging safety, bentonite vs montmorillonite, organoclay selection, CEC explained, nanoclay pricing, exfoliation tips, drilling fluid grades, and EU nanomaterial rules."
+seo_title: "Nanoclay FAQ: Safety, Pricing & Types"
+seo_description: "Answers to 16 common nanoclay questions: food packaging safety, bentonite vs montmorillonite, organoclay selection, CEC, pricing, and EU nano rules."
 layout: "single"
 faq:
   - question: "Does nanoclay count as a nanomaterial under EU rules?"

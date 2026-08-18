@@ -9,6 +9,8 @@ tags: ["organoclay", "quaternary ammonium", "surfactant selection", "thermal sta
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Choosing an Organoclay Modifier: Surfactants"
+seo_description: "The surfactant on an organoclay decides whether your polymer enters the gallery and survives your extruder. Most organoclay failures start here."
 ---
 
 Organoclay grades are usually presented as a short list of product codes with a few application notes. The impression is that you pick one roughly the way you pick a viscosity grade — a bit more of this, a bit less of that.

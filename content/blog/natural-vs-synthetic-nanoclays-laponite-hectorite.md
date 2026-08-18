@@ -9,6 +9,8 @@ tags: ["Laponite", "synthetic hectorite", "natural bentonite", "nanoclay compari
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Natural vs Synthetic Nanoclay: Laponite"
+seo_description: "Synthetic clays cost several times what mined bentonite does, and are worth it in a narrow set of applications. Here is the axis that decides."
 ---
 
 Almost every nanoclay comparison you will read is a comparison among *natural* clays: [montmorillonite versus kaolinite versus halloysite](/blog/montmorillonite-vs-kaolinite-vs-halloysite/), sodium bentonite versus calcium bentonite. That framing quietly assumes the material came out of the ground.

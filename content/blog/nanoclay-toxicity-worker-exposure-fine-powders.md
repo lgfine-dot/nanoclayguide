@@ -9,6 +9,8 @@ tags: ["nanoclay toxicity", "occupational exposure", "respirable crystalline sil
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Nanoclay Toxicity & Worker Exposure Limits"
+seo_description: "Clay minerals themselves have a reassuring toxicology record. The quartz impurity is the real hazard, and it sets the exposure limit you must meet."
 ---
 
 Ask a supplier whether nanoclay is safe to handle and you'll get a reassuring answer, and the reassurance is mostly earned. Ask an industrial hygienist the same question and you'll get a more careful one, because the hygienist is thinking about a different substance than the supplier is.

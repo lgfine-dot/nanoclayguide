@@ -9,6 +9,8 @@ tags: ["cation exchange capacity", "CEC", "montmorillonite", "layer charge", "me
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Cation Exchange Capacity (CEC) Explained"
+seo_description: "CEC is nanoclay's master variable. It explains why montmorillonite swells and kaolinite doesn't, and why two clays sharing a name can behave differently."
 ---
 
 If you could ask only one question about a clay before buying it, ask for the cation exchange capacity.

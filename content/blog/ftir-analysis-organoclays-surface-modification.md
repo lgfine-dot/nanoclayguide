@@ -9,6 +9,8 @@ tags: ["organoclay FTIR", "nanoclay FTIR analysis", "surface modification", "inf
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "FTIR Analysis of Organoclays Explained"
+seo_description: "FTIR is a fast way to confirm a clay has actually been organically modified. What it detects, which signals to look for, and how it complements XRD."
 ---
 
 When you order or [produce an organoclay](/blog/nanoclay-surface-modification-organoclay-production/), you want to confirm two things: that the surfactant modifier is actually present on the clay, and that it's there in a reasonable amount. X-ray diffraction tells you the layers moved apart, which is strong indirect evidence of modification — but FTIR tells you directly that the organic modifier is chemically there. The two together make a confident quality check.

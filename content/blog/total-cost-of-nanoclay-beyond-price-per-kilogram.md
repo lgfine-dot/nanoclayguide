@@ -9,6 +9,8 @@ tags: ["nanoclay cost", "total cost of ownership", "nanoclay pricing", "procurem
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Nanoclay Total Cost Beyond Price Per Kilo"
+seo_description: "The quoted price is a small part of what nanoclay costs. The full cost stack, and why the cheapest material per kilogram is rarely the cheapest."
 ---
 
 [Nanoclay procurement](/blog/how-to-buy-nanoclay-sourcing-guide/) almost always starts as a price-per-kilogram exercise. Three suppliers are asked to quote, the quotes are lined up, and the cheapest acceptable one wins.

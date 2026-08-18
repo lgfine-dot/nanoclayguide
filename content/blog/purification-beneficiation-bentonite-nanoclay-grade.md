@@ -9,6 +9,8 @@ tags: ["bentonite beneficiation", "clay purification", "sodium activation", "wet
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Bentonite Purification & Beneficiation"
+seo_description: "Between the mine and surface modification sits a processing sequence that determines almost everything about the final product, and is usually skipped."
 ---
 
 Most explanations of [nanoclay manufacturing](/blog/how-nanoclay-is-made/) have a gap in the middle. They describe the deposit — a volcanic ash bed altered over geological time into montmorillonite — and then they describe [surface modification](/blog/nanoclay-surface-modification-organoclay-production/), where quaternary ammonium surfactants are ion-exchanged into the gallery to make an organoclay.

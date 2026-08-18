@@ -9,6 +9,8 @@ tags: ["nano labeling", "nanomaterial reporting", "R-Nano", "TSCA nanoscale rule
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Nanoclay Nano-Labeling Rules by Region"
+seo_description: "Nano-specific reporting sits on top of chemical inventory registration, and the definitions that trigger it differ in every jurisdiction."
 ---
 
 Most companies working with nanoclay understand [the first layer of compliance](/blog/nanoclay-safety-handling-regulatory-status/): the substance has to be on the relevant chemical inventory. Bentonite is. Montmorillonite is. That box is usually ticked before anyone thinks hard about it.

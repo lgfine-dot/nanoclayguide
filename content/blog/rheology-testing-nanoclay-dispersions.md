@@ -9,6 +9,8 @@ tags: ["nanoclay rheology", "shear thinning", "thixotropy", "viscosity curve", "
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Rheology Testing for Nanoclay Dispersions"
+seo_description: "How to read viscosity curves, shear-thinning and thixotropy for nanoclay dispersions: both a performance property and a probe of dispersion quality."
 ---
 
 Rheology occupies an unusual position in nanoclay work: it's simultaneously a property people buy nanoclay *for* — as [a thickener and anti-sag additive in paints, drilling fluids, and coatings](/blog/nanoclay-rheology-modifier-paints-coatings-adhesives/) — and one of the most sensitive ways to *measure* how well the clay is dispersed. Learning to read a few rheology curves pays off on both fronts.

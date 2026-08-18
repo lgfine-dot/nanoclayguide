@@ -9,6 +9,8 @@ tags: ["food contact", "migration limits", "Regulation 10/2011", "FCN", "GRAS", 
 author: "Lawrence Fine"
 toc: true
 draft: false
+seo_title: "Nanoclay Food-Contact Compliance: EU & US"
+seo_description: "How EU and US food-contact approval pathways for nanoclay actually work: migration limits, what has to be demonstrated, and how long it takes."
 ---
 
 [Barrier packaging](/blog/nanoclay-barrier-properties-packaging/) is one of the most commercially attractive nanoclay applications, and it is also the one where the regulatory gate is highest. An additive that is unremarkable in an automotive part becomes a regulated food-contact substance the moment it goes into a film that will touch a sandwich.
