@@ -19,7 +19,7 @@ Here are the five that catch teams by surprise most often.
 
 ## Problem one: dispersion doesn't scale linearly
 
-On the bench you can disperse a small batch with intense, well-controlled mixing — a high-shear lab mixer, a small twin-screw extruder run slowly, plenty of time. The exfoliation you achieve there reflects energy input per unit of material that you often can't replicate in a large production mixer or a fast-running production extruder.
+On the bench you can disperse a small batch with intense, well-controlled mixing — a high-shear lab mixer, a small [twin-screw extruder](/blog/melt-compounding-nanoclay-twin-screw-extrusion/) run slowly, plenty of time. The exfoliation you achieve there reflects energy input per unit of material that you often can't replicate in a large production mixer or a fast-running production extruder.
 
 The result is a maddening pattern: great bench data, mediocre production parts, and no obvious material problem. The clay is the same; the energy it received is not. Anticipate this by [characterizing dispersion](/blog/tem-sem-imaging-nanoclays-dispersion/) at the largest scale you can reach during development, and by treating "exfoliates on the bench" as necessary but not sufficient evidence.
 

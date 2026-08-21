@@ -73,7 +73,7 @@ The single most important factor in nanoclay mechanical performance is [dispersi
 
 **Microcomposite/tactoid state:** Poor dispersion, clay stacks essentially intact. Marginal modulus improvement; likely decrease in tensile strength; decrease in impact resistance.
 
-In practical melt compounding, the factors that push toward better dispersion:
+In practical [melt compounding](/blog/melt-compounding-nanoclay-twin-screw-extrusion/), the factors that push toward better dispersion:
 - Organoclay well-matched to polymer matrix chemistry
 - Compatibilizer (maleic anhydride-grafted polymer for polyolefin matrices)
 - Twin-screw extruder with high-shear screw design

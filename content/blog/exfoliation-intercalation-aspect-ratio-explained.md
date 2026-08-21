@@ -77,7 +77,7 @@ Two forces oppose you.
 
 **Thermodynamics.** Polymer chains have to want to enter the gallery. If the polymer is hydrophobic and the clay surface is hydrophilic — which it is, natively — they don't. This is the entire reason organoclays exist: the surfactant makes the gallery organophilic so the polymer will enter it. It is also why organoclay selection is a chemistry-matching problem rather than a commodity purchase.
 
-**Kinetics.** Even with favorable thermodynamics, the platelets have to be physically pulled apart, and that requires mechanical work — shear and, more importantly, time under shear. This is where melt compounding comes in, and where a great many good formulations die on a badly configured extruder.
+**Kinetics.** Even with favorable thermodynamics, the platelets have to be physically pulled apart, and that requires mechanical work — shear and, more importantly, time under shear. This is where [melt compounding](/blog/melt-compounding-nanoclay-twin-screw-extrusion/) comes in, and where a great many good formulations die on a badly configured extruder.
 
 Both conditions have to be met. Favorable chemistry with insufficient mixing gives you intercalation. Aggressive mixing with incompatible chemistry gives you a degraded surfactant and a poorly dispersed filler. The two are not substitutes for each other.
 

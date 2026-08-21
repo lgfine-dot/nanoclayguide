@@ -45,7 +45,7 @@ This is why processing method matters as much as material selection. The same or
 
 **Melt compounding.** The organoclay is mixed with the polymer in the melt state using conventional plastics processing equipment — typically a twin-screw extruder. Shear forces, temperature, and residence time combine to break apart clay aggregates and drive polymer intercalation. Melt compounding is the most commercially relevant method because it uses existing plastics infrastructure and doesn't require solvents or monomer-stage access. The tradeoff: exfoliation is harder to achieve than with in-situ polymerization, and processing optimization is critical.
 
-For most industrial applications, melt compounding is the method you'll use. Getting it right requires attention to several variables.
+For most industrial applications, melt compounding is the method you'll use. Getting it right requires attention to several variables. ([Screw configuration, residence time and the specific settings](/blog/melt-compounding-nanoclay-twin-screw-extrusion/) are worked through separately.)
 
 ## Key variables in melt compounding
 

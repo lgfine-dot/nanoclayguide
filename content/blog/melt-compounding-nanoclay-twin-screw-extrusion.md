@@ -21,7 +21,7 @@ This is the how-to that the chemistry literature assumes someone else has writte
 
 Understanding what the extruder is physically doing makes the settings make sense.
 
-Dispersing an organoclay tactoid — a stack of platelets — into a polymer melt happens in two conceptually distinct stages.
+Dispersing an organoclay tactoid — a stack of platelets — into a polymer melt happens in two conceptually distinct stages. (The [difference between intercalation and exfoliation](/blog/exfoliation-intercalation-aspect-ratio-explained/) is worth having straight first.)
 
 **Stage 1: shear-driven breakup.** The tactoids are large agglomerates when they enter. Mechanical shear breaks them into smaller stacks. This is a fast, force-driven process, and it is what most people picture when they think about compounding.
 
@@ -47,7 +47,7 @@ The findings are worth stating precisely, because they overturn what people intu
 
 Three mechanisms explain why the intuitive move — turn everything up — backfires.
 
-**Thermal degradation of the modifier.** Quaternary ammonium surfactants begin to decompose at approximately **155 °C** by TGA (~180 °C by TGA-MS), via Hofmann elimination. Nylon 6 is compounded around 240 °C. **You are already above the ceiling.** Adding shear adds viscous heating on top of barrel temperature, and the melt runs hotter than the setpoint suggests. Degrade the surfactant and the gallery reverts toward hydrophilic — actively working against the exfoliation you are shearing to achieve.
+**Thermal degradation of the modifier.** [Quaternary ammonium surfactants](/blog/choosing-organoclay-modifier-surfactant-chemistry/) begin to decompose at approximately **155 °C** by TGA (~180 °C by TGA-MS), via Hofmann elimination. Nylon 6 is compounded around 240 °C. **You are already above the ceiling.** Adding shear adds viscous heating on top of barrel temperature, and the melt runs hotter than the setpoint suggests. Degrade the surfactant and the gallery reverts toward hydrophilic — actively working against the exfoliation you are shearing to achieve.
 
 **Polymer degradation.** High shear plus high temperature plus long residence time degrades the matrix. There is a window, and it is bounded on both sides.
 
@@ -71,13 +71,13 @@ Configuration guidance:
 
 ## Starting-point conditions
 
-These are starting points to be optimized on your system, not settings to copy.
+These are starting points to be optimized on your system, not settings to copy. ([Moving a bench formulation onto production equipment](/blog/scaling-nanoclay-lab-to-production/) brings its own set of surprises.)
 
 **Barrel temperature: as low as the polymer permits.** Every degree above the polymer's minimum processing temperature is a degree of surfactant degradation you did not need. Run the coolest profile that gives you a stable melt and acceptable torque.
 
 **Screw speed: moderate.** High RPM increases shear but *decreases* residence time — the two variables you care about move in opposite directions. This is the central tension in the whole optimization. High RPM is usually the wrong answer, because you are trading away the variable that matters more.
 
-**Throughput: lower than you want.** Residence time is inversely proportional to throughput. This is where dispersion quality and production economics collide directly, and it is the cost that never appears in a materials quote.
+**Throughput: lower than you want.** Residence time is inversely proportional to throughput. This is where dispersion quality and production economics collide directly, and it is [the cost that never appears in a materials quote](/blog/total-cost-of-nanoclay-beyond-price-per-kilogram/).
 
 **Feed rate and screw speed together.** The specific mechanical energy — a function of both — is the parameter to track. Two combinations giving the same SME can produce different results because they distribute the energy differently.
 
@@ -89,7 +89,7 @@ These are starting points to be optimized on your system, not settings to copy.
 
 For nonpolar polymers, this determines whether anything works at all.
 
-Polypropylene will not enter an organoclay gallery in any useful quantity. **Maleic anhydride grafted polypropylene (PP-g-MA)** provides the polar functionality that will, and it acts as the bridge between the clay surface and the bulk PP matrix.
+Polypropylene will not enter an organoclay gallery in any useful quantity. **[Maleic anhydride grafted polypropylene (PP-g-MA)](/blog/nanoclay-polymer-nanocomposites-beginners-guide/)** provides the polar functionality that will, and it acts as the bridge between the clay surface and the bulk PP matrix.
 
 The loading is substantial — commonly several times the clay loading by weight — and this is both a cost item and a properties item, since you are diluting your matrix with a modified polymer that has its own characteristics.
 
@@ -99,13 +99,13 @@ For polar polymers like nylon 6, direct melt compounding works without a compati
 
 Do not trust a single technique.
 
-**XRD** tells you whether the basal (001) peak has shifted (intercalation) or disappeared. The disappearance is necessary but not sufficient evidence of exfoliation — the peak also vanishes if the clay is simply poorly dispersed or disordered, or if it has shifted out of the accessible angular range.
+**[XRD](/blog/xrd-nanoclay-characterization-d-spacing/)** tells you whether the basal (001) peak has shifted (intercalation) or disappeared. The disappearance is necessary but not sufficient evidence of exfoliation — the peak also vanishes if the clay is simply poorly dispersed or disordered, or if it has shifted out of the accessible angular range.
 
-**TEM** shows you the actual morphology: individual platelets versus persistent stacks. This is the technique that settles the question, and it is the one people skip because it is slow and expensive.
+**[TEM](/blog/tem-sem-imaging-nanoclays-dispersion/)** shows you the actual morphology: individual platelets versus persistent stacks. This is the technique that settles the question, and it is the one people skip because it is slow and expensive.
 
 **Melt rheology** is the underused practical tool. Well-exfoliated nanocomposites develop a low-frequency plateau in storage modulus — solid-like behaviour at low shear rates — because the exfoliated platelets form a percolated network. This shows up clearly in small-amplitude oscillatory shear and it correlates well with dispersion quality. It is faster and cheaper than TEM and it can be run on production samples routinely.
 
-**Mechanical properties** are the ultimate arbiter and a lagging indicator. If the modulus improvement is far below what the aspect ratio predicts, you are looking at intercalated tactoids, not exfoliated platelets.
+**[Mechanical properties](/blog/nanoclay-mechanical-properties-polymer-composites/)** are the ultimate arbiter and a lagging indicator. If the modulus improvement is far below what the aspect ratio predicts, you are looking at intercalated tactoids, not exfoliated platelets.
 
 ## The failure modes
 
