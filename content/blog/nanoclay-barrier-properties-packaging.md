@@ -51,7 +51,7 @@ In an **exfoliated** structure, the clay layers have separated completely and di
 
 Most real-world systems fall somewhere between these extremes, and characterization by X-ray diffraction (which measures interlayer spacing) and transmission electron microscopy (which directly images the platelet distribution) is needed to know where you are on the spectrum.
 
-Processing conditions matter enormously. [Melt compounding](/blog/nanoclay-polymer-nanocomposites-beginners-guide/) with high shear, twin-screw extrusion with optimized screw design, and appropriate residence time all influence the degree of exfoliation achieved. Getting the chemistry right and then processing it wrong is a common failure mode.
+Processing conditions matter enormously. [Melt compounding](/blog/melt-compounding-nanoclay-twin-screw-extrusion/) with high shear, twin-screw extrusion with optimized screw design, and appropriate residence time all influence the degree of exfoliation achieved. Getting the chemistry right and then processing it wrong is a common failure mode.
 
 ## How performance is measured
 
